@@ -1,0 +1,8 @@
+simple_ble_service.c:287:6:simple_write_post_callback	24	static
+simple_ble_service.c:395:6:simp_ble_service_cccd_update_cb	48	static
+simple_ble_service.c:254:14:simp_ble_service_attr_read_cb	24	static
+simple_ble_service.c:304:14:simp_ble_service_attr_write_cb	56	static
+simple_ble_service.c:214:5:simp_ble_service_set_parameter	16	static
+simple_ble_service.c:356:5:simp_ble_service_send_v3_notify	32	static
+simple_ble_service.c:377:5:simp_ble_service_send_v4_indicate	32	static
+simple_ble_service.c:465:13:simp_ble_service_add_service	24	static

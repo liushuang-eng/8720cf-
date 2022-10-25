@@ -1,0 +1,2 @@
+example_ota_http.c:20:6:http_update_ota_task	8	static
+example_ota_http.c:41:6:example_ota_http	16	static

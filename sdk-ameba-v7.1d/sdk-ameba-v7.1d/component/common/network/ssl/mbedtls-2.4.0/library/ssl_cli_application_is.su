@@ -1,0 +1,2 @@
+ssl_internal.h:413:35:mbedtls_ssl_own_key	0	static
+ssl_cli.c:3404:5:mbedtls_ssl_handshake_client_step	144	static

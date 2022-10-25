@@ -1,0 +1,13 @@
+lwip_netconf.c:114:6:LwIP_Init	72	static
+lwip_netconf.c:227:9:LwIP_DHCP	72	static
+lwip_netconf.c:463:6:LwIP_ReleaseIP	24	static
+lwip_netconf.c:483:10:LwIP_GetMAC	0	static
+lwip_netconf.c:488:10:LwIP_GetIP	0	static
+lwip_netconf.c:502:10:LwIP_GetGW	0	static
+lwip_netconf.c:507:10:LwIP_GetMASK	0	static
+lwip_netconf.c:512:10:LwIP_GetBC	0	static
+lwip_netconf.c:523:6:LwIP_GetDNS	8	static
+lwip_netconf.c:533:6:LwIP_SetDNS	0	static
+lwip_netconf.c:538:6:LwIP_UseStaticIP	24	static
+lwip_netconf.c:593:6:LwIP_AUTOIP	40	static
+lwip_netconf.c:660:10:LWIP_Get_Dynamic_Sleep_Interval	0	static

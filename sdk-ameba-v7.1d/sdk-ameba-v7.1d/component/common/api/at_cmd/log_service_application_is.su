@@ -1,0 +1,16 @@
+log_service.c:520:6:fAT_exit	8	static
+log_service.c:136:5:hash_index	0	static
+log_service.c:149:6:log_add_new_command	16	static
+log_service.c:190:6:log_service_add_table	16	static
+log_service.c:548:6:at_log_init	0	static
+log_service.c:197:7:log_action	16	static
+log_service.c:219:7:log_handler	128	static
+log_service.c:257:5:parse_param	128	static
+log_service.c:322:6:at_set_debug_level	0	static
+log_service.c:327:6:at_set_debug_mask	0	static
+log_service.c:365:5:mp_commnad_handler	72	static
+log_service.c:382:6:print_help_msg	0	static
+log_service.c:390:5:print_help_handler	8	static
+log_service.c:424:6:log_service	8	static
+log_service.c:480:6:start_log_service	24	static
+log_service.c:156:6:log_service_init	24	static

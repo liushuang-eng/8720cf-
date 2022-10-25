@@ -1,0 +1,14 @@
+ota_8710c.c:20:7:update_malloc	0	static
+ota_8710c.c:24:6:update_free	0	static
+ota_8710c.c:28:6:ota_platform_reset	8	static
+ota_8710c.c:34:5:update_ota_connect_server	32	static
+ota_8710c.c:56:5:update_ota_erase_upg_region	24	static
+ota_8710c.c:78:5:update_ota_signature	56	static
+ota_8710c.c:104:13:update_ota_local_task	96	static
+ota_8710c.c:242:5:update_ota_local	32	static
+ota_8710c.c:264:6:cmd_update	8	static
+ota_8710c.c:275:6:cmd_ota_image	0	static
+ota_8710c.c:289:5:parser_url	32	static
+ota_8710c.c:338:5:update_ota_http_connect_server	32	static
+ota_8710c.c:378:5:parse_http_response	56	static
+ota_8710c.c:534:5:http_update_ota	112	static

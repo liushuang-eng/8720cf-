@@ -1,0 +1,9 @@
+peripheral_app.c:107:6:app_handle_dev_state_evt	24	static
+peripheral_app.c:156:6:app_handle_conn_state_evt	56	static
+peripheral_app.c:208:6:app_handle_authen_state_evt	24	static
+peripheral_app.c:251:6:app_handle_conn_mtu_info_evt	16	static
+peripheral_app.c:264:6:app_handle_conn_param_update_evt	32	static
+peripheral_app.c:310:6:app_handle_gap_msg	16	static
+peripheral_app.c:67:6:app_handle_io_msg	16	static
+peripheral_app.c:424:14:app_gap_callback	16	static
+peripheral_app.c:467:14:app_profile_callback	40	static

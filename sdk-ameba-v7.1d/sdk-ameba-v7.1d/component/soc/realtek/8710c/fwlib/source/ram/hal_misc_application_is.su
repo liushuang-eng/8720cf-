@@ -1,0 +1,4 @@
+hal_gpio.h:419:28:hal_gpio_pull_ctrl	0	static
+hal_misc.c:66:14:hal_misc_swd_pin_ctrl	8	static
+hal_misc.c:100:14:hal_misc_jtag_pin_ctrl	24	static
+hal_misc.c:144:6:hal_misc_cpu_rst	16	static

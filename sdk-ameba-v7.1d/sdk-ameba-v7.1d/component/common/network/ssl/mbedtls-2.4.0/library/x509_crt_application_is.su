@@ -1,0 +1,17 @@
+x509_crt.c:92:13:mbedtls_zeroize	0	static
+x509_crt.c:1747:12:x509_memcasecmp	12	static
+x509_crt.c:1841:12:x509_name_cmp	24	static
+x509_crt.c:1880:12:x509_crt_check_parent	24	static
+x509_crt.c:1776:12:x509_check_wildcard	16	static
+x509_crt.c:288:12:x509_get_uid	16	static
+x509_crt.c:188:12:x509_profile_check_key.isra.3	8	static
+x509_crt.c:1919:12:x509_crt_verify_top.isra.4	144	static
+x509_crt.c:2053:12:x509_crt_verify_child	160	static
+x509_crt.c:1381:5:mbedtls_x509_crt_info	88	static
+x509_crt.c:1542:5:mbedtls_x509_crt_verify_info	40	static
+x509_crt.c:2203:5:mbedtls_x509_crt_verify_with_profile	72	static
+x509_crt.c:2188:5:mbedtls_x509_crt_verify	24	static
+x509_crt.c:2332:6:mbedtls_x509_crt_init	0	static
+x509_crt.c:2340:6:mbedtls_x509_crt_free	24	static
+x509_crt.c:932:5:mbedtls_x509_crt_parse_der	144	static
+x509_crt.c:983:5:mbedtls_x509_crt_parse	80	static

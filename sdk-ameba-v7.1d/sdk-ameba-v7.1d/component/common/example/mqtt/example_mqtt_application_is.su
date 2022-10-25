@@ -1,0 +1,6 @@
+example_mqtt.c:15:13:messageArrived	8	static
+example_mqtt.c:21:6:prvMQTTEchoTask	1192	static
+example_mqtt.c:93:6:MQTTPublishMessage	344	static
+example_mqtt.c:117:13:prvMQTTTask	336	static
+example_mqtt.c:176:6:vStartMQTTTasks	16	static
+example_mqtt.c:198:6:example_mqtt	0	static

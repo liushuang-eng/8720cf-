@@ -1,0 +1,11 @@
+sntp.c:419:1:sntp_retry	8	static
+sntp.c:478:1:sntp_recv	32	static
+sntp.c:564:1:sntp_send_request	16	static
+sntp.c:619:1:sntp_request	16	static
+sntp.c:596:1:sntp_dns_found	0	static
+sntp.c:153:6:sntp_get_lasttime	0	static
+sntp.c:160:6:sntp_set_lasttime	12	static
+sntp.c:167:11:sntp_gen_system_time	40	static
+sntp.c:200:5:sntp_set_timeserver	24	static
+sntp.c:655:1:sntp_init	16	static
+sntp.c:676:1:sntp_stop	8	static

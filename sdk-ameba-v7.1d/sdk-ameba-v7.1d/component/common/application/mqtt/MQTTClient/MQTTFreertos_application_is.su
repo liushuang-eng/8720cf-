@@ -1,0 +1,17 @@
+MQTTFreertos.c:459:5:FreeRTOS_read	64	static
+MQTTFreertos.c:508:5:FreeRTOS_write	64	static
+MQTTFreertos.c:632:14:my_calloc	16	static
+MQTTFreertos.c:597:12:mqtt_tls_verify	1040	static
+MQTTFreertos.c:646:12:my_random	8	static
+MQTTFreertos.c:558:6:FreeRTOS_disconnect	8	static
+MQTTFreertos.c:45:5:ThreadStart	24	static
+MQTTFreertos.c:62:6:MutexInit	8	static
+MQTTFreertos.c:67:5:MutexLock	0	static
+MQTTFreertos.c:72:5:MutexUnlock	0	static
+MQTTFreertos.c:78:6:TimerCountdownMS	0	static
+MQTTFreertos.c:85:6:TimerCountdown	0	static
+MQTTFreertos.c:91:5:TimerLeftMS	8	static
+MQTTFreertos.c:98:6:TimerIsExpired	8	static
+MQTTFreertos.c:104:6:TimerInit	0	static
+MQTTFreertos.c:577:6:NetworkInit	0	static
+MQTTFreertos.c:654:5:NetworkConnect	96	static

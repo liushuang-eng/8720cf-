@@ -1,0 +1,4 @@
+device_lock.c:22:13:device_mutex_init	24	static
+device_lock.c:37:6:device_mutex_free	24	static
+device_lock.c:52:6:device_mutex_lock	16	static
+device_lock.c:60:6:device_mutex_unlock	8	static
