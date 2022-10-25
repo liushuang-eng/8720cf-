@@ -135,9 +135,7 @@
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/memp.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/priv/memp_std.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/priv/memp_priv.h \
- ../../../component/os/os_dep/include/device_lock.h \
- ../../../component/soc/realtek/8710c/fwlib/include/hal_wdt.h \
- ../../../component/soc/realtek/8710c/fwlib/include/hal_sys_ctrl.h \
- ../../../component/common/mbed/hal_ext/efuse_api.h \
- ../../../component/soc/realtek/8710c/misc/driver/efuse_logical_api.h \
- ../../../component/common/mbed/hal_ext/crypto_api.h
+ ../../../component/common/drivers/wlan/realtek/include/wifi_structures.h \
+ ../../../component/common/drivers/wlan/realtek/include/wifi_constants.h \
+ ../../../component/common/example/wlan_fast_connect/example_wlan_fast_connect.h \
+ ../../../component/os/os_dep/include/device_lock.h

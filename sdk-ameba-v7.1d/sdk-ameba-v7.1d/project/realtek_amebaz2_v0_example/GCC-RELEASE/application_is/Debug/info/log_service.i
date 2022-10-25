@@ -1,66 +1,66 @@
 # 1 "../../../component/common/api/at_cmd/log_service.c"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_amebaz2_v0_example/GCC-RELEASE//"
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/project/realtek_amebaz2_v0_example/GCC-RELEASE//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../../component/common/api/platform/time64.h" 1
 # 17 "../../../component/common/api/platform/time64.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 1 3
-# 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 1 3
-# 15 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 1 3
-# 14 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_newlib_version.h" 1 3
-# 15 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 2 3
-# 16 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 1 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 1 3
+# 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 1 3
+# 15 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 1 3
+# 14 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_newlib_version.h" 1 3
+# 15 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 2 3
+# 16 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 1 3
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/ieeefp.h" 1 3
-# 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/features.h" 1 3
-# 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 2 3
-# 17 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 2 3
-# 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 1 3
-# 43 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 1 3
-# 41 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/ieeefp.h" 1 3
+# 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/features.h" 1 3
+# 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 2 3
+# 17 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 2 3
+# 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 1 3
+# 43 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 1 3
+# 41 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 
-# 41 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 41 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef signed char __int8_t;
 
 typedef unsigned char __uint8_t;
-# 55 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 55 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef short int __int16_t;
 
 typedef short unsigned int __uint16_t;
-# 77 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 77 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef long int __int32_t;
 
 typedef long unsigned int __uint32_t;
-# 103 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 103 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef long long int __int64_t;
 
 typedef long long unsigned int __uint64_t;
-# 134 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 134 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef signed char __int_least8_t;
 
 typedef unsigned char __uint_least8_t;
-# 160 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 160 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef short int __int_least16_t;
 
 typedef short unsigned int __uint_least16_t;
-# 182 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 182 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef long int __int_least32_t;
 
 typedef long unsigned int __uint_least32_t;
-# 200 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 200 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef long long int __int_least64_t;
 
 typedef long long unsigned int __uint_least64_t;
-# 214 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 214 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef long long int __intmax_t;
 
 
@@ -80,33 +80,33 @@ typedef long long unsigned int __uintmax_t;
 typedef int __intptr_t;
 
 typedef unsigned int __uintptr_t;
-# 44 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 2 3
+# 44 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 2 3
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 149 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 149 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
 typedef int ptrdiff_t;
-# 216 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
+# 216 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
 typedef unsigned int size_t;
-# 328 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
+# 328 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
 typedef unsigned int wchar_t;
-# 426 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
+# 426 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
 typedef struct {
   long long __max_align_ll __attribute__((__aligned__(__alignof__(long long))));
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
 } max_align_t;
-# 46 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 2 3
-# 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 1 3
-# 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 1 3
-# 14 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 15 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 1 3
-# 24 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_types.h" 1 3
-# 25 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h" 1 3
+# 46 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 2 3
+# 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 1 3
+# 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 1 3
+# 14 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 15 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 1 3
+# 24 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_types.h" 1 3
+# 25 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h" 1 3
 
 
 
@@ -114,7 +114,7 @@ typedef struct {
 
 typedef int _LOCK_T;
 typedef int _LOCK_RECURSIVE_T;
-# 26 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
+# 26 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
 
 
 typedef long __blkcnt_t;
@@ -163,7 +163,7 @@ typedef __uint32_t __id_t;
 
 
 typedef unsigned short __ino_t;
-# 88 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
+# 88 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
 typedef __uint32_t __mode_t;
 
 
@@ -191,18 +191,18 @@ typedef long __key_t;
 
 
 typedef long _fpos_t;
-# 129 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
+# 129 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
 typedef unsigned int __size_t;
-# 145 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
+# 145 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
 typedef signed int _ssize_t;
-# 156 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
+# 156 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
 typedef _ssize_t __ssize_t;
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 357 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 357 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
 typedef unsigned int wint_t;
-# 160 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
+# 160 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
 
 
 
@@ -252,7 +252,7 @@ typedef unsigned long __useconds_t;
 
 
 typedef __builtin_va_list __va_list;
-# 16 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
+# 16 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
 
 
 
@@ -260,7 +260,7 @@ typedef __builtin_va_list __va_list;
 
 
 typedef unsigned long __ULong;
-# 38 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 38 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct _reent;
 
 struct __locale_t;
@@ -306,7 +306,7 @@ struct _on_exit_args {
 
  __ULong _is_cxa;
 };
-# 93 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 93 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct _atexit {
  struct _atexit *_next;
  int _ind;
@@ -314,12 +314,12 @@ struct _atexit {
  void (*_fns[32])(void);
         struct _on_exit_args _on_exit_args;
 };
-# 117 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 117 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct __sbuf {
  unsigned char *_base;
  int _size;
 };
-# 181 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 181 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct __sFILE {
   unsigned char *_p;
   int _r;
@@ -370,7 +370,7 @@ struct __sFILE {
   _mbstate_t _mbstate;
   int _flags2;
 };
-# 287 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 287 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 typedef struct __sFILE __FILE;
 
 
@@ -381,7 +381,7 @@ struct _glue
   int _niobs;
   __FILE *_iobs;
 };
-# 319 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 319 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct _rand48 {
   unsigned short _seed[3];
   unsigned short _mult[3];
@@ -391,7 +391,7 @@ struct _rand48 {
 
 
 };
-# 569 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 569 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct _reent
 {
   int _errno;
@@ -472,24 +472,24 @@ struct _reent
   struct _glue __sglue;
   __FILE __sf[3];
 };
-# 766 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 766 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 extern struct _reent *_impure_ptr ;
 extern struct _reent *const _global_impure_ptr ;
 
 void _reclaim_reent (struct _reent *);
-# 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 17 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 17 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/time.h" 1 3
-# 20 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
-# 28 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 1 3
-# 28 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/time.h" 1 3
+# 20 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 28 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 1 3
+# 28 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
 typedef __uint8_t u_int8_t;
 
 
@@ -502,12 +502,12 @@ typedef __uint32_t u_int32_t;
 typedef __uint64_t u_int64_t;
 
 typedef int register_t;
-# 62 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 63 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 62 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 63 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h" 1 3
-# 20 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h" 1 3
+# 20 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h" 3
 typedef __int8_t int8_t ;
 
 
@@ -571,61 +571,61 @@ typedef __intptr_t intptr_t;
 
 
 typedef __uintptr_t uintptr_t;
-# 65 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 65 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/endian.h" 1 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/endian.h" 1 3
 
 
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_endian.h" 1 3
-# 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/endian.h" 2 3
-# 68 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 1 3
-# 25 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_sigset.h" 1 3
-# 41 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_sigset.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_endian.h" 1 3
+# 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/endian.h" 2 3
+# 68 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 1 3
+# 25 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_sigset.h" 1 3
+# 41 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_sigset.h" 3
 typedef unsigned long __sigset_t;
-# 26 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 1 3
-# 35 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
+# 26 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 1 3
+# 35 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
 typedef __suseconds_t suseconds_t;
-# 52 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
+# 52 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
 struct timeval {
  
-# 53 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h"
+# 53 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h"
 long long 
-# 53 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
+# 53 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
         tv_sec;
  suseconds_t tv_usec;
 };
-# 27 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 1 3
-# 38 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 1 3
-# 45 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 3
+# 27 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 1 3
+# 38 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 1 3
+# 45 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 3
 struct timespec {
  
-# 46 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h"
+# 46 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h"
 long long 
-# 46 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 3
+# 46 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 3
        tv_sec;
  long tv_nsec;
 };
-# 39 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 2 3
-# 58 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 3
+# 39 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 2 3
+# 58 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 3
 struct itimerspec {
  struct timespec it_interval;
  struct timespec it_value;
 };
-# 28 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
+# 28 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
 
 
 
 typedef __sigset_t sigset_t;
-# 45 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
+# 45 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
 typedef unsigned long fd_mask;
 
 
@@ -637,7 +637,7 @@ typedef unsigned long fd_mask;
 typedef struct _types_fd_set {
  fd_mask fds_bits[(((64)+(((sizeof (fd_mask) * 8))-1))/((sizeof (fd_mask) * 8)))];
 } _types_fd_set;
-# 71 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
+# 71 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
 
 
 int select (int __n, _types_fd_set *__readfds, _types_fd_set *__writefds, _types_fd_set *__exceptfds, struct timeval *__timeout)
@@ -649,7 +649,7 @@ int pselect (int __n, _types_fd_set *__readfds, _types_fd_set *__writefds, _type
 
 
 
-# 69 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 69 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
 
 
 
@@ -660,7 +660,7 @@ typedef __uint32_t in_addr_t;
 
 
 typedef __uint16_t in_port_t;
-# 87 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 87 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
 typedef unsigned char u_char;
 
 
@@ -698,7 +698,7 @@ typedef __blksize_t blksize_t;
 
 
 typedef unsigned long clock_t;
-# 135 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 135 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
 typedef long daddr_t;
 
 
@@ -720,7 +720,7 @@ typedef __id_t id_t;
 
 
 typedef __ino_t ino_t;
-# 173 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 173 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
 typedef __off_t off_t;
 
 
@@ -776,23 +776,23 @@ typedef __timer_t timer_t;
 
 
 typedef __useconds_t useconds_t;
-# 236 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 236 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
 typedef __int64_t sbintime_t;
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_pthreadtypes.h" 1 3
-# 240 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/types.h" 1 3
-# 241 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
-# 29 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_pthreadtypes.h" 1 3
+# 240 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/types.h" 1 3
+# 241 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 29 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_locale.h" 1 3
-# 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_locale.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_locale.h" 1 3
+# 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_locale.h" 3
 struct __locale_t;
 typedef struct __locale_t *locale_t;
-# 33 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 33 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
 
 
 
@@ -818,44 +818,44 @@ struct tm
 
 clock_t clock (void);
 double difftime (
-# 57 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 57 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
          long long 
-# 57 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 57 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
          _time2, 
-# 57 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 57 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
          long long 
-# 57 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 57 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
          _time1);
 
-# 58 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 58 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 long long 
-# 58 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 58 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
          mktime (struct tm *_timeptr);
 
-# 59 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 59 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 long long 
-# 59 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 59 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
          time (
-# 59 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 59 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
          long long 
-# 59 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 59 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
          *_timer);
 
 char *asctime (const struct tm *_tblock);
 char *ctime (const 
-# 62 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 62 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
        long long 
-# 62 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 62 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
        *_time);
 struct tm *gmtime (const 
-# 63 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 63 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
           long long 
-# 63 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 63 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
           *_timer);
 struct tm *localtime (const 
-# 64 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 64 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
           long long 
-# 64 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 64 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
           *_timer);
 
 size_t strftime (char *restrict _s, size_t _maxsize, const char *restrict _fmt, const struct tm *restrict _t)
@@ -871,25 +871,25 @@ extern size_t strftime_l (char *restrict _s, size_t _maxsize,
 char *asctime_r (const struct tm *restrict, char *restrict)
                        ;
 char *ctime_r (const 
-# 78 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 78 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
        long long 
-# 78 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 78 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
        *, char *);
 struct tm *gmtime_r (const 
-# 79 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 79 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
           long long 
-# 79 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 79 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
           *restrict, struct tm *restrict)
                             ;
 struct tm *localtime_r (const 
-# 81 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 81 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
           long long 
-# 81 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 81 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
           *restrict, struct tm *restrict)
                             ;
 
 
-# 101 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 101 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
 void tzset (void);
 
 void _tzset_r (struct _reent *);
@@ -902,9 +902,9 @@ typedef struct __tzrule_struct
   int d;
   int s;
   
-# 112 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 112 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
  long long 
-# 112 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 112 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
         change;
   long offset;
 } __tzrule_type;
@@ -917,7 +917,7 @@ typedef struct __tzinfo_struct
 } __tzinfo_type;
 
 __tzinfo_type *__gettzinfo (void);
-# 154 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 154 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
 extern long _timezone;
 extern int _daylight;
 
@@ -926,16 +926,16 @@ extern char *_tzname[2];
 # 18 "../../../component/common/api/platform/time64.h" 2
 # 1 "<command-line>" 2
 # 1 "../../../component/common/api/at_cmd/log_service.c"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 1 3 4
-# 40 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 1 3 4
+# 40 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 3 4
 typedef __builtin_va_list __gnuc_va_list;
-# 99 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 3 4
+# 99 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 3 4
 typedef __gnuc_va_list va_list;
 # 2 "../../../component/common/api/at_cmd/log_service.c" 2
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 1 3
-# 17 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 18 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 1 3
+# 17 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 18 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 2 3
 
 
 
@@ -996,7 +996,7 @@ char *index (const char *, int);
 
 
 void * memccpy (void * restrict, const void * restrict, int, size_t);
-# 86 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
+# 86 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
 char *rindex (const char *, int);
 
 
@@ -1018,7 +1018,7 @@ char *_strdup_r (struct _reent *, const char *);
 char *strndup (const char *, size_t);
 
 char *_strndup_r (struct _reent *, const char *, size_t);
-# 121 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
+# 121 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
 int strerror_r (int, char *, size_t)
 
              __asm__ ("" "__xpg_strerror_r")
@@ -1054,17 +1054,17 @@ char *strupr (char *);
 
 
 char *strsignal (int __signo);
-# 192 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/string.h" 1 3
-# 193 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 2 3
+# 192 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/string.h" 1 3
+# 193 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 2 3
 
 
 # 3 "../../../component/common/api/at_cmd/log_service.c" 2
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 1 3
-# 36 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 37 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 2 3
-# 63 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 1 3
+# 36 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 37 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 2 3
+# 63 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 
 
 
@@ -1081,9 +1081,9 @@ typedef _fpos_t fpos_t;
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/stdio.h" 1 3
-# 80 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 2 3
-# 181 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/stdio.h" 1 3
+# 80 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 2 3
+# 181 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 char * ctermid (char *);
 
 
@@ -1151,7 +1151,7 @@ int sprintf (char *restrict, const char *restrict, ...) __attribute__ ((__format
                                                             ;
 int remove (const char *);
 int rename (const char *, const char *);
-# 257 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 257 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 int fseeko (FILE *, off_t, int);
 off_t ftello ( FILE *);
 
@@ -1171,7 +1171,7 @@ int vscanf (const char *, __gnuc_va_list) __attribute__ ((__format__ (__scanf__,
                                                            ;
 int vsscanf (const char *restrict, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 2, 0)))
                                                            ;
-# 284 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 284 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 int asiprintf (char **, const char *, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
                                                             ;
 char * asniprintf (char *, size_t *, const char *, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
@@ -1218,7 +1218,7 @@ int vsiscanf (const char *, const char *, __gnuc_va_list) __attribute__ ((__form
                                                            ;
 int vsniprintf (char *, size_t, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
                                                             ;
-# 339 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 339 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 FILE * fdopen (int, const char *);
 
 int fileno (FILE *);
@@ -1245,7 +1245,7 @@ int ftrylockfile (FILE *);
 void funlockfile (FILE *);
 int putc_unlocked (int, FILE *);
 int putchar_unlocked (int);
-# 374 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 374 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 int dprintf (int, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
                                                             ;
 
@@ -1413,10 +1413,10 @@ int fgetc_unlocked (FILE *);
 int fputc_unlocked (int, FILE *);
 size_t fread_unlocked (void * restrict, size_t _size, size_t _n, FILE *restrict);
 size_t fwrite_unlocked (const void * restrict , size_t _size, size_t _n, FILE *);
-# 574 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 574 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 int __srget_r (struct _reent *, FILE *);
 int __swbuf_r (struct _reent *, int, FILE *);
-# 598 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 598 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 FILE *funopen (const void * __cookie, int (*__readfn)(void * __cookie, char *__buf, int __n), int (*__writefn)(void * __cookie, const char *__buf, int __n), fpos_t (*__seekfn)(void * __cookie, fpos_t __off, int __whence), int (*__closefn)(void * __cookie))
 
 
@@ -1431,7 +1431,7 @@ FILE *_funopen_r (struct _reent *, const void * __cookie, int (*__readfn)(void *
 
 
                                    ;
-# 684 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 684 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 static __inline__ int __sputc_r(struct _reent *_ptr, int _c, FILE *_p) {
 
 
@@ -1442,20 +1442,20 @@ static __inline__ int __sputc_r(struct _reent *_ptr, int _c, FILE *_p) {
  else
   return (__swbuf_r(_ptr, _c, _p));
 }
-# 767 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 767 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 
 # 4 "../../../component/common/api/at_cmd/log_service.c" 2
 # 1 "../../../component/os/freertos/freertos_v10.0.1/Source/include/FreeRTOS.h" 1
 # 34 "../../../component/os/freertos/freertos_v10.0.1/Source/include/FreeRTOS.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
 # 35 "../../../component/os/freertos/freertos_v10.0.1/Source/include/FreeRTOS.h" 2
 # 49 "../../../component/os/freertos/freertos_v10.0.1/Source/include/FreeRTOS.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 1 3 4
-# 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 3 4
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 1 3 4
-# 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 1 3 4
-# 35 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 1 3 4
+# 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 1 3 4
+# 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 1 3 4
+# 35 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 3 4
        
        
        
@@ -1463,7 +1463,7 @@ static __inline__ int __sputc_r(struct _reent *_ptr, int _c, FILE *_p) {
        
        
        
-# 187 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 3 4
+# 187 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 3 4
        
        
        
@@ -1471,7 +1471,7 @@ static __inline__ int __sputc_r(struct _reent *_ptr, int _c, FILE *_p) {
        
        
        
-# 14 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 2 3 4
+# 14 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 2 3 4
 
 
 
@@ -1499,19 +1499,19 @@ typedef __uint_least32_t uint_least32_t;
 
 typedef __int_least64_t int_least64_t;
 typedef __uint_least64_t uint_least64_t;
-# 51 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
+# 51 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
   typedef int int_fast8_t;
   typedef unsigned int uint_fast8_t;
-# 61 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
+# 61 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
   typedef int int_fast16_t;
   typedef unsigned int uint_fast16_t;
-# 71 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
+# 71 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
   typedef int int_fast32_t;
   typedef unsigned int uint_fast32_t;
-# 81 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
+# 81 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
   typedef long long int int_fast64_t;
   typedef long long unsigned int uint_fast64_t;
-# 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 2 3 4
+# 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 2 3 4
 # 50 "../../../component/os/freertos/freertos_v10.0.1/Source/include/FreeRTOS.h" 2
 
 
@@ -1531,7 +1531,7 @@ extern uint32_t SystemCoreClock;
 # 32 "../../../component/soc/realtek/8710c/app/rtl_printf/include/diag.h" 2
 # 1 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h" 1
 # 33 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
 # 34 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h" 2
 # 70 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
 typedef unsigned int uint;
@@ -1567,7 +1567,7 @@ typedef void __attribute__((cmse_nonsecure_call)) nsfunc(void);
 typedef unsigned char BOOLEAN,*PBOOLEAN;
 # 33 "../../../component/soc/realtek/8710c/app/rtl_printf/include/diag.h" 2
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
 # 35 "../../../component/soc/realtek/8710c/app/rtl_printf/include/diag.h" 2
 # 1 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h" 1
 # 42 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
@@ -3365,30 +3365,30 @@ static inline void list_splice_init(struct list_head *list,
 # 47 "../../../component/common/api/platform/platform_stdlib.h"
 # 1 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h" 1
 # 12 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 1 3
-# 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/ieeefp.h" 1 3
-# 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 1 3
+# 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/ieeefp.h" 1 3
+# 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
 
 
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 17 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 17 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/stdlib.h" 1 3
-# 21 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/stdlib.h" 1 3
+# 21 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/alloca.h" 1 3
-# 23 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
-# 33 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/alloca.h" 1 3
+# 23 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
+# 33 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
 
 
 
-# 35 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 35 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
 typedef struct
 {
   int quot;
@@ -3524,7 +3524,7 @@ long strtol (const char *restrict __n, char **restrict __end_PTR, int __base);
 long _strtol_r (struct _reent *,const char *restrict __n, char **restrict __end_PTR, int __base);
 unsigned long strtoul (const char *restrict __n, char **restrict __end_PTR, int __base);
 unsigned long _strtoul_r (struct _reent *,const char *restrict __n, char **restrict __end_PTR, int __base);
-# 186 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 186 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
 int system (const char *__string);
 
 
@@ -3547,7 +3547,7 @@ void * _reallocf_r (struct _reent *, void *, size_t);
 int setenv (const char *__string, const char *__value, int __overwrite);
 
 int _setenv_r (struct _reent *, const char *__string, const char *__value, int __overwrite);
-# 219 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 219 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
 char * __itoa (int, char *, int);
 char * __utoa (unsigned, char *, int);
 
@@ -3626,10 +3626,10 @@ void _mstats_r (struct _reent *, char *);
 int _system_r (struct _reent *, const char *);
 
 void __eprintf (const char *, const char *, unsigned int, const char *);
-# 306 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 306 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
 void qsort_r (void * __base, size_t __nmemb, size_t __size, void * __thunk, int (*_compar)(void *, const void *, const void *))
              __asm__ ("" "__bsd_qsort_r");
-# 316 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 316 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
 extern long double _strtold_r (struct _reent *, const char *restrict, char **restrict);
 
 extern long double strtold (const char *restrict, char **restrict);
@@ -3678,6 +3678,11 @@ typedef struct _at_command_item_{
 
 void log_service_add_table(log_item_t *tbl, int len);
 int parse_param(char *buf, char **argv);
+
+void log_service_lock_init(void);
+void log_service_lock(void);
+uint32_t log_service_lock_timeout(uint32_t ms);
+void log_service_unlock(void);
 # 9 "../../../component/common/api/at_cmd/log_service.c" 2
 # 1 "../../../component/os/freertos/freertos_v10.0.1/Source/include/task.h" 1
 # 36 "../../../component/os/freertos/freertos_v10.0.1/Source/include/task.h"
@@ -4124,6 +4129,9 @@ extern unsigned char g_user_ap_sta_num;
 
 
 void wlan_network(void);
+# 38 "../inc/main.h"
+extern unsigned char sta_ip[4], sta_netmask[4], sta_gw[4];
+extern unsigned char ap_ip[4], ap_netmask[4], ap_gw[4];
 # 12 "../../../component/common/api/at_cmd/log_service.c" 2
 
 # 1 "../../../component/common/api/at_cmd/atcmd_wifi.h" 1
@@ -4170,16 +4178,16 @@ typedef u32_t mem_ptr_t;
 typedef int sys_prot_t;
 # 49 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h" 2
 # 105 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
 # 106 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h" 2
 # 138 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 1 3
-# 21 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 22 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 2 3
-# 307 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 1 3
+# 21 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 22 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 2 3
+# 307 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
 
-# 307 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
+# 307 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
 typedef struct {
   intmax_t quot;
   intmax_t rem;
@@ -4197,7 +4205,7 @@ extern intmax_t wcstoimax(const wchar_t *restrict, wchar_t **restrict, int);
 extern uintmax_t wcstoumax(const wchar_t *restrict, wchar_t **restrict, int);
 # 139 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h" 2
 # 175 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include-fixed/limits.h" 1 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include-fixed/limits.h" 1 3 4
 # 176 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h" 2
 # 41 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/debug.h" 2
 # 53 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/opt.h" 2
@@ -5057,13 +5065,868 @@ void LwIP_AUTOIP(struct netif *pnetif);
 
 uint32_t LWIP_Get_Dynamic_Sleep_Interval(void);
 # 5 "../../../component/common/api/at_cmd/atcmd_wifi.h" 2
+# 68 "../../../component/common/api/at_cmd/atcmd_wifi.h"
+extern void fATPN(void *arg);
+
+
+# 1 "../../../component/common/drivers/wlan/realtek/include/wifi_structures.h" 1
+# 33 "../../../component/common/drivers/wlan/realtek/include/wifi_structures.h"
+# 1 "../../../component/common/drivers/wlan/realtek/include/wifi_constants.h" 1
+# 63 "../../../component/common/drivers/wlan/realtek/include/wifi_constants.h"
+enum
+{
+    RTW_SUCCESS = 0,
+    RTW_PENDING = 1,
+    RTW_TIMEOUT = 2,
+    RTW_PARTIAL_RESULTS = 3,
+    RTW_INVALID_KEY = 4,
+    RTW_DOES_NOT_EXIST = 5,
+    RTW_NOT_AUTHENTICATED = 6,
+    RTW_NOT_KEYED = 7,
+    RTW_IOCTL_FAIL = 8,
+    RTW_BUFFER_UNAVAILABLE_TEMPORARY = 9,
+    RTW_BUFFER_UNAVAILABLE_PERMANENT = 10,
+    RTW_WPS_PBC_OVERLAP = 11,
+    RTW_CONNECTION_LOST = 12,
+
+    RTW_ERROR = -1,
+    RTW_BADARG = -2,
+    RTW_BADOPTION = -3,
+    RTW_NOTUP = -4,
+    RTW_NOTDOWN = -5,
+    RTW_NOTAP = -6,
+    RTW_NOTSTA = -7,
+    RTW_BADKEYIDX = -8,
+    RTW_RADIOOFF = -9,
+    RTW_NOTBANDLOCKED = -10,
+    RTW_NOCLK = -11,
+    RTW_BADRATESET = -12,
+    RTW_BADBAND = -13,
+    RTW_BUFTOOSHORT = -14,
+    RTW_BUFTOOLONG = -15,
+    RTW_BUSY = -16,
+    RTW_NOTASSOCIATED = -17,
+    RTW_BADSSIDLEN = -18,
+    RTW_OUTOFRANGECHAN = -19,
+    RTW_BADCHAN = -20,
+    RTW_BADADDR = -21,
+    RTW_NORESOURCE = -22,
+    RTW_UNSUPPORTED = -23,
+    RTW_BADLEN = -24,
+    RTW_NOTREADY = -25,
+    RTW_EPERM = -26,
+    RTW_NOMEM = -27,
+    RTW_ASSOCIATED = -28,
+    RTW_RANGE = -29,
+    RTW_NOTFOUND = -30,
+    RTW_WME_NOT_ENABLED = -31,
+    RTW_TSPEC_NOTFOUND = -32,
+    RTW_ACM_NOTSUPPORTED = -33,
+    RTW_NOT_WME_ASSOCIATION = -34,
+    RTW_SDIO_ERROR = -35,
+    RTW_WLAN_DOWN = -36,
+    RTW_BAD_VERSION = -37,
+    RTW_TXFAIL = -38,
+    RTW_RXFAIL = -39,
+    RTW_NODEVICE = -40,
+    RTW_UNFINISHED = -41,
+    RTW_NONRESIDENT = -42,
+    RTW_DISABLED = -43
+};
+typedef signed long rtw_result_t;
+
+
+
+
+
+
+enum {
+    RTW_SECURITY_OPEN = 0,
+    RTW_SECURITY_WEP_PSK = 0x0001,
+    RTW_SECURITY_WEP_SHARED = ( 0x0001 | 0x00008000 ),
+    RTW_SECURITY_WPA_TKIP_PSK = ( 0x00200000 | 0x0002 ),
+    RTW_SECURITY_WPA_AES_PSK = ( 0x00200000 | 0x0004 ),
+    RTW_SECURITY_WPA2_AES_PSK = ( 0x00400000 | 0x0004 ),
+    RTW_SECURITY_WPA2_TKIP_PSK = ( 0x00400000 | 0x0002 ),
+    RTW_SECURITY_WPA2_MIXED_PSK = ( 0x00400000 | 0x0004 | 0x0002 ),
+    RTW_SECURITY_WPA_WPA2_MIXED = ( 0x00200000 | 0x00400000 ),
+    RTW_SECURITY_WPA2_AES_CMAC = ( 0x00400000 | 0x0010),
+
+    RTW_SECURITY_WPS_OPEN = 0x10000000,
+    RTW_SECURITY_WPS_SECURE = (0x10000000 | 0x0004),
+
+    RTW_SECURITY_WPA3_AES_PSK = (0x00800000 | 0x0004),
+
+    RTW_SECURITY_UNKNOWN = -1,
+
+    RTW_SECURITY_FORCE_32_BIT = 0x7fffffff
+};
+typedef unsigned long rtw_security_t;
+
+enum {
+    RTW_ENCRYPTION_UNKNOWN = 0,
+    RTW_ENCRYPTION_OPEN = 1,
+    RTW_ENCRYPTION_WEP40 = 2,
+    RTW_ENCRYPTION_WPA_TKIP = 3,
+    RTW_ENCRYPTION_WPA_AES = 4,
+    RTW_ENCRYPTION_WPA2_TKIP = 5,
+    RTW_ENCRYPTION_WPA2_AES = 6,
+    RTW_ENCRYPTION_WPA2_MIXED = 7,
+    RTW_ENCRYPTION_WEP104 = 9,
+    RTW_ENCRYPTION_UNDEF = 0xFF,
+};
+typedef unsigned long rtw_encryption_t;
+
+enum {
+ RTW_FALSE = 0,
+ RTW_TRUE = 1
+};
+typedef unsigned long rtw_bool_t;
+
+
+
+
+enum {
+ RTW_802_11_BAND_5GHZ = 0,
+ RTW_802_11_BAND_2_4GHZ = 1
+};
+typedef unsigned long rtw_802_11_band_t;
+
+
+
+
+enum {
+
+ RTW_COUNTRY_WORLD1,
+ RTW_COUNTRY_ETSI1,
+ RTW_COUNTRY_FCC1,
+ RTW_COUNTRY_MKK1,
+ RTW_COUNTRY_ETSI2,
+ RTW_COUNTRY_FCC2,
+ RTW_COUNTRY_WORLD2,
+ RTW_COUNTRY_MKK2,
+ RTW_COUNTRY_GLOBAL,
+
+
+ RTW_COUNTRY_WORLD,
+ RTW_COUNTRY_EU,
+
+
+ RTW_COUNTRY_JP,
+
+
+ RTW_COUNTRY_AS,
+ RTW_COUNTRY_BM,
+ RTW_COUNTRY_CA,
+ RTW_COUNTRY_DM,
+ RTW_COUNTRY_DO,
+ RTW_COUNTRY_FM,
+ RTW_COUNTRY_GD,
+ RTW_COUNTRY_GT,
+ RTW_COUNTRY_GU,
+ RTW_COUNTRY_HT,
+ RTW_COUNTRY_MH,
+ RTW_COUNTRY_MP,
+ RTW_COUNTRY_NI,
+ RTW_COUNTRY_PA,
+ RTW_COUNTRY_PR,
+ RTW_COUNTRY_PW,
+ RTW_COUNTRY_TW,
+ RTW_COUNTRY_US,
+ RTW_COUNTRY_VI,
+
+
+ RTW_COUNTRY_AD,
+ RTW_COUNTRY_AE,
+ RTW_COUNTRY_AF,
+ RTW_COUNTRY_AI,
+ RTW_COUNTRY_AL,
+ RTW_COUNTRY_AM,
+ RTW_COUNTRY_AN,
+ RTW_COUNTRY_AR,
+ RTW_COUNTRY_AT,
+ RTW_COUNTRY_AU,
+ RTW_COUNTRY_AW,
+ RTW_COUNTRY_AZ,
+ RTW_COUNTRY_BA,
+ RTW_COUNTRY_BB,
+ RTW_COUNTRY_BD,
+ RTW_COUNTRY_BE,
+ RTW_COUNTRY_BF,
+ RTW_COUNTRY_BG,
+ RTW_COUNTRY_BH,
+ RTW_COUNTRY_BL,
+ RTW_COUNTRY_BN,
+ RTW_COUNTRY_BO,
+ RTW_COUNTRY_BR,
+ RTW_COUNTRY_BS,
+ RTW_COUNTRY_BT,
+ RTW_COUNTRY_BY,
+ RTW_COUNTRY_BZ,
+ RTW_COUNTRY_CF,
+ RTW_COUNTRY_CH,
+ RTW_COUNTRY_CI,
+ RTW_COUNTRY_CL,
+ RTW_COUNTRY_CN,
+ RTW_COUNTRY_CO,
+ RTW_COUNTRY_CR,
+ RTW_COUNTRY_CX,
+ RTW_COUNTRY_CY,
+ RTW_COUNTRY_CZ,
+ RTW_COUNTRY_DE,
+ RTW_COUNTRY_DK,
+ RTW_COUNTRY_DZ,
+ RTW_COUNTRY_EC,
+ RTW_COUNTRY_EE,
+ RTW_COUNTRY_EG,
+ RTW_COUNTRY_ES,
+ RTW_COUNTRY_ET,
+ RTW_COUNTRY_FI,
+ RTW_COUNTRY_FR,
+ RTW_COUNTRY_GB,
+ RTW_COUNTRY_GE,
+ RTW_COUNTRY_GF,
+ RTW_COUNTRY_GH,
+ RTW_COUNTRY_GL,
+ RTW_COUNTRY_GP,
+ RTW_COUNTRY_GR,
+ RTW_COUNTRY_GY,
+ RTW_COUNTRY_HK,
+ RTW_COUNTRY_HN,
+ RTW_COUNTRY_HR,
+ RTW_COUNTRY_HU,
+ RTW_COUNTRY_ID,
+ RTW_COUNTRY_IE,
+ RTW_COUNTRY_IL,
+ RTW_COUNTRY_IN,
+ RTW_COUNTRY_IQ,
+ RTW_COUNTRY_IR,
+ RTW_COUNTRY_IS,
+ RTW_COUNTRY_IT,
+ RTW_COUNTRY_JM,
+ RTW_COUNTRY_JO,
+ RTW_COUNTRY_KE,
+ RTW_COUNTRY_KH,
+ RTW_COUNTRY_KN,
+ RTW_COUNTRY_KP,
+ RTW_COUNTRY_KR,
+ RTW_COUNTRY_KW,
+ RTW_COUNTRY_KY,
+ RTW_COUNTRY_KZ,
+ RTW_COUNTRY_LA,
+ RTW_COUNTRY_LB,
+ RTW_COUNTRY_LC,
+ RTW_COUNTRY_LI,
+ RTW_COUNTRY_LK,
+ RTW_COUNTRY_LR,
+ RTW_COUNTRY_LS,
+ RTW_COUNTRY_LT,
+ RTW_COUNTRY_LU,
+ RTW_COUNTRY_LV,
+ RTW_COUNTRY_MA,
+ RTW_COUNTRY_MC,
+ RTW_COUNTRY_MD,
+ RTW_COUNTRY_ME,
+ RTW_COUNTRY_MF,
+ RTW_COUNTRY_MK,
+ RTW_COUNTRY_MN,
+ RTW_COUNTRY_MO,
+ RTW_COUNTRY_MQ,
+ RTW_COUNTRY_MR,
+ RTW_COUNTRY_MT,
+ RTW_COUNTRY_MU,
+ RTW_COUNTRY_MV,
+ RTW_COUNTRY_MW,
+ RTW_COUNTRY_MX,
+ RTW_COUNTRY_MY,
+ RTW_COUNTRY_NG,
+ RTW_COUNTRY_NL,
+ RTW_COUNTRY_NO,
+ RTW_COUNTRY_NP,
+ RTW_COUNTRY_NZ,
+ RTW_COUNTRY_OM,
+ RTW_COUNTRY_PE,
+ RTW_COUNTRY_PF,
+ RTW_COUNTRY_PG,
+ RTW_COUNTRY_PH,
+ RTW_COUNTRY_PK,
+ RTW_COUNTRY_PL,
+ RTW_COUNTRY_PM,
+ RTW_COUNTRY_PT,
+ RTW_COUNTRY_PY,
+ RTW_COUNTRY_QA,
+ RTW_COUNTRY_RS,
+ RTW_COUNTRY_RU,
+ RTW_COUNTRY_RW,
+ RTW_COUNTRY_SA,
+ RTW_COUNTRY_SE,
+ RTW_COUNTRY_SG,
+ RTW_COUNTRY_SI,
+ RTW_COUNTRY_SK,
+ RTW_COUNTRY_SN,
+ RTW_COUNTRY_SR,
+ RTW_COUNTRY_SV,
+ RTW_COUNTRY_SY,
+ RTW_COUNTRY_TC,
+ RTW_COUNTRY_TD,
+ RTW_COUNTRY_TG,
+ RTW_COUNTRY_TH,
+ RTW_COUNTRY_TN,
+ RTW_COUNTRY_TR,
+ RTW_COUNTRY_TT,
+ RTW_COUNTRY_TZ,
+ RTW_COUNTRY_UA,
+ RTW_COUNTRY_UG,
+ RTW_COUNTRY_UY,
+ RTW_COUNTRY_UZ,
+ RTW_COUNTRY_VC,
+ RTW_COUNTRY_VE,
+ RTW_COUNTRY_VN,
+ RTW_COUNTRY_VU,
+ RTW_COUNTRY_WF,
+ RTW_COUNTRY_WS,
+ RTW_COUNTRY_YE,
+ RTW_COUNTRY_YT,
+ RTW_COUNTRY_ZA,
+ RTW_COUNTRY_ZW,
+
+ RTW_COUNTRY_MAX
+
+};
+typedef unsigned long rtw_country_code_t;
+
+
+
+
+enum {
+ RTW_ADAPTIVITY_DISABLE = 0,
+ RTW_ADAPTIVITY_NORMAL,
+ RTW_ADAPTIVITY_CARRIER_SENSE
+};
+typedef unsigned long rtw_adaptivity_mode_t;
+
+
+
+
+
+enum {
+ RTW_MODE_NONE = 0,
+ RTW_MODE_STA,
+ RTW_MODE_AP,
+ RTW_MODE_STA_AP,
+ RTW_MODE_PROMISC,
+ RTW_MODE_P2P
+};
+typedef unsigned long rtw_mode_t;
+
+enum {
+ RTW_SCAN_FULL = 0,
+ RTW_SCAN_SOCIAL,
+ RTW_SCAN_ONE
+};
+typedef unsigned long rtw_scan_mode_t;
+
+
+
+
+typedef enum{
+    RTW_AUTORECONNECT_DISABLE,
+    RTW_AUTORECONNECT_FINITE,
+    RTW_AUTORECONNECT_INFINITE
+} rtw_autoreconnect_mode_t;
+
+
+
+
+enum {
+ RTW_LINK_DISCONNECTED = 0,
+ RTW_LINK_CONNECTED
+};
+typedef unsigned long rtw_link_status_t;
+
+
+
+
+enum {
+    RTW_SCAN_TYPE_ACTIVE = 0x00,
+    RTW_SCAN_TYPE_PASSIVE = 0x01,
+    RTW_SCAN_TYPE_PROHIBITED_CHANNELS = 0x04
+};
+typedef unsigned long rtw_scan_type_t;
+
+
+
+
+enum {
+    RTW_BSS_TYPE_INFRASTRUCTURE = 0,
+    RTW_BSS_TYPE_ADHOC = 1,
+    RTW_BSS_TYPE_ANY = 2,
+
+    RTW_BSS_TYPE_UNKNOWN = -1
+};
+typedef unsigned long rtw_bss_type_t;
+
+enum {
+ RTW_SCAN_COMMAMD = 0x01
+};
+typedef unsigned long rtw_scan_command_t;
+
+enum{
+ COMMAND1 = 0x01
+};
+typedef unsigned long rtw_command_type;
+
+enum {
+ RTW_WPS_TYPE_DEFAULT = 0x0000,
+ RTW_WPS_TYPE_USER_SPECIFIED = 0x0001,
+ RTW_WPS_TYPE_MACHINE_SPECIFIED = 0x0002,
+ RTW_WPS_TYPE_REKEY = 0x0003,
+ RTW_WPS_TYPE_PUSHBUTTON = 0x0004,
+ RTW_WPS_TYPE_REGISTRAR_SPECIFIED = 0x0005,
+    RTW_WPS_TYPE_NONE = 0x0006,
+    RTW_WPS_TYPE_WSC = 0x0007
+};
+typedef unsigned long rtw_wps_type_t;
+
+
+
+
+enum {
+    RTW_NETWORK_B = 1,
+ RTW_NETWORK_BG = 3,
+ RTW_NETWORK_BGN = 11
+};
+typedef unsigned long rtw_network_mode_t;
+
+
+
+
+enum {
+    RTW_STA_INTERFACE = 0,
+    RTW_AP_INTERFACE = 1,
+};
+typedef unsigned long rtw_interface_t;
+
+
+
+
+enum {
+ RTW_POSITIVE_MATCHING = 0,
+ RTW_NEGATIVE_MATCHING = 1
+};
+typedef unsigned long rtw_packet_filter_rule_t;
+
+
+
+
+enum {
+ RTW_PROMISC_DISABLE = 0,
+ RTW_PROMISC_ENABLE = 1,
+ RTW_PROMISC_ENABLE_1 = 2,
+ RTW_PROMISC_ENABLE_2 = 3,
+ RTW_PROMISC_ENABLE_3 = 4,
+ RTW_PROMISC_ENABLE_4 = 5,
+};
+typedef unsigned long rtw_rcr_level_t;
+
+
+
+
+
+enum {
+ RTW_RX_NORMAL = 0,
+ RTW_RX_UNSUPPORT = 1,
+};
+typedef unsigned long rtw_rx_type_t;
+
+
+
+
+enum{
+ RTW_NO_ERROR = 0,
+ RTW_NONE_NETWORK = 1,
+ RTW_CONNECT_FAIL = 2,
+ RTW_WRONG_PASSWORD = 3 ,
+ RTW_4WAY_HANDSHAKE_TIMEOUT = 4,
+ RTW_DHCP_FAIL = 5,
+ RTW_UNKNOWN,
+};
+typedef unsigned long rtw_connect_error_flag_t;
+
+enum {
+ RTW_TX_PWR_PERCENTAGE_100 = 0,
+ RTW_TX_PWR_PERCENTAGE_75 = 1,
+ RTW_TX_PWR_PERCENTAGE_50 = 2,
+ RTW_TX_PWR_PERCENTAGE_25 = 3,
+ RTW_TX_PWR_PERCENTAGE_12_5 = 4,
+};
+typedef unsigned long rtw_tx_pwr_percentage_t;
+
+
+
+
+enum _WIFI_EVENT_INDICATE{
+ WIFI_EVENT_CONNECT = 0,
+ WIFI_EVENT_DISCONNECT = 1,
+ WIFI_EVENT_FOURWAY_HANDSHAKE_DONE = 2,
+ WIFI_EVENT_SCAN_RESULT_REPORT = 3,
+ WIFI_EVENT_SCAN_DONE = 4,
+ WIFI_EVENT_RECONNECTION_FAIL = 5,
+ WIFI_EVENT_SEND_ACTION_DONE = 6,
+ WIFI_EVENT_RX_MGNT = 7,
+ WIFI_EVENT_STA_ASSOC = 8,
+ WIFI_EVENT_STA_DISASSOC = 9,
+ WIFI_EVENT_STA_WPS_START = 10,
+ WIFI_EVENT_WPS_FINISH = 11,
+ WIFI_EVENT_EAPOL_START = 12,
+ WIFI_EVENT_EAPOL_RECVD = 13,
+ WIFI_EVENT_NO_NETWORK = 14,
+ WIFI_EVENT_BEACON_AFTER_DHCP = 15,
+ WIFI_EVENT_IP_CHANGED = 16,
+ WIFI_EVENT_ICV_ERROR = 17,
+ WIFI_EVENT_CHALLENGE_FAIL = 18,
+ WIFI_EVENT_STA_START = 19,
+ WIFI_EVENT_STA_STOP = 20,
+ WIFI_EVENT_AP_START = 21,
+ WIFI_EVENT_AP_STOP = 22,
+ WIFI_EVENT_STA_GOT_IP = 23,
+ WIFI_EVENT_STA_LOST_IP = 24,
+ WIFI_EVENT_MAX,
+};
+typedef unsigned long rtw_event_indicate_t;
+# 34 "../../../component/common/drivers/wlan/realtek/include/wifi_structures.h" 2
+
+
+
+
+
+
+#pragma pack(1)
+
+
+
+
+
+typedef struct rtw_ssid {
+    unsigned char len;
+    unsigned char val[33];
+} rtw_ssid_t;
+
+#pragma pack()
+
+
+
+#pragma pack(1)
+
+
+
+
+
+typedef struct rtw_mac {
+    unsigned char octet[6];
+} rtw_mac_t;
+
+#pragma pack()
+# 74 "../../../component/common/drivers/wlan/realtek/include/wifi_structures.h"
+typedef struct rtw_ap_info {
+ rtw_ssid_t ssid;
+ rtw_security_t security_type;
+ unsigned char *password;
+ int password_len;
+ int channel;
+}rtw_ap_info_t;
+
+
+
+
+
+
+
+typedef struct rtw_network_info {
+ rtw_ssid_t ssid;
+ rtw_mac_t bssid;
+ rtw_security_t security_type;
+ unsigned char *password;
+ int password_len;
+ int key_id;
+}rtw_network_info_t;
+
+
+#pragma pack(1)
+
+
+
+
+
+typedef struct rtw_scan_result {
+    rtw_ssid_t SSID;
+    rtw_mac_t BSSID;
+    signed short signal_strength;
+    rtw_bss_type_t bss_type;
+    rtw_security_t security;
+    rtw_wps_type_t wps_type;
+    unsigned int channel;
+    rtw_802_11_band_t band;
+} rtw_scan_result_t;
+
+#pragma pack()
+
+
+
+
+
+typedef struct rtw_scan_handler_result {
+    rtw_scan_result_t ap_details;
+    rtw_bool_t scan_complete;
+    void* user_data;
+
+} rtw_scan_handler_result_t;
+
+
+#pragma pack(1)
+
+
+
+
+
+typedef struct rtw_wifi_setting {
+ rtw_mode_t mode;
+ unsigned char ssid[33];
+ unsigned char channel;
+ rtw_security_t security_type;
+ unsigned char password[65];
+ unsigned char key_idx;
+}rtw_wifi_setting_t;
+
+#pragma pack()
+
+
+
+
+
+typedef struct rtw_wifi_config {
+ unsigned int boot_mode;
+ unsigned char ssid[32];
+ unsigned char ssid_len;
+ unsigned char security_type;
+ unsigned char password[65];
+ unsigned char password_len;
+ unsigned char channel;
+} rtw_wifi_config_t;
+
+
+
+
+typedef struct
+{
+    unsigned int count;
+    rtw_mac_t mac_list[1];
+} rtw_maclist_t;
+
+
+
+
+
+
+typedef struct {
+    unsigned int version;
+    unsigned int length;
+
+    rtw_mac_t BSSID;
+    unsigned short beacon_period;
+    unsigned short capability;
+    unsigned char SSID_len;
+    unsigned char SSID[32];
+    unsigned char channel;
+
+
+
+
+
+    unsigned short atim_window;
+    unsigned char dtim_period;
+    signed short RSSI;
+
+    unsigned char n_cap;
+    unsigned int nbss_cap;
+    unsigned char basic_mcs[16];
+
+    unsigned short ie_offset;
+    unsigned int ie_length;
+} rtw_bss_info_t;
+
+
+
+
+typedef struct {
+ unsigned short offset;
+ unsigned short mask_size;
+ unsigned char* mask;
+ unsigned char* pattern;
+} rtw_packet_filter_pattern_t;
+
+typedef struct ieee80211_frame_info{
+ unsigned short i_fc;
+ unsigned short i_dur;
+ unsigned char i_addr1[6];
+ unsigned char i_addr2[6];
+ unsigned char i_addr3[6];
+ unsigned short i_seq;
+ unsigned char bssid[6];
+ unsigned char encrypt;
+ signed char rssi;
+
+ rtw_rx_type_t type;
+
+}ieee80211_frame_info_t;
+
+
+typedef struct rtw_rx_info {
+ unsigned short length;
+ unsigned char filter;
+ signed char rssi;
+ unsigned short channel;
+ unsigned char agg:1;
+ unsigned char mcs:7;
+}rtw_rx_info_t;
+
+struct rtw_plcp_info {
+ struct rtw_plcp_info *prev;
+ struct rtw_plcp_info *next;
+ rtw_rx_info_t rtw_plcp_info;
+};
+
+struct rtw_rx_buffer {
+ struct rtw_plcp_info *head;
+ struct rtw_plcp_info *tail;
+};
+
+
+typedef struct {
+ char filter_id;
+ rtw_packet_filter_pattern_t patt;
+ rtw_packet_filter_rule_t rule;
+ unsigned char enable;
+}rtw_packet_filter_info_t;
+
+typedef struct rtw_mac_filter_list{
+ struct list_head node;
+ unsigned char mac_addr[6];
+}rtw_mac_filter_list_t;
+
+typedef struct wowlan_pattern {
+ unsigned char eth_da[6];
+ unsigned char eth_sa[6];
+ unsigned char eth_proto_type[2];
+ unsigned char header_len[1];
+
+ unsigned char ip_proto[1];
+
+ unsigned char ip_sa[4];
+ unsigned char ip_da[4];
+    unsigned char src_port[2];
+    unsigned char dest_port[2];
+ unsigned char mask[5];
+} wowlan_pattern_t;
+# 72 "../../../component/common/api/at_cmd/atcmd_wifi.h" 2
+# 1 "../../../component/common/example/wlan_fast_connect/example_wlan_fast_connect.h" 1
+# 21 "../../../component/common/example/wlan_fast_connect/example_wlan_fast_connect.h"
+struct wlan_fast_reconnect {
+ unsigned char psk_essid[32 + 4];
+ unsigned char psk_passphrase[64 + 1];
+ unsigned char wpa_global_PSK[20 * 2];
+ uint32_t channel;
+ uint32_t security_type;
+
+ uint32_t offer_ip;
+
+
+ uint32_t enable;
+
+};
+
+
+
+typedef int (*wlan_init_done_ptr)(void);
+typedef int (*write_reconnect_ptr)(uint8_t *data, uint32_t len);
+
+
+
+extern unsigned char psk_essid[((0) + (1) + 1)][32 +4];
+extern unsigned char psk_passphrase[((0) + (1) + 1)][64 + 1];
+extern unsigned char wpa_global_PSK[((0) + (1) + 1)][20 * 2];
+extern unsigned char psk_passphrase64[64 + 1];
+
+
+extern wlan_init_done_ptr p_wlan_init_done_callback;
+extern write_reconnect_ptr p_write_reconnect_ptr;
+
+void example_wlan_fast_connect(void);
+# 73 "../../../component/common/api/at_cmd/atcmd_wifi.h" 2
+typedef struct _UART_LOG_CONF_{
+ uint32_t BaudRate;
+ uint8_t DataBits;
+ uint8_t StopBits;
+ uint8_t Parity;
+ uint8_t FlowControl;
+}UART_LOG_CONF, *PUART_LOG_CONF;
+
+
+struct atcmd_wifi_conf{
+ int32_t auto_enable;
+ rtw_wifi_setting_t setting;
+ int32_t reconn_num;
+ int32_t reconn_last_index;
+ struct wlan_fast_reconnect reconn[(1)];
+};
+
+
+struct atcmd_lwip_conn_info{
+ int32_t role;
+ uint32_t protocol;
+ uint32_t remote_addr;
+ uint32_t remote_port;
+ uint32_t local_addr;
+ uint32_t local_port;
+ uint32_t reserved;
+};
+struct atcmd_lwip_conf {
+ int32_t enable;
+ int32_t conn_num;
+ int32_t last_index;
+ int32_t reserved;
+ struct atcmd_lwip_conn_info conn[(1)];
+};
+
+typedef enum {
+ AT_PARTITION_ALL = 0,
+ AT_PARTITION_UART = 1,
+ AT_PARTITION_WIFI = 2,
+ AT_PARTITION_LWIP = 3
+} AT_PARTITION;
+
+typedef enum {
+ AT_PARTITION_READ = 0,
+ AT_PARTITION_WRITE = 1,
+ AT_PARTITION_ERASE = 2
+} AT_PARTITION_OP;
+# 136 "../../../component/common/api/at_cmd/atcmd_wifi.h"
+extern void atcmd_update_partition_info(AT_PARTITION id, AT_PARTITION_OP ops, uint8_t *data, uint16_t len);
+
+
+extern char at_string[(1600)];
+
+extern unsigned char gAT_Echo;
+
+
+extern void uart_at_send_string(char *str);
+extern void uart_at_send_buf(uint8_t *buf, uint32_t len);
 # 14 "../../../component/common/api/at_cmd/log_service.c" 2
 
+# 1 "../../../component/common/api/at_cmd/atcmd_lwip.h" 1
 
 
 
-# 1 "../inc/platform_opts_bt.h" 1
-# 19 "../../../component/common/api/at_cmd/log_service.c" 2
 
 # 1 "../../../component/os/os_dep/include/osdep_service.h" 1
 # 137 "../../../component/os/os_dep/include/osdep_service.h"
@@ -6049,7 +6912,1021 @@ struct osdep_service_ops {
  void (*rtw_create_secure_context)(uint32_t secure_stack_size);
  void* (*rtw_get_current_TaskHandle)(void);
 };
-# 21 "../../../component/common/api/at_cmd/log_service.c" 2
+# 6 "../../../component/common/api/at_cmd/atcmd_lwip.h" 2
+
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h" 1
+# 48 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h"
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/inet.h" 1
+# 58 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/inet.h"
+struct in_addr {
+  in_addr_t s_addr;
+};
+
+struct in6_addr {
+  union {
+    u32_t u32_addr[4];
+    u8_t u8_addr[16];
+  } un;
+
+};
+# 86 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/inet.h"
+extern const struct in6_addr in6addr_any;
+# 49 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h" 2
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/errno.h" 1
+# 184 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/errno.h"
+extern int errno;
+# 50 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h" 2
+# 58 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h"
+typedef u8_t sa_family_t;
+
+
+
+
+typedef u16_t in_port_t;
+
+
+
+
+struct sockaddr_in {
+  u8_t sin_len;
+  sa_family_t sin_family;
+  in_port_t sin_port;
+  struct in_addr sin_addr;
+
+  char sin_zero[8];
+};
+# 89 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h"
+struct sockaddr {
+  u8_t sa_len;
+  sa_family_t sa_family;
+  char sa_data[14];
+};
+
+struct sockaddr_storage {
+  u8_t s2_len;
+  sa_family_t ss_family;
+  char s2_data1[2];
+  u32_t s2_data2[3];
+
+
+
+};
+
+
+
+
+typedef u32_t socklen_t;
+
+
+struct lwip_sock;
+
+
+
+
+
+
+
+struct lwip_setgetsockopt_data {
+
+  int s;
+
+  int level;
+
+  int optname;
+
+
+
+
+
+  union {
+     void *p;
+     const void *pc;
+  } optval;
+
+
+  socklen_t optlen;
+
+  err_t err;
+
+  void* completed_sem;
+};
+
+
+
+struct iovec {
+  void *iov_base;
+  size_t iov_len;
+};
+
+
+struct msghdr {
+  void *msg_name;
+  socklen_t msg_namelen;
+  struct iovec *msg_iov;
+  int msg_iovlen;
+  void *msg_control;
+  socklen_t msg_controllen;
+  int msg_flags;
+};
+# 201 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h"
+struct linger {
+       int l_onoff;
+       int l_linger;
+};
+# 292 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h"
+typedef struct ip_mreq {
+    struct in_addr imr_multiaddr;
+    struct in_addr imr_interface;
+} ip_mreq;
+# 448 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h"
+void lwip_socket_thread_init(void);
+void lwip_socket_thread_cleanup(void);
+# 484 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h"
+int lwip_accept(int s, struct sockaddr *addr, socklen_t *addrlen);
+int lwip_bind(int s, const struct sockaddr *name, socklen_t namelen);
+int lwip_shutdown(int s, int how);
+int lwip_getpeername (int s, struct sockaddr *name, socklen_t *namelen);
+int lwip_getsockname (int s, struct sockaddr *name, socklen_t *namelen);
+int lwip_getsockopt (int s, int level, int optname, void *optval, socklen_t *optlen);
+int lwip_setsockopt (int s, int level, int optname, const void *optval, socklen_t optlen);
+int lwip_getsocklasterr(int s);
+int lwip_close(int s);
+int lwip_connect(int s, const struct sockaddr *name, socklen_t namelen);
+int lwip_listen(int s, int backlog);
+int lwip_recv(int s, void *mem, size_t len, int flags);
+int lwip_read(int s, void *mem, size_t len);
+int lwip_recvfrom(int s, void *mem, size_t len, int flags,
+      struct sockaddr *from, socklen_t *fromlen);
+int lwip_send(int s, const void *dataptr, size_t size, int flags);
+int lwip_sendmsg(int s, const struct msghdr *message, int flags);
+int lwip_sendto(int s, const void *dataptr, size_t size, int flags,
+    const struct sockaddr *to, socklen_t tolen);
+int lwip_socket(int domain, int type, int protocol);
+int lwip_write(int s, const void *dataptr, size_t size);
+int lwip_writev(int s, const struct iovec *iov, int iovcnt);
+int lwip_select(int maxfdp1, 
+# 506 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h" 3
+                            _types_fd_set 
+# 506 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h"
+                                   *readset, 
+# 506 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h" 3
+                                             _types_fd_set 
+# 506 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h"
+                                                    *writeset, 
+# 506 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h" 3
+                                                               _types_fd_set 
+# 506 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h"
+                                                                      *exceptset,
+                struct timeval *timeout);
+int lwip_ioctl(int s, long cmd, void *argp);
+int lwip_fcntl(int s, int cmd, int val);
+# 8 "../../../component/common/api/at_cmd/atcmd_lwip.h" 2
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h" 1
+# 47 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h"
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/netbuf.h" 1
+# 60 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/netbuf.h"
+struct netbuf {
+  struct pbuf *p, *ptr;
+  ip_addr_t addr;
+  u16_t port;
+# 73 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/netbuf.h"
+};
+
+
+struct netbuf * netbuf_new (void);
+void netbuf_delete (struct netbuf *buf);
+void * netbuf_alloc (struct netbuf *buf, u16_t size);
+void netbuf_free (struct netbuf *buf);
+err_t netbuf_ref (struct netbuf *buf,
+                                   const void *dataptr, u16_t size);
+void netbuf_chain (struct netbuf *head, struct netbuf *tail);
+
+err_t netbuf_data (struct netbuf *buf,
+                                   void **dataptr, u16_t *len);
+s8_t netbuf_next (struct netbuf *buf);
+void netbuf_first (struct netbuf *buf);
+# 48 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h" 2
+# 105 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h"
+enum netconn_type {
+  NETCONN_INVALID = 0,
+
+  NETCONN_TCP = 0x10,
+
+
+
+
+
+  NETCONN_UDP = 0x20,
+
+  NETCONN_UDPLITE = 0x21,
+
+  NETCONN_UDPNOCHKSUM = 0x22,
+# 130 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h"
+  NETCONN_RAW = 0x40
+
+
+
+
+};
+
+
+
+enum netconn_state {
+  NETCONN_NONE,
+  NETCONN_WRITE,
+  NETCONN_LISTEN,
+  NETCONN_CONNECT,
+  NETCONN_CLOSE
+};
+# 173 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h"
+enum netconn_evt {
+  NETCONN_EVT_RCVPLUS,
+  NETCONN_EVT_RCVMINUS,
+  NETCONN_EVT_SENDPLUS,
+  NETCONN_EVT_SENDMINUS,
+  NETCONN_EVT_ERROR
+};
+
+
+
+enum netconn_igmp {
+  NETCONN_JOIN,
+  NETCONN_LEAVE
+};
+# 199 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h"
+struct ip_pcb;
+struct tcp_pcb;
+struct udp_pcb;
+struct raw_pcb;
+struct netconn;
+struct api_msg;
+
+
+typedef void (* netconn_callback)(struct netconn *, enum netconn_evt, u16_t len);
+
+
+struct netconn {
+
+  enum netconn_type type;
+
+  enum netconn_state state;
+
+  union {
+    struct ip_pcb *ip;
+    struct tcp_pcb *tcp;
+    struct udp_pcb *udp;
+    struct raw_pcb *raw;
+  } pcb;
+
+  err_t last_err;
+
+
+  sys_sem_t op_completed;
+
+
+
+  sys_mbox_t recvmbox;
+
+
+
+  sys_mbox_t acceptmbox;
+
+
+
+  int socket;
+
+
+
+
+  s32_t send_timeout;
+
+
+
+
+  int recv_timeout;
+# 264 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h"
+  u8_t flags;
+
+
+
+  size_t write_offset;
+
+
+
+  struct api_msg *current_msg;
+
+
+  netconn_callback callback;
+};
+# 300 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h"
+struct netconn *netconn_new_with_proto_and_callback(enum netconn_type t, u8_t proto,
+                                             netconn_callback callback);
+err_t netconn_delete(struct netconn *conn);
+
+
+
+err_t netconn_getaddr(struct netconn *conn, ip_addr_t *addr,
+                        u16_t *port, u8_t local);
+
+
+
+
+
+err_t netconn_bind(struct netconn *conn, const ip_addr_t *addr, u16_t port);
+err_t netconn_connect(struct netconn *conn, const ip_addr_t *addr, u16_t port);
+err_t netconn_disconnect (struct netconn *conn);
+err_t netconn_listen_with_backlog(struct netconn *conn, u8_t backlog);
+
+
+err_t netconn_accept(struct netconn *conn, struct netconn **new_conn);
+err_t netconn_recv(struct netconn *conn, struct netbuf **new_buf);
+err_t netconn_recv_tcp_pbuf(struct netconn *conn, struct pbuf **new_buf);
+err_t netconn_sendto(struct netconn *conn, struct netbuf *buf,
+                             const ip_addr_t *addr, u16_t port);
+err_t netconn_send(struct netconn *conn, struct netbuf *buf);
+err_t netconn_write_partly(struct netconn *conn, const void *dataptr, size_t size,
+                             u8_t apiflags, size_t *bytes_written);
+
+
+
+err_t netconn_close(struct netconn *conn);
+err_t netconn_shutdown(struct netconn *conn, u8_t shut_rx, u8_t shut_tx);
+
+err_t netconn_abort(struct netconn *conn);
+
+
+err_t netconn_join_leave_group(struct netconn *conn, const ip_addr_t *multiaddr,
+                             const ip_addr_t *netif_addr, enum netconn_igmp join_or_leave);
+
+
+
+
+
+
+err_t netconn_gethostbyname(const char *name, ip_addr_t *addr);
+# 9 "../../../component/common/api/at_cmd/atcmd_lwip.h" 2
+
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/igmp.h" 1
+# 74 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/igmp.h"
+struct igmp_group {
+
+  struct igmp_group *next;
+
+  ip4_addr_t group_address;
+
+  u8_t last_reporter_flag;
+
+  u8_t group_state;
+
+  u16_t timer;
+
+  u8_t use;
+};
+
+
+void igmp_init(void);
+err_t igmp_start(struct netif *netif);
+err_t igmp_stop(struct netif *netif);
+void igmp_report_groups(struct netif *netif);
+struct igmp_group *igmp_lookfor_group(struct netif *ifp, const ip4_addr_t *addr);
+void igmp_input(struct pbuf *p, struct netif *inp, const ip4_addr_t *dest);
+err_t igmp_joingroup(const ip4_addr_t *ifaddr, const ip4_addr_t *groupaddr);
+err_t igmp_joingroup_netif(struct netif *netif, const ip4_addr_t *groupaddr);
+err_t igmp_leavegroup(const ip4_addr_t *ifaddr, const ip4_addr_t *groupaddr);
+err_t igmp_leavegroup_netif(struct netif *netif, const ip4_addr_t *groupaddr);
+void igmp_tmr(void);
+# 11 "../../../component/common/api/at_cmd/atcmd_lwip.h" 2
+
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h" 1
+# 47 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip.h" 1
+# 47 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip.h"
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip4.h" 1
+# 49 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip4.h"
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/ip4.h" 1
+# 50 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/ip4.h"
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/bpstruct.h" 1
+# 34 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/bpstruct.h"
+#pragma pack(1)
+# 51 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/ip4.h" 2
+
+
+struct ip4_addr_packed {
+  u32_t addr;
+} __attribute__ ((__packed__));
+
+
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/epstruct.h" 1
+# 36 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/epstruct.h"
+#pragma pack()
+# 59 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/ip4.h" 2
+
+
+typedef struct ip4_addr_packed ip4_addr_p_t;
+
+
+
+
+
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/bpstruct.h" 1
+# 34 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/bpstruct.h"
+#pragma pack(1)
+# 68 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/ip4.h" 2
+
+
+
+struct ip_hdr {
+
+  u8_t _v_hl;
+
+  u8_t _tos;
+
+  u16_t _len;
+
+  u16_t _id;
+
+  u16_t _offset;
+
+
+
+
+
+  u8_t _ttl;
+
+  u8_t _proto;
+
+  u16_t _chksum;
+
+  ip4_addr_p_t src;
+  ip4_addr_p_t dest;
+} __attribute__ ((__packed__));
+
+
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/epstruct.h" 1
+# 36 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/epstruct.h"
+#pragma pack()
+# 99 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/ip4.h" 2
+# 50 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip4.h" 2
+# 65 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip4.h"
+struct netif *ip4_route(const ip4_addr_t *dest);
+
+
+
+
+
+err_t ip4_input(struct pbuf *p, struct netif *inp);
+err_t ip4_output(struct pbuf *p, const ip4_addr_t *src, const ip4_addr_t *dest,
+       u8_t ttl, u8_t tos, u8_t proto);
+err_t ip4_output_if(struct pbuf *p, const ip4_addr_t *src, const ip4_addr_t *dest,
+       u8_t ttl, u8_t tos, u8_t proto, struct netif *netif);
+err_t ip4_output_if_src(struct pbuf *p, const ip4_addr_t *src, const ip4_addr_t *dest,
+       u8_t ttl, u8_t tos, u8_t proto, struct netif *netif);
+
+
+
+
+
+err_t ip4_output_if_opt(struct pbuf *p, const ip4_addr_t *src, const ip4_addr_t *dest,
+       u8_t ttl, u8_t tos, u8_t proto, struct netif *netif, void *ip_options,
+       u16_t optlen);
+err_t ip4_output_if_opt_src(struct pbuf *p, const ip4_addr_t *src, const ip4_addr_t *dest,
+       u8_t ttl, u8_t tos, u8_t proto, struct netif *netif, void *ip_options,
+       u16_t optlen);
+
+
+
+void ip4_set_default_multicast_netif(struct netif* default_multicast_netif);
+# 48 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip.h" 2
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip6.h" 1
+# 49 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip.h" 2
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/ip.h" 1
+# 50 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip.h" 2
+# 89 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip.h"
+struct ip_pcb {
+
+  ip_addr_t local_ip; ip_addr_t remote_ip; u8_t so_options; u8_t tos; u8_t ttl ;
+};
+# 105 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip.h"
+struct ip_globals
+{
+
+  struct netif *current_netif;
+
+  struct netif *current_input_netif;
+
+
+  struct ip_hdr *current_ip4_header;
+
+
+
+
+
+
+  u16_t current_ip_header_tot_len;
+
+  ip_addr_t current_iphdr_src;
+
+  ip_addr_t current_iphdr_dest;
+};
+extern struct ip_globals ip_data;
+# 48 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h" 2
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/icmp.h" 1
+# 44 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/icmp.h"
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/icmp.h" 1
+# 61 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/icmp.h"
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/bpstruct.h" 1
+# 34 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/bpstruct.h"
+#pragma pack(1)
+# 62 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/icmp.h" 2
+
+
+
+
+
+
+
+struct icmp_echo_hdr {
+  u8_t type;
+  u8_t code;
+  u16_t chksum;
+  u16_t id;
+  u16_t seqno;
+} __attribute__ ((__packed__));
+
+
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/epstruct.h" 1
+# 36 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/epstruct.h"
+#pragma pack()
+# 79 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/icmp.h" 2
+# 45 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/icmp.h" 2
+# 55 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/icmp.h"
+enum icmp_dur_type {
+
+  ICMP_DUR_NET = 0,
+
+  ICMP_DUR_HOST = 1,
+
+  ICMP_DUR_PROTO = 2,
+
+  ICMP_DUR_PORT = 3,
+
+  ICMP_DUR_FRAG = 4,
+
+  ICMP_DUR_SR = 5
+};
+
+
+enum icmp_te_type {
+
+  ICMP_TE_TTL = 0,
+
+  ICMP_TE_FRAG = 1
+};
+
+
+
+void icmp_input(struct pbuf *p, struct netif *inp);
+void icmp_dest_unreach(struct pbuf *p, enum icmp_dur_type t);
+void icmp_time_exceeded(struct pbuf *p, enum icmp_te_type t);
+# 49 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h" 2
+# 57 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+struct tcp_pcb;
+
+extern struct tcp_pcb *tcp_tw_pcbs;
+# 70 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+typedef err_t (*tcp_accept_fn)(void *arg, struct tcp_pcb *newpcb, err_t err);
+# 82 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+typedef err_t (*tcp_recv_fn)(void *arg, struct tcp_pcb *tpcb,
+                             struct pbuf *p, err_t err);
+# 96 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+typedef err_t (*tcp_sent_fn)(void *arg, struct tcp_pcb *tpcb,
+                              u16_t len);
+# 108 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+typedef err_t (*tcp_poll_fn)(void *arg, struct tcp_pcb *tpcb);
+# 120 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+typedef void (*tcp_err_fn)(void *arg, err_t err);
+# 134 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+typedef err_t (*tcp_connected_fn)(void *arg, struct tcp_pcb *tpcb, err_t err);
+# 147 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+typedef u16_t tcpwnd_size_t;
+
+
+
+
+
+typedef u8_t tcpflags_t;
+
+
+
+enum tcp_state {
+  CLOSED = 0,
+  LISTEN = 1,
+  SYN_SENT = 2,
+  SYN_RCVD = 3,
+  ESTABLISHED = 4,
+  FIN_WAIT_1 = 5,
+  FIN_WAIT_2 = 6,
+  CLOSE_WAIT = 7,
+  CLOSING = 8,
+  LAST_ACK = 9,
+  TIME_WAIT = 10
+};
+# 184 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+struct tcp_pcb_listen {
+
+  ip_addr_t local_ip; ip_addr_t remote_ip; u8_t so_options; u8_t tos; u8_t ttl ;
+
+  struct tcp_pcb_listen *next; void *callback_arg; enum tcp_state state; u8_t prio; u16_t local_port;
+
+
+
+  tcp_accept_fn accept;
+
+
+
+
+
+
+};
+
+
+
+struct tcp_pcb {
+
+  ip_addr_t local_ip; ip_addr_t remote_ip; u8_t so_options; u8_t tos; u8_t ttl ;
+
+  struct tcp_pcb *next; void *callback_arg; enum tcp_state state; u8_t prio; u16_t local_port;
+
+
+  u16_t remote_port;
+
+  tcpflags_t flags;
+# 235 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+  u8_t polltmr, pollinterval;
+  u8_t last_timer;
+  u32_t tmr;
+
+
+  u32_t rcv_nxt;
+  tcpwnd_size_t rcv_wnd;
+  tcpwnd_size_t rcv_ann_wnd;
+  u32_t rcv_ann_right_edge;
+
+
+  s16_t rtime;
+
+  u16_t mss;
+
+
+  u32_t rttest;
+  u32_t rtseq;
+  s16_t sa, sv;
+
+  s16_t rto;
+  u8_t nrtx;
+
+
+  u8_t dupacks;
+  u32_t lastack;
+
+
+  tcpwnd_size_t cwnd;
+  tcpwnd_size_t ssthresh;
+
+
+  u32_t snd_nxt;
+  u32_t snd_wl1, snd_wl2;
+
+  u32_t snd_lbb;
+  tcpwnd_size_t snd_wnd;
+  tcpwnd_size_t snd_wnd_max;
+
+  tcpwnd_size_t snd_buf;
+
+  u16_t snd_queuelen;
+
+
+
+  u16_t unsent_oversize;
+
+
+
+  struct tcp_seg *unsent;
+  struct tcp_seg *unacked;
+
+  struct tcp_seg *ooseq;
+
+
+  struct pbuf *refused_data;
+
+
+  struct tcp_pcb_listen* listener;
+
+
+
+
+  tcp_sent_fn sent;
+
+  tcp_recv_fn recv;
+
+  tcp_connected_fn connected;
+
+  tcp_poll_fn poll;
+
+  tcp_err_fn errf;
+# 315 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+  u32_t keep_idle;
+
+  u32_t keep_intvl;
+  u32_t keep_cnt;
+
+
+
+  u8_t persist_cnt;
+
+  u8_t persist_backoff;
+
+
+  u8_t keep_cnt_sent;
+
+
+
+
+
+};
+# 355 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+struct tcp_pcb * tcp_new (void);
+struct tcp_pcb * tcp_new_ip_type (u8_t type);
+
+void tcp_arg (struct tcp_pcb *pcb, void *arg);
+
+void tcp_recv (struct tcp_pcb *pcb, tcp_recv_fn recv);
+void tcp_sent (struct tcp_pcb *pcb, tcp_sent_fn sent);
+void tcp_err (struct tcp_pcb *pcb, tcp_err_fn err);
+void tcp_accept (struct tcp_pcb *pcb, tcp_accept_fn accept);
+
+void tcp_poll (struct tcp_pcb *pcb, tcp_poll_fn poll, u8_t interval);
+# 395 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h"
+void tcp_recved (struct tcp_pcb *pcb, u16_t len);
+err_t tcp_bind (struct tcp_pcb *pcb, const ip_addr_t *ipaddr,
+                              u16_t port);
+err_t tcp_connect (struct tcp_pcb *pcb, const ip_addr_t *ipaddr,
+                              u16_t port, tcp_connected_fn connected);
+
+struct tcp_pcb * tcp_listen_with_backlog_and_err(struct tcp_pcb *pcb, u8_t backlog, err_t *err);
+struct tcp_pcb * tcp_listen_with_backlog(struct tcp_pcb *pcb, u8_t backlog);
+
+
+
+void tcp_abort (struct tcp_pcb *pcb);
+err_t tcp_close (struct tcp_pcb *pcb);
+err_t tcp_shutdown(struct tcp_pcb *pcb, int shut_rx, int shut_tx);
+
+
+
+
+
+err_t tcp_write (struct tcp_pcb *pcb, const void *dataptr, u16_t len,
+                              u8_t apiflags);
+
+void tcp_setprio (struct tcp_pcb *pcb, u8_t prio);
+
+
+
+
+
+err_t tcp_output (struct tcp_pcb *pcb);
+
+
+
+void tcp_randomize_local_port (void);
+
+
+
+const char* tcp_debug_state_str(enum tcp_state s);
+# 13 "../../../component/common/api/at_cmd/atcmd_lwip.h" 2
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/raw.h" 1
+# 55 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/raw.h"
+struct raw_pcb;
+# 67 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/raw.h"
+typedef u8_t (*raw_recv_fn)(void *arg, struct raw_pcb *pcb, struct pbuf *p,
+    const ip_addr_t *addr);
+
+
+struct raw_pcb {
+
+  ip_addr_t local_ip; ip_addr_t remote_ip; u8_t so_options; u8_t tos; u8_t ttl ;
+
+  struct raw_pcb *next;
+
+  u8_t protocol;
+
+
+  raw_recv_fn recv;
+
+  void *recv_arg;
+
+
+
+
+
+};
+
+
+
+struct raw_pcb * raw_new (u8_t proto);
+struct raw_pcb * raw_new_ip_type(u8_t type, u8_t proto);
+void raw_remove (struct raw_pcb *pcb);
+err_t raw_bind (struct raw_pcb *pcb, const ip_addr_t *ipaddr);
+err_t raw_connect (struct raw_pcb *pcb, const ip_addr_t *ipaddr);
+
+err_t raw_sendto (struct raw_pcb *pcb, struct pbuf *p, const ip_addr_t *ipaddr);
+err_t raw_send (struct raw_pcb *pcb, struct pbuf *p);
+
+void raw_recv (struct raw_pcb *pcb, raw_recv_fn recv, void *recv_arg);
+
+
+u8_t raw_input (struct pbuf *p, struct netif *inp);
+
+
+void raw_netif_ip_addr_changed(const ip_addr_t* old_addr, const ip_addr_t* new_addr);
+# 14 "../../../component/common/api/at_cmd/atcmd_lwip.h" 2
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/udp.h" 1
+# 50 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/udp.h"
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/udp.h" 1
+# 50 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/udp.h"
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/bpstruct.h" 1
+# 34 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/bpstruct.h"
+#pragma pack(1)
+# 51 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/udp.h" 2
+
+
+struct udp_hdr {
+  u16_t src;
+  u16_t dest;
+  u16_t len;
+  u16_t chksum;
+} __attribute__ ((__packed__));
+
+
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/epstruct.h" 1
+# 36 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/epstruct.h"
+#pragma pack()
+# 62 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/udp.h" 2
+# 51 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/udp.h" 2
+# 61 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/udp.h"
+struct udp_pcb;
+# 77 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/udp.h"
+typedef void (*udp_recv_fn)(void *arg, struct udp_pcb *pcb, struct pbuf *p,
+    const ip_addr_t *addr, u16_t port);
+
+
+struct udp_pcb {
+
+  ip_addr_t local_ip; ip_addr_t remote_ip; u8_t so_options; u8_t tos; u8_t ttl ;
+
+
+
+  struct udp_pcb *next;
+
+  u8_t flags;
+
+  u16_t local_port, remote_port;
+
+
+
+  ip_addr_t multicast_ip;
+
+  u8_t mcast_ttl;
+# 106 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/udp.h"
+  udp_recv_fn recv;
+
+  void *recv_arg;
+};
+
+extern struct udp_pcb *udp_pcbs;
+
+
+
+struct udp_pcb * udp_new (void);
+struct udp_pcb * udp_new_ip_type(u8_t type);
+void udp_remove (struct udp_pcb *pcb);
+err_t udp_bind (struct udp_pcb *pcb, const ip_addr_t *ipaddr,
+                                 u16_t port);
+err_t udp_connect (struct udp_pcb *pcb, const ip_addr_t *ipaddr,
+                                 u16_t port);
+void udp_disconnect (struct udp_pcb *pcb);
+void udp_recv (struct udp_pcb *pcb, udp_recv_fn recv,
+                                 void *recv_arg);
+err_t udp_sendto_if (struct udp_pcb *pcb, struct pbuf *p,
+                                 const ip_addr_t *dst_ip, u16_t dst_port,
+                                 struct netif *netif);
+err_t udp_sendto_if_src(struct udp_pcb *pcb, struct pbuf *p,
+                                 const ip_addr_t *dst_ip, u16_t dst_port,
+                                 struct netif *netif, const ip_addr_t *src_ip);
+err_t udp_sendto (struct udp_pcb *pcb, struct pbuf *p,
+                                 const ip_addr_t *dst_ip, u16_t dst_port);
+err_t udp_send (struct udp_pcb *pcb, struct pbuf *p);
+# 154 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/udp.h"
+void udp_input (struct pbuf *p, struct netif *inp);
+
+void udp_init (void);
+
+
+
+void udp_randomize_local_port (void);
+# 180 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/udp.h"
+void udp_netif_ip_addr_changed(const ip_addr_t* old_addr, const ip_addr_t* new_addr);
+# 15 "../../../component/common/api/at_cmd/atcmd_lwip.h" 2
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcpip.h" 1
+# 16 "../../../component/common/api/at_cmd/atcmd_lwip.h" 2
+
+# 1 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/netdb.h" 1
+# 92 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/netdb.h"
+struct hostent {
+    char *h_name;
+    char **h_aliases;
+
+    int h_addrtype;
+    int h_length;
+    char **h_addr_list;
+
+
+};
+
+struct addrinfo {
+    int ai_flags;
+    int ai_family;
+    int ai_socktype;
+    int ai_protocol;
+    socklen_t ai_addrlen;
+    struct sockaddr *ai_addr;
+    char *ai_canonname;
+    struct addrinfo *ai_next;
+};
+
+
+
+
+
+
+extern int h_errno;
+
+
+struct hostent *lwip_gethostbyname(const char *name);
+int lwip_gethostbyname_r(const char *name, struct hostent *ret, char *buf,
+                size_t buflen, struct hostent **result, int *h_errnop);
+void lwip_freeaddrinfo(struct addrinfo *ai);
+int lwip_getaddrinfo(const char *nodename,
+       const char *servname,
+       const struct addrinfo *hints,
+       struct addrinfo **res);
+# 18 "../../../component/common/api/at_cmd/atcmd_lwip.h" 2
+# 66 "../../../component/common/api/at_cmd/atcmd_lwip.h"
+typedef struct ns
+{
+ int con_id;
+ int sockfd;
+ s8_t role;
+ int protocol;
+ u32_t addr;
+ u16_t port;
+ u32_t local_addr;
+ u16_t local_port;
+ TaskHandle_t handletask;
+ struct ns* next;
+ struct ns* nextseed;
+
+
+
+} node;
+
+extern TaskHandle_t atcmd_lwip_tt_task;
+extern _sema atcmd_lwip_tt_sema;
+extern volatile int atcmd_lwip_tt_datasize;
+extern volatile int atcmd_lwip_tt_lasttickcnt;
+
+
+extern int atcmd_lwip_is_tt_mode(void);
+extern void atcmd_lwip_set_tt_mode(int enable);
+int atcmd_lwip_send_data(node *curnode, uint8_t *data, uint16_t data_sz, struct sockaddr_in cli_addr);
+int atcmd_lwip_receive_data(node *curnode, uint8_t *buffer, uint16_t buffer_size, int *recv_size,
+ u8_t *udp_clientaddr, u16_t *udp_clientport);
+node* create_node(int mode, s8_t role);
+void init_node_pool(void);
+void delete_node(node *n);
+int hang_node(node* insert_node);
+int hang_seednode(node* main_node ,node* insert_node);
+node *seek_node(int con_id);
+node *tryget_node(int n);
+void atcmd_lwip_set_rx_buffer(unsigned char *buf, int bufsize);
+# 16 "../../../component/common/api/at_cmd/log_service.c" 2
+
+
+# 1 "../inc/platform_opts_bt.h" 1
+# 19 "../../../component/common/api/at_cmd/log_service.c" 2
+
+
 
 
 
@@ -6073,7 +7950,7 @@ extern void at_isp_init(void);
 
 void at_log_init(void);
 
-char log_buf[100];
+char log_buf[1600];
 
 
 
@@ -6084,7 +7961,11 @@ SemaphoreHandle_t log_rx_interrupt_sema =
 # 49 "../../../component/common/api/at_cmd/log_service.c"
                                             ;
 
-
+SemaphoreHandle_t log_service_sema = 
+# 51 "../../../component/common/api/at_cmd/log_service.c" 3 4
+                                   ((void *)0)
+# 51 "../../../component/common/api/at_cmd/log_service.c"
+                                       ;
 
 extern SemaphoreHandle_t uart_rx_interrupt_sema;
 # 69 "../../../component/common/api/at_cmd/log_service.c"
@@ -6102,6 +7983,8 @@ log_init_t log_init_table[] = {
  at_sys_init,
 
  at_log_init,
+# 93 "../../../component/common/api/at_cmd/log_service.c"
+ at_transport_init,
 # 113 "../../../component/common/api/at_cmd/log_service.c"
 };
 # 136 "../../../component/common/api/at_cmd/log_service.c"
@@ -6154,7 +8037,7 @@ void log_service_init(void)
 , ( ( TickType_t ) 0U ), ( ( BaseType_t ) 0 ) ); } };
  xQueueSemaphoreTake( ( log_rx_interrupt_sema ), ( 1/( ( TickType_t ) 1000 / ( ( uint32_t ) 1000 ) ) ) );
 
-
+ log_service_lock_init();
 
  start_log_service();
 }
@@ -6200,8 +8083,8 @@ void* log_handler(char *cmd)
                  ((void *)0)
 # 221 "../../../component/common/api/at_cmd/log_service.c"
                      ;
- char buf[100];
- memset(buf, 0, 100);
+ char buf[1600];
+ memset(buf, 0, 1600);
  char *copy=buf;
  char *token = 
 # 225 "../../../component/common/api/at_cmd/log_service.c" 3 4
@@ -6217,7 +8100,7 @@ void* log_handler(char *cmd)
 
 
 
- strncpy(copy, cmd,100 -1);
+ strncpy(copy, cmd,1600 -1);
 
 
 
@@ -6255,11 +8138,11 @@ int parse_param(char *buf, char **argv)
 {
 
  int argc = 1;
- char str_buf[100];
- memset(str_buf, 0, 100);
+ char str_buf[1600];
+ memset(str_buf, 0, 1600);
  int str_count = 0;
  int buf_cnt = 0;
-    static char temp_buf[100];
+    static char temp_buf[1600];
     char *buf_pos = temp_buf;
     memset(temp_buf, 0, sizeof(temp_buf));
 
@@ -6271,13 +8154,14 @@ int parse_param(char *buf, char **argv)
   goto exit;
  strcpy(temp_buf, buf);
 
+
  while((argc < 12) && (*buf_pos != '\0')) {
   while((*buf_pos == ',') || (*buf_pos == '[') || (*buf_pos == ']')){
    if((*buf_pos == ',') && (*(buf_pos+1) == ',')){
     argv[argc] = 
-# 276 "../../../component/common/api/at_cmd/log_service.c" 3 4
+# 277 "../../../component/common/api/at_cmd/log_service.c" 3 4
                 ((void *)0)
-# 276 "../../../component/common/api/at_cmd/log_service.c"
+# 277 "../../../component/common/api/at_cmd/log_service.c"
                     ;
     argc++;
    }
@@ -6288,7 +8172,7 @@ int parse_param(char *buf, char **argv)
   if(*buf_pos == '\0')
    break;
   else if(*buf_pos == '"'){
-   memset(str_buf,'\0',100);
+   memset(str_buf,'\0',1600);
    str_count = 0;
    buf_cnt = 0;
    *buf_pos = '\0';
@@ -6318,8 +8202,15 @@ int parse_param(char *buf, char **argv)
   while( (*buf_pos != ',')&&(*buf_pos != '\0')&&(*buf_pos != '[')&&(*buf_pos != ']') )
    buf_pos++;
  }
+
+
+
+
+
+
 exit:
  return argc;
+
 }
 
 unsigned char gDbgLevel = AT_DBG_ERROR;
@@ -6333,15 +8224,15 @@ void at_set_debug_mask(unsigned int newDbgFlag)
 {
  gDbgFlag = newDbgFlag;
 }
-# 364 "../../../component/common/api/at_cmd/log_service.c"
+# 372 "../../../component/common/api/at_cmd/log_service.c"
 extern int wext_private_command(const char *ifname, char *cmd, int show_msg);
 int mp_commnad_handler(char *cmd)
 {
  char buf[64];
  char *token = 
-# 368 "../../../component/common/api/at_cmd/log_service.c" 3 4
+# 376 "../../../component/common/api/at_cmd/log_service.c" 3 4
               ((void *)0)
-# 368 "../../../component/common/api/at_cmd/log_service.c"
+# 376 "../../../component/common/api/at_cmd/log_service.c"
                   ;
  memset(buf, 0, 64);
 
@@ -6350,9 +8241,9 @@ int mp_commnad_handler(char *cmd)
  token = __wrap_strtok(buf, " ");
  if(token && (strcmp(buf, "iwpriv") == 0)){
   token = __wrap_strtok(
-# 375 "../../../component/common/api/at_cmd/log_service.c" 3 4
+# 383 "../../../component/common/api/at_cmd/log_service.c" 3 4
                 ((void *)0)
-# 375 "../../../component/common/api/at_cmd/log_service.c"
+# 383 "../../../component/common/api/at_cmd/log_service.c"
                     , "");
   wext_private_command("wlan0", token, 1);
   return 0;
@@ -6375,7 +8266,33 @@ int print_help_handler(char *cmd){
  }
         return -1;
 }
-# 424 "../../../component/common/api/at_cmd/log_service.c"
+
+
+void log_service_lock(void)
+{
+ rtw_down_sema((_sema *)&log_service_sema);
+}
+
+uint32_t log_service_lock_timeout(uint32_t ms)
+{
+ return rtw_down_timeout_sema((_sema *)&log_service_sema, ms);
+}
+
+void log_service_unlock(void)
+{
+ rtw_up_sema((_sema *)&log_service_sema);
+}
+
+void log_service_lock_init(void){
+ rtw_init_sema((_sema *)&log_service_sema, 1);
+}
+
+
+
+
+
+
+
 void log_service(void *param)
 {
 
@@ -6389,12 +8306,12 @@ void log_service(void *param)
  while(1){
   while(xQueueSemaphoreTake( ( log_rx_interrupt_sema ), ( ( TickType_t ) 0xffffffffUL ) ) != ( ( BaseType_t ) 1 ));
 
-
+  log_service_lock();
 
   if(log_handler((char *)log_buf) == 
-# 439 "../../../component/common/api/at_cmd/log_service.c" 3 4
+# 447 "../../../component/common/api/at_cmd/log_service.c" 3 4
                                     ((void *)0)
-# 439 "../../../component/common/api/at_cmd/log_service.c"
+# 447 "../../../component/common/api/at_cmd/log_service.c"
                                         ){
 
    if(mp_commnad_handler((char *)log_buf) < 0)
@@ -6405,7 +8322,7 @@ void log_service(void *param)
 
 
     if(print_help_handler((char *)log_buf) < 0){
-     do{__wrap_printf("\r\nunknown command '%s'", log_buf);}while(0);
+     do{ snprintf(at_string, (1600), "\r\nunknown command '%s'", log_buf); uart_at_send_string(at_string); }while(0);
     }
 
    }
@@ -6420,7 +8337,18 @@ void log_service(void *param)
   do{ if((((1<<8)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ __wrap_printf("\n\r[MEM] After do cmd, available heap %d\n\r", xPortGetFreeHeapSize()); } }while(0);
 
   do{ if((((1<<8)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ __wrap_printf("\r\n\n#\r\n"); } }while(0);
-# 476 "../../../component/common/api/at_cmd/log_service.c"
+
+  if(atcmd_lwip_is_tt_mode())
+   do{ snprintf(at_string, (1600), "\r\n\n> "); uart_at_send_string(at_string); }while(0);
+  else
+   do{ snprintf(at_string, (1600), "\r\n\n# "); uart_at_send_string(at_string); }while(0);
+
+
+  log_service_unlock();
+
+
+
+
  }
 }
 
@@ -6429,11 +8357,11 @@ void start_log_service(void)
 {
  TaskHandle_t CreatedTask;
  int result;
-# 511 "../../../component/common/api/at_cmd/log_service.c"
+# 519 "../../../component/common/api/at_cmd/log_service.c"
  result = xTaskCreate( log_service, ( const char * ) "log_service", 1280, 
-# 511 "../../../component/common/api/at_cmd/log_service.c" 3 4
+# 519 "../../../component/common/api/at_cmd/log_service.c" 3 4
                                                                                   ((void *)0)
-# 511 "../../../component/common/api/at_cmd/log_service.c"
+# 519 "../../../component/common/api/at_cmd/log_service.c"
                                                                                       , ( ( UBaseType_t ) 0U ) + 5, &CreatedTask );
 
 
@@ -6449,33 +8377,33 @@ void fAT_exit(void *arg){
 
  __wrap_printf("\n\rLeave LOG SERVICE");
  vTaskDelete(
-# 525 "../../../component/common/api/at_cmd/log_service.c" 3 4
+# 533 "../../../component/common/api/at_cmd/log_service.c" 3 4
             ((void *)0)
-# 525 "../../../component/common/api/at_cmd/log_service.c"
+# 533 "../../../component/common/api/at_cmd/log_service.c"
                 );
 }
-# 541 "../../../component/common/api/at_cmd/log_service.c"
+# 549 "../../../component/common/api/at_cmd/log_service.c"
 log_item_t at_log_items[ ] = {
       {"AT--", fAT_exit,{
-# 542 "../../../component/common/api/at_cmd/log_service.c" 3 4
+# 550 "../../../component/common/api/at_cmd/log_service.c" 3 4
                         ((void *)0)
-# 542 "../../../component/common/api/at_cmd/log_service.c"
+# 550 "../../../component/common/api/at_cmd/log_service.c"
                             , 
-# 542 "../../../component/common/api/at_cmd/log_service.c" 3 4
+# 550 "../../../component/common/api/at_cmd/log_service.c" 3 4
                               ((void *)0)
-# 542 "../../../component/common/api/at_cmd/log_service.c"
+# 550 "../../../component/common/api/at_cmd/log_service.c"
                                   }},
 
 
 
       {"ATxx", fAT_exit,{
-# 546 "../../../component/common/api/at_cmd/log_service.c" 3 4
+# 554 "../../../component/common/api/at_cmd/log_service.c" 3 4
                         ((void *)0)
-# 546 "../../../component/common/api/at_cmd/log_service.c"
+# 554 "../../../component/common/api/at_cmd/log_service.c"
                             , 
-# 546 "../../../component/common/api/at_cmd/log_service.c" 3 4
+# 554 "../../../component/common/api/at_cmd/log_service.c" 3 4
                               ((void *)0)
-# 546 "../../../component/common/api/at_cmd/log_service.c"
+# 554 "../../../component/common/api/at_cmd/log_service.c"
                                   }}
 };
 void at_log_init(void)

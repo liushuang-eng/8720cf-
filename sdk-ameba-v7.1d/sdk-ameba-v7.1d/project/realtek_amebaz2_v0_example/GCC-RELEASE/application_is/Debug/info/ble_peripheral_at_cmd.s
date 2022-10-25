@@ -958,11 +958,11 @@ ble_peripheral_app_handle_at_cmd:
 	.cfi_endproc
 .LFE166:
 	.size	ble_peripheral_app_handle_at_cmd, .-ble_peripheral_app_handle_at_cmd
-	.section	.rodata.__func__.7791,"a",%progbits
+	.section	.rodata.__func__.7799,"a",%progbits
 	.set	.LANCHOR0,. + 0
-	.type	__func__.7791, %object
-	.size	__func__.7791, 31
-__func__.7791:
+	.type	__func__.7799, %object
+	.size	__func__.7799, 31
+__func__.7799:
 	.ascii	"ble_peripheral_at_cmd_send_msg\000"
 	.section	.rodata.ble_peripheral_at_cmd_auth.str1.1,"aMS",%progbits,1
 .LC2:
@@ -995,23 +995,23 @@ __func__.7791:
 	.ascii	"\000"
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 7 "<built-in>"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 10 "../inc/FreeRTOSConfig.h"
 	.file 11 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
 	.file 13 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
 	.file 14 "../../../component/soc/realtek/8710c/app/stdio_port/stdio_port.h"
 	.file 15 "../../../component/soc/realtek/8710c/app/rtl_printf/include/printf_entry.h"
 	.file 16 "../../../component/soc/realtek/8710c/app/rtl_printf/include/rt_printf.h"
 	.file 17 "../../../component/soc/realtek/8710c/misc/utilities/include/utility.h"
-	.file 18 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 18 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 19 "../../../component/common/api/at_cmd/log_service.h"
 	.file 20 "../../../component/common/api/at_cmd/atcmd_bt.h"
 	.file 21 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap.h"
@@ -1021,7 +1021,7 @@ __func__.7791:
 	.file 25 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap_msg.h"
 	.file 26 "../../../component/common/bluetooth/realtek/sdk/inc/app/app_msg.h"
 	.file 27 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
-	.file 28 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 28 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.file 29 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap_conn_le.h"
 	.file 30 "../../../component/os/freertos/freertos_v10.0.1/Source/include/task.h"
 	.file 31 "../../../component/common/bluetooth/realtek/sdk/inc/os/os_msg.h"
@@ -4470,7 +4470,7 @@ __func__.7791:
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
-	.4byte	__func__.7791
+	.4byte	__func__.7799
 	.uleb128 0x2e
 	.4byte	.LVL18
 	.4byte	0x1cc6
@@ -6668,6 +6668,9 @@ __func__.7791:
 	.ascii	"memmove\000"
 .LASF267:
 	.ascii	"GAP_PARAM_BOND_MIN_KEY_SIZE\000"
+.LASF361:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF337:
 	.ascii	"event\000"
 .LASF241:
@@ -6772,9 +6775,6 @@ __func__.7791:
 	.ascii	"_mbtowc_state\000"
 .LASF0:
 	.ascii	"__int8_t\000"
-.LASF361:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF274:
 	.ascii	"gap_conn_state\000"
 .LASF11:

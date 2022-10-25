@@ -1343,16 +1343,16 @@ user_cmd_init:
 	.ascii	">> Command Parse Init (%s) <<\015\012\000"
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 9 "../../../component/common/bluetooth/realtek/sdk/src/mcu/module/data_uart_cmd/user_cmd_parse.h"
 	.file 10 "../../../component/common/bluetooth/realtek/sdk/src/mcu/module/data_uart_cmd/data_uart.h"
-	.file 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0x13db
@@ -5714,9 +5714,6 @@ user_cmd_init:
 	.ascii	"long int\000"
 .LASF198:
 	.ascii	"user_cmd_collect\000"
-.LASF195:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF52:
 	.ascii	"_flags\000"
 .LASF44:
@@ -5973,6 +5970,9 @@ user_cmd_init:
 	.ascii	"_strtok_last\000"
 .LASF43:
 	.ascii	"_fntypes\000"
+.LASF195:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF98:
 	.ascii	"_add\000"
 .LASF24:

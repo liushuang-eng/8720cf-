@@ -1,6 +1,7 @@
+udp.c:149:1:udp_input_local_match	0	static
 udp.c:87:1:udp_init	8	static
 udp.c:127:1:udp_randomize_local_port	8	static
-udp.c:204:1:udp_input	56	static
+udp.c:204:1:udp_input	72	static
 udp.c:901:1:udp_bind	24	static
 udp.c:680:1:udp_sendto_if_src	48	static
 udp.c:611:1:udp_sendto_if	24	static

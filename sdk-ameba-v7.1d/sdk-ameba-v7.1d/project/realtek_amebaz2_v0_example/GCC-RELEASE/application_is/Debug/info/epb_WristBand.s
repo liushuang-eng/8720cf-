@@ -706,14 +706,14 @@ __func__.6029:
 	.ascii	"epb_mmopen_unpack_wristband_response\000"
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 10 "../../../component/common/application/airsync/1.0.4/epb.h"
 	.file 11 "../../../component/common/application/airsync/1.0.4/epb_WristBand.h"
 	.file 12 "../../../component/common/bluetooth/realtek/sdk/inc/os/os_mem.h"
@@ -4482,6 +4482,9 @@ __func__.6029:
 	.section	.debug_line,"",%progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",%progbits,1
+.LASF199:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF175:
 	.ascii	"request\000"
 .LASF170:
@@ -4550,8 +4553,6 @@ __func__.6029:
 	.ascii	"__tm_hour\000"
 .LASF186:
 	.ascii	"epb_get_string\000"
-.LASF97:
-	.ascii	"_add\000"
 .LASF146:
 	.ascii	"rtc_hour\000"
 .LASF19:
@@ -4828,9 +4829,8 @@ __func__.6029:
 	.ascii	"_getdate_err\000"
 .LASF201:
 	.ascii	"epb_mmopen_unpack_base_response\000"
-.LASF199:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF97:
+	.ascii	"_add\000"
 .LASF178:
 	.ascii	"item_buf\000"
 .LASF47:

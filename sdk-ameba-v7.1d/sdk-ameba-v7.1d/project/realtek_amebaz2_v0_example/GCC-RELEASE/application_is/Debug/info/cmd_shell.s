@@ -474,13 +474,13 @@ prompt_str:
 	.ascii	"$8710c>\000"
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 9 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
 	.file 10 "../../../component/soc/realtek/8710c/app/shell/shell.h"
 	.section	.debug_info,"",%progbits
@@ -3586,6 +3586,9 @@ prompt_str:
 	.section	.debug_line,"",%progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",%progbits,1
+.LASF193:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF151:
 	.ascii	"buf_pos\000"
 .LASF40:
@@ -3654,8 +3657,6 @@ prompt_str:
 	.ascii	"__tm_hour\000"
 .LASF188:
 	.ascii	"buf_size\000"
-.LASF98:
-	.ascii	"_add\000"
 .LASF20:
 	.ascii	"__count\000"
 .LASF170:
@@ -3916,9 +3917,8 @@ prompt_str:
 	.ascii	"hist_buf_sz\000"
 .LASF111:
 	.ascii	"_getdate_err\000"
-.LASF193:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF98:
+	.ascii	"_add\000"
 .LASF179:
 	.ascii	"shell_cmd_buffer\000"
 .LASF48:

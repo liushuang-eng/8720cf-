@@ -3791,17 +3791,17 @@ osdep_service:
 	.word	_freertos_get_current_TaskHandle
 	.text
 .Letext0:
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 11 "<built-in>"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 14 "../inc/FreeRTOSConfig.h"
 	.file 15 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
-	.file 16 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 16 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
 	.file 17 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
 	.file 18 "../../../component/soc/realtek/8710c/app/stdio_port/stdio_port.h"
 	.file 19 "../../../component/soc/realtek/8710c/app/rtl_printf/include/printf_entry.h"
@@ -3810,7 +3810,7 @@ osdep_service:
 	.file 22 "../../../component/os/freertos/freertos_v10.0.1/Source/include/task.h"
 	.file 23 "../../../component/os/freertos/freertos_v10.0.1/Source/include/timers.h"
 	.file 24 "../../../component/os/freertos/freertos_v10.0.1/Source/include/queue.h"
-	.file 25 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 25 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 26 "../../../component/os/freertos/freertos_service.h"
 	.file 27 "../../../component/os/os_dep/include/osdep_service.h"
 	.file 28 "../../../component/soc/realtek/8710c/cmsis/cmsis-core/include/core_armv8mml.h"
@@ -3845,7 +3845,7 @@ osdep_service:
 	.file 57 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
 	.file 58 "../../../component/os/freertos/freertos_v10.0.1/Source/include/portable.h"
 	.file 59 "../../../component/common/mbed/hal/us_ticker_api.h"
-	.file 60 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 60 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0xa54b
@@ -29410,6 +29410,9 @@ osdep_service:
 	.ascii	"ATOMIC_INC_RETURN\000"
 .LASF1019:
 	.ascii	"tx_td_cb_ev\000"
+.LASF1753:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF216:
 	.ascii	"_irqL\000"
 .LASF145:
@@ -30750,9 +30753,6 @@ osdep_service:
 	.ascii	"hal_pwm_set_clk_sel\000"
 .LASF1195:
 	.ascii	"hal_timer_start_periodical\000"
-.LASF1753:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF1536:
 	.ascii	"pstdio_port\000"
 .LASF575:

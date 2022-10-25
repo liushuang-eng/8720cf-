@@ -1625,13 +1625,13 @@ __func__.7688:
 	.ascii	"AirSync_Wristband request...\015\012\000"
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 9 "../../../component/common/application/airsync/1.0.4/epb.h"
 	.file 10 "../../../component/common/application/airsync/1.0.4/epb_MmBp.h"
 	.file 11 "../../../component/common/application/airsync/1.0.4/wechat_airsync_protocol.h"
@@ -1640,7 +1640,7 @@ __func__.7688:
 	.file 14 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/profile/profile_server.h"
 	.file 15 "../../../component/common/bluetooth/realtek/sdk/inc/platform/trace.h"
 	.file 16 "../../../component/common/application/airsync/1.0.4/epb_WristBand.h"
-	.file 17 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 17 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 18 "../../../component/common/bluetooth/realtek/sdk/inc/platform/mem_types.h"
 	.file 19 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
 	.file 20 "../../../component/common/application/airsync/1.0.4/check_endian.h"
@@ -8796,6 +8796,9 @@ __func__.7688:
 	.ascii	"TRACE_MODULE_L2CAP\000"
 .LASF202:
 	.ascii	"has_init_scence\000"
+.LASF419:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF206:
 	.ascii	"has_user_nick_name\000"
 .LASF301:
@@ -8924,9 +8927,6 @@ __func__.7688:
 	.ascii	"EPT_ios\000"
 .LASF333:
 	.ascii	"has_rtc_month\000"
-.LASF419:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF217:
 	.ascii	"InitResponse\000"
 .LASF377:

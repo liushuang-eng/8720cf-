@@ -6,7 +6,7 @@
 #include "atcmd_wifi.h"
 #include "atcmd_lwip.h"
 #include "osdep_service.h"
-
+// #include "config_rsa.h"
 #if CONFIG_USE_POLARSSL
 
 #if ATCMD_SUPPORT_SSL
@@ -1445,7 +1445,7 @@ void fATPD(void *arg){
 
 	if(con_id == 0){
 		if(atcmd_lwip_is_autorecv_mode()){
-			atcmd_lwip_set_autorecv_mode(FALSE);
+			atcmd_lwip_set_autorecv_mode(FALSE);    //断开所有开关的时候，所有自动接收的链接都接受不了
 		}
 		socket_close_all();
 		goto exit;
@@ -1523,17 +1523,36 @@ int atcmd_lwip_send_data(node *curnode, u8 *data, u16 data_sz, struct sockaddr_i
 exit:
 	return error_no;
 }
-
+// typedef struct ns
+// {
+// 	int con_id;
+// 	int sockfd;
+// 	s8_t role;
+// 	int protocol;
+// 	u32_t addr;
+// 	u16_t  port;
+// 	u32_t local_addr;
+// 	u16_t local_port;
+// 	xTaskHandle handletask;
+// 	struct ns* next;
+// 	struct ns* nextseed;
+// #if (ATCMD_VER == ATVER_2) && ATCMD_SUPPORT_SSL
+// 	void *context;
+// #endif
+// } node;
 void fATPT(void *arg){
 
 	int argc;
-	char *argv[MAX_ARGC] = {0};
-	int con_id = INVALID_CON_ID;
+	char *argv[MAX_ARGC] = {0}; //#define MAX_ARGC 12
+	int con_id = INVALID_CON_ID; //#define INVALID_CON_ID		(-1)
 	int error_no = 0;
 	node* curnode = NULL;
 	struct sockaddr_in cli_addr;
 	int data_sz;
-	int data_pos = C_NUM_AT_CMD + C_NUM_AT_CMD_DLT+ strlen(arg) + 1;
+	//#define C_NUM_AT_CMD			4 //"ATxx", 4 characters
+// #define C_NUM_AT_CMD_DLT		1 //"=", 1 charater
+// arg 就是发送的命令
+	int data_pos = C_NUM_AT_CMD + C_NUM_AT_CMD_DLT+ strlen(arg) + 1; //加1 就是还有一个结束符
 	u8 *data = (u8 *)log_buf + data_pos;
 
 	AT_DBG_MSG(AT_FLAG_LWIP, AT_DBG_ALWAYS, 
@@ -1551,14 +1570,14 @@ void fATPT(void *arg){
 		goto exit;
 	}
 
-	data_sz = atoi((char*)argv[1]);
-	if(data_sz > MAX_BUFFER){
+	data_sz = atoi((char*)argv[1]);  
+	if(data_sz > MAX_BUFFER){      //64   <Buffer Size> 超过 ATPT 限制
 		error_no = 2;
 		goto exit;
 	}
 	
 	con_id = atoi((char*)argv[2]);
-	curnode = seek_node(con_id);
+	curnode = seek_node(con_id);  //查找id
 	if(curnode == NULL){
 		error_no = 3;
 		goto exit;
@@ -1579,19 +1598,24 @@ void fATPT(void *arg){
 			goto exit;
 		}
 	}
+	at_printf("\r\n[ATPT] 开始发数据OK,");
 	error_no = atcmd_lwip_send_data(curnode, data, data_sz, cli_addr);
 exit:
 	if(error_no)
 		at_printf("\r\n[ATPT] ERROR:%d,%d", error_no, con_id);
 	else
+	{
 		at_printf("\r\n[ATPT] OK,%d", con_id);
+		at_printf("\r\n[ATPT] 发完数据OK,");
+	}
+		
 	return;
 }
 
 void fATPR(void *arg){
 
-	int argc,con_id = INVALID_CON_ID;
-	char *argv[MAX_ARGC] = {0};
+	int argc,con_id = INVALID_CON_ID; //-1
+	char *argv[MAX_ARGC] = {0}; // MAX_ARGC 最大12字符串
 	int error_no = 0;
 	int recv_size = 0;	
 	int packet_size = 0;
@@ -1599,33 +1623,33 @@ void fATPR(void *arg){
 	u8_t udp_clientaddr[16] = {0};
 	u16_t udp_clientport = 0;
 
-#if defined(EXTEND_ATPR_SIZE) && (EXTEND_ATPR_SIZE == 1)
+#if defined(EXTEND_ATPR_SIZE) && (EXTEND_ATPR_SIZE == 1)  //1
     int total_recv_size = 0;
     int next_expected_size = 0;
     int fetch_counter = 0;
-    char tmpbuf[ATPR_RSVD_HEADER_SIZE];
+    char tmpbuf[ATPR_RSVD_HEADER_SIZE];     //ATPR_RSVD_HEADER_SIZE	 100
     int header_len = 0;
 #endif
 
 	AT_DBG_MSG(AT_FLAG_LWIP, AT_DBG_ALWAYS, 
 		"[ATPR]: _AT_TRANSPORT_RECEIVE_DATA");
 
-	if(atcmd_lwip_is_autorecv_mode()){
+	if(atcmd_lwip_is_autorecv_mode()){      //return (atcmd_lwip_auto_recv == TRUE);
 		AT_DBG_MSG(AT_FLAG_LWIP, AT_DBG_ERROR,
 			"[ATPR] ERROR: Receive changed to auto mode.");
 		error_no = 10;
 		goto exit;
 	}
 	
-	argc = parse_param(arg, argv);
-	if( argc != 3){
+	argc = parse_param(arg, argv);   //分解arg  就是你分解的命令的字符串
+	if( argc != 3){                  //要等于3
 		AT_DBG_MSG(AT_FLAG_LWIP, AT_DBG_ERROR, 
 			"[ATPR] Usage: ATPR =<con_id>,<Buffer Size>\n\r");
-		error_no = 1;
+		error_no = 1;     
 		goto exit;
 	}
 
-	con_id = atoi((char*)argv[1]);
+	con_id = atoi((char*)argv[1]);	
 	if(con_id <= 0 || con_id > NUM_NS){
 		error_no = 9;
 		goto exit;
@@ -1634,8 +1658,8 @@ void fATPR(void *arg){
 	packet_size = atoi((char*)argv[2]);
 
     if (packet_size <= 0
-#if defined(EXTEND_ATPR_SIZE) && (EXTEND_ATPR_SIZE==1)
-        || packet_size > ((rx_buffer_size > MAX_BUFFER) ? rx_buffer_size : MAX_BUFFER)
+#if defined(EXTEND_ATPR_SIZE) && (EXTEND_ATPR_SIZE==1)    
+        || packet_size > ((rx_buffer_size > MAX_BUFFER) ? rx_buffer_size : MAX_BUFFER)  //就是最大只能传输64字节
 #else
         || packet_size > MAX_BUFFER
 #endif
@@ -1647,7 +1671,7 @@ void fATPR(void *arg){
 		goto exit;
 	}
 
-	curnode = seek_node(con_id);
+	curnode = seek_node(con_id);    //对应的id的结构体
 	if(curnode == NULL){
 		error_no = 3;
 		goto exit;
@@ -5399,12 +5423,14 @@ static void atcmd_lwip_receive_task(void *param)
 	while(atcmd_lwip_is_autorecv_mode())
 	{
 		for (i = 0; i < NUM_NS; ++i) {
+			// i=1;
 			node* curnode = NULL;
 			int error_no = 0;
 			int recv_size = 0;	
 			u8_t udp_clientaddr[16] = {0};
 			u16_t udp_clientport = 0;			
 			curnode = tryget_node(i);
+
 			if(curnode == NULL)
 				continue;
 			if((curnode->protocol == NODE_MODE_TCP 
@@ -5445,6 +5471,7 @@ static void atcmd_lwip_receive_task(void *param)
 								recv_size, 
 								curnode->con_id, rx_buffer);
 						at_printf("\r\n[ATPR] OK,%d,%d:", recv_size, curnode->con_id);
+						// at_printf("\r\n[ATPR] OK,ATPK=1时检测的id:%d:", i);
 					}
 					at_print_data(rx_buffer, recv_size);
 					at_printf(STR_END_OF_ATCMD_RET);

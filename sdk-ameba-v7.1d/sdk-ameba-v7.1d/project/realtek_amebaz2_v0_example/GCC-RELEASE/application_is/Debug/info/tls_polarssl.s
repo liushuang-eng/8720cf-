@@ -2012,17 +2012,17 @@ min_heap_size:
 	.ascii	"none\000"
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 7 "<built-in>"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 10 "../../../component/common/drivers/wlan/realtek/include/autoconf.h"
-	.file 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
 	.file 13 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
 	.file 14 "../inc/FreeRTOSConfig.h"
 	.file 15 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
@@ -2030,7 +2030,7 @@ min_heap_size:
 	.file 17 "../../../component/soc/realtek/8710c/app/rtl_printf/include/printf_entry.h"
 	.file 18 "../../../component/soc/realtek/8710c/app/rtl_printf/include/rt_printf.h"
 	.file 19 "../../../component/soc/realtek/8710c/misc/utilities/include/utility.h"
-	.file 20 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 20 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 21 "../../../component/common/api/wifi/rtw_wpa_supplicant/src/utils/wpabuf.h"
 	.file 22 "../../../component/common/api/wifi/rtw_wpa_supplicant/src/crypto/tls.h"
 	.file 23 "../../../component/common/network/ssl/ssl_ram_map/rom/rom_ssl_ram_map.h"
@@ -2054,7 +2054,7 @@ min_heap_size:
 	.file 41 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/debug.h"
 	.file 42 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/net_sockets.h"
 	.file 43 "../../../component/os/freertos/freertos_v10.0.1/Source/include/portable.h"
-	.file 44 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 44 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0x4149
@@ -13352,8 +13352,9 @@ min_heap_size:
 	.ascii	"isIn\000"
 .LASF582:
 	.ascii	"read_timeout\000"
-.LASF516:
-	.ascii	"minor_ver\000"
+.LASF743:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF561:
 	.ascii	"peer_verify_data\000"
 .LASF372:
@@ -14049,9 +14050,6 @@ min_heap_size:
 	.ascii	"key_id\000"
 .LASF28:
 	.ascii	"_Bigint\000"
-.LASF743:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF271:
 	.ascii	"tls_prf\000"
 .LASF409:
@@ -14144,6 +14142,8 @@ min_heap_size:
 	.ascii	"MBEDTLS_CIPHER_DES_CBC\000"
 .LASF323:
 	.ascii	"mbedtls_pk_context\000"
+.LASF516:
+	.ascii	"minor_ver\000"
 .LASF201:
 	.ascii	"TLS_PEER_CERTIFICATE\000"
 .LASF398:

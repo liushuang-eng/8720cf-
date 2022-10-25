@@ -58,11 +58,11 @@ wifi_conf.c:1864:5:wifi_scan_networks_with_ssid	56	static
 wifi_conf.c:1951:5:wifi_scan_networks	24	static
 wifi_conf.c:2029:5:wifi_set_pscan_chan	0	static
 wifi_conf.c:2038:5:wifi_get_setting	32	static
-wifi_conf.c:430:6:restore_wifi_info_to_flash	296	static
+wifi_conf.c:430:6:restore_wifi_info_to_flash	304	static
 wifi_conf.c:518:5:wifi_connect	176	static
 wifi_conf.c:2374:13:wifi_autoreconnect_thread	24	static
 wifi_conf.c:722:5:wifi_connect_bssid	88	static
-wifi_conf.c:2095:5:wifi_show_setting	8	static
+wifi_conf.c:2095:5:wifi_show_setting	24	static
 wifi_conf.c:2171:5:wifi_set_network_mode	0	static
 wifi_conf.c:2179:5:wifi_get_network_mode	0	static
 wifi_conf.c:2187:5:wifi_set_wps_phase	0	static

@@ -901,24 +901,24 @@ __FUNCTION__.9969:
 	.ascii	"\012\015%s xTaskCreate failed\000"
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 7 "<built-in>"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 10 "../inc/FreeRTOSConfig.h"
 	.file 11 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
 	.file 13 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
 	.file 14 "../../../component/soc/realtek/8710c/app/stdio_port/stdio_port.h"
 	.file 15 "../../../component/soc/realtek/8710c/app/rtl_printf/include/printf_entry.h"
 	.file 16 "../../../component/soc/realtek/8710c/app/rtl_printf/include/rt_printf.h"
 	.file 17 "../../../component/soc/realtek/8710c/misc/utilities/include/utility.h"
 	.file 18 "../../../component/os/freertos/freertos_v10.0.1/Source/portable/GCC/ARM_RTL8710C/portmacro.h"
-	.file 19 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 19 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 20 "../../../component/common/network/ssl/ssl_ram_map/rom/rom_ssl_ram_map.h"
 	.file 21 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/platform.h"
 	.file 22 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/md.h"
@@ -929,7 +929,7 @@ __FUNCTION__.9969:
 	.file 27 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/x509_crt.h"
 	.file 28 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/ssl.h"
 	.file 29 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/net_sockets.h"
-	.file 30 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 30 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.file 31 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
 	.file 32 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/debug.h"
 	.file 33 "../../../component/os/freertos/freertos_v10.0.1/Source/include/task.h"
@@ -8087,6 +8087,9 @@ __FUNCTION__.9969:
 	.ascii	"allowed_mds\000"
 .LASF187:
 	.ascii	"float\000"
+.LASF458:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF353:
 	.ascii	"secure_renegotiation\000"
 .LASF227:
@@ -8195,9 +8198,6 @@ __FUNCTION__.9969:
 	.ascii	"_mbtowc_state\000"
 .LASF191:
 	.ascii	"ssl_free\000"
-.LASF458:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF224:
 	.ascii	"MBEDTLS_PK_RSA\000"
 .LASF395:

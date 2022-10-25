@@ -2921,18 +2921,18 @@ __FUNCTION__.22074:
 	.ascii	"\012\015\000"
 	.text
 .Letext0:
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 8 "<built-in>"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h"
-	.file 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
-	.file 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
-	.file 14 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h"
+	.file 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 14 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 15 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
 	.file 16 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/cc.h"
 	.file 17 "../inc/FreeRTOSConfig.h"
@@ -2987,7 +2987,7 @@ __FUNCTION__.22074:
 	.file 66 "../../../component/soc/realtek/8710c/fwlib/include/hal_sys_ctrl.h"
 	.file 67 "../../../component/os/freertos/freertos_v10.0.1/Source/include/portable.h"
 	.file 68 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
-	.file 69 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 69 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.file 70 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/def.h"
 	.file 71 "../../../component/common/mbed/hal_ext/sys_api.h"
 	.file 72 "../../../component/os/freertos/cmsis_os.h"
@@ -28707,8 +28707,9 @@ __FUNCTION__.22074:
 	.ascii	"update_free\000"
 .LASF971:
 	.ascii	"tx_td_cb_ev\000"
-.LASF1222:
-	.ascii	"pflash_dummy_cycle_t\000"
+.LASF1704:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF149:
 	.ascii	"log_buf_type_s\000"
 .LASF155:
@@ -29858,6 +29859,8 @@ __FUNCTION__.22074:
 	.ascii	"hal_gdma_chnl_setting\000"
 .LASF1019:
 	.ascii	"hal_uart_send\000"
+.LASF1222:
+	.ascii	"pflash_dummy_cycle_t\000"
 .LASF739:
 	.ascii	"block_ts\000"
 .LASF1694:
@@ -29966,9 +29969,6 @@ __FUNCTION__.22074:
 	.ascii	"wr_en_cmd\000"
 .LASF1127:
 	.ascii	"hal_timer_start_periodical\000"
-.LASF1704:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF1531:
 	.ascii	"pstdio_port\000"
 .LASF625:

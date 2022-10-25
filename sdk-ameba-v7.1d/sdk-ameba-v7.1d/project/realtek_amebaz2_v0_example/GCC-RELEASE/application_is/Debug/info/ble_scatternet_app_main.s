@@ -684,14 +684,14 @@ scan_rsp_data:
 	.byte	0
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 7 "<built-in>"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 10 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap.h"
 	.file 11 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap_le_types.h"
 	.file 12 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap_storage_le.h"
@@ -704,8 +704,8 @@ scan_rsp_data:
 	.file 19 "../../../component/common/bluetooth/realtek/sdk/example/ble_scatternet/ble_scatternet_app.h"
 	.file 20 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap_conn_le.h"
 	.file 21 "../../../component/common/bluetooth/realtek/sdk/example/ble_scatternet/ble_scatternet_link_mgr.h"
-	.file 22 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
-	.file 23 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 22 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 23 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
 	.file 24 "../../../component/common/drivers/wlan/realtek/include/wifi_constants.h"
 	.file 25 "../inc/FreeRTOSConfig.h"
 	.file 26 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
@@ -720,7 +720,7 @@ scan_rsp_data:
 	.file 35 "../../../component/common/drivers/wlan/realtek/src/osdep/wireless.h"
 	.file 36 "../../../component/common/drivers/wlan/realtek/include/autoconf.h"
 	.file 37 "../../../component/common/api/wifi/wifi_util.h"
-	.file 38 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 38 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 39 "../../../component/common/bluetooth/realtek/sdk/example/ble_scatternet/ble_scatternet_app_task.h"
 	.file 40 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
 	.file 41 "../../../component/common/bluetooth/realtek/sdk/inc/stack/bte.h"
@@ -5407,6 +5407,9 @@ scan_rsp_data:
 	.section	.debug_str,"MS",%progbits,1
 .LASF135:
 	.ascii	"GAP_IO_CAP_NO_INPUT_NO_OUTPUT\000"
+.LASF367:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF24:
 	.ascii	"_flock_t\000"
 .LASF169:
@@ -6026,9 +6029,6 @@ scan_rsp_data:
 	.ascii	"bd_addr\000"
 .LASF308:
 	.ascii	"device_name\000"
-.LASF367:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF315:
 	.ascii	"adv_int_min\000"
 .LASF280:

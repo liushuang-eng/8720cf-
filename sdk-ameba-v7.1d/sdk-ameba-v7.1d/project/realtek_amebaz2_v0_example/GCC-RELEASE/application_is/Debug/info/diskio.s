@@ -357,11 +357,11 @@ get_fattime:
 	.size	get_fattime, .-get_fattime
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 7 "../../../component/common/file_system/fatfs/r0.10c/include/integer.h"
 	.file 8 "../../../component/common/file_system/fatfs/r0.10c/include/diskio.h"
 	.file 9 "../../../component/common/file_system/fatfs/fatfs_ext/inc/ff_driver.h"
@@ -2889,6 +2889,9 @@ get_fattime:
 	.section	.debug_line,"",%progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",%progbits,1
+.LASF152:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF37:
 	.ascii	"_on_exit_args\000"
 .LASF121:
@@ -2931,8 +2934,6 @@ get_fattime:
 	.ascii	"_result\000"
 .LASF30:
 	.ascii	"__tm_hour\000"
-.LASF95:
-	.ascii	"_add\000"
 .LASF17:
 	.ascii	"__count\000"
 .LASF29:
@@ -3141,9 +3142,8 @@ get_fattime:
 	.ascii	"unsigned char\000"
 .LASF108:
 	.ascii	"_getdate_err\000"
-.LASF152:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF95:
+	.ascii	"_add\000"
 .LASF45:
 	.ascii	"__sbuf\000"
 .LASF89:

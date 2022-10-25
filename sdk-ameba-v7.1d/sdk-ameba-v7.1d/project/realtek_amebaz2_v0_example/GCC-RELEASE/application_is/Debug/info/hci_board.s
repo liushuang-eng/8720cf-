@@ -3055,9 +3055,9 @@ baudrates:
 	.ascii	"\015\012==========this is BT MP DRIVER===========,\015"
 	.ascii	"\012 this cut is AMEBAZII %x CUT\015\012\000"
 .LC41:
-	.ascii	"17:28:40\000"
+	.ascii	"17:16:04\000"
 .LC42:
-	.ascii	"Oct 14 2022\000"
+	.ascii	"Oct 19 2022\000"
 .LC43:
 	.ascii	"BT BUILD Date: %s, %s \015\012\000"
 .LC44:
@@ -3140,16 +3140,16 @@ baudrates:
 	.ascii	"\000"
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 7 "<built-in>"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
-	.file 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
 	.file 12 "../../../component/common/bluetooth/realtek/sdk/inc/platform/mem_types.h"
 	.file 13 "../../../component/common/bluetooth/realtek/sdk/inc/platform/trace.h"
 	.file 14 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
@@ -3196,13 +3196,13 @@ baudrates:
 	.file 55 "../../../component/common/drivers/wlan/realtek/include/wifi_constants.h"
 	.file 56 "../../../component/common/drivers/wlan/realtek/src/osdep/wireless.h"
 	.file 57 "../../../component/common/api/wifi/wifi_util.h"
-	.file 58 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 58 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 59 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
 	.file 60 "../../../component/common/bluetooth/realtek/sdk/board/amebaz2/src/bt_board.h"
 	.file 61 "../../../component/common/bluetooth/realtek/sdk/inc/os/os_sched.h"
 	.file 62 "../../../component/common/api/wifi/wifi_conf.h"
 	.file 63 "../../../component/common/drivers/wlan/realtek/src/osdep/bt_intf.h"
-	.file 64 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 64 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.file 65 "../../../component/common/bluetooth/realtek/sdk/inc/os/os_mem.h"
 	.file 66 "../../../component/soc/realtek/8710c/fwlib/include/hal_efuse.h"
 	.file 67 "../../../component/soc/realtek/8710c/misc/driver/efuse_logical_api.h"
@@ -27611,8 +27611,9 @@ baudrates:
 	.ascii	"RESERVED22\000"
 .LASF1077:
 	.ascii	"tx_td_cb_ev\000"
-.LASF1328:
-	.ascii	"pflash_dummy_cycle_t\000"
+.LASF1774:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF1668:
 	.ascii	"uart_baudrate\000"
 .LASF767:
@@ -28848,6 +28849,8 @@ baudrates:
 	.ascii	"hal_gdma_chnl_setting\000"
 .LASF1125:
 	.ascii	"hal_uart_send\000"
+.LASF1328:
+	.ascii	"pflash_dummy_cycle_t\000"
 .LASF745:
 	.ascii	"block_ts\000"
 .LASF1623:
@@ -28958,9 +28961,6 @@ baudrates:
 	.ascii	"wr_en_cmd\000"
 .LASF1233:
 	.ascii	"hal_timer_start_periodical\000"
-.LASF1774:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF1637:
 	.ascii	"pstdio_port\000"
 .LASF631:

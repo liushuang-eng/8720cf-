@@ -256,7 +256,7 @@ void* log_handler(char *cmd)
 
 int parse_param(char *buf, char **argv)
 {
-
+	// printf("\n\rparse_param 1: BUF[%s]\n",buf);
 	int argc = 1;
 	char str_buf[LOG_SERVICE_BUFLEN];
 	memset(str_buf, 0, LOG_SERVICE_BUFLEN);
@@ -269,7 +269,8 @@ int parse_param(char *buf, char **argv)
 	if(buf == NULL)
 		goto exit;
 	strcpy(temp_buf, buf);
-	
+	// printf("\n\rparse_param 2: temp_buf[%s]\n",temp_buf);
+	// printf("\n\rparse_param 3: buf_pos[%s]\n",buf_pos);
 	while((argc < MAX_ARGC) && (*buf_pos != '\0')) {
 		while((*buf_pos == ',') || (*buf_pos == '[') || (*buf_pos == ']')){
 			if((*buf_pos == ',') && (*(buf_pos+1) == ',')){
@@ -313,8 +314,15 @@ int parse_param(char *buf, char **argv)
 		while( (*buf_pos != ',')&&(*buf_pos != '\0')&&(*buf_pos != '[')&&(*buf_pos != ']') )
 			buf_pos++;
 	}
+	// for (size_t i = 0; i <= argc; i++)
+	// {
+	// 	printf("\n\rparse_param 4: argv[%d]:%s\n",i,argv[i]);
+	// }
+	
+
 exit:
 	return argc;
+	
 }
 
 unsigned char  gDbgLevel = AT_DBG_ERROR;

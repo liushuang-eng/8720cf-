@@ -159,4 +159,5 @@
  ../../../component/soc/realtek/8710c/fwlib/include/hal_uart.h \
  ../../../component/soc/realtek/8710c/fwlib/include/hal_lpi.h \
  ../../../component/soc/realtek/8710c/fwlib/include/hal_sce.h \
+ ../../../component/common/api/at_cmd/atcmd_wifi.h \
  ../inc/platform_opts_bt.h

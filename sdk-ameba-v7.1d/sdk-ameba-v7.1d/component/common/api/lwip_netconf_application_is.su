@@ -1,4 +1,4 @@
-lwip_netconf.c:114:6:LwIP_Init	72	static
+lwip_netconf.c:114:6:LwIP_Init	56	static
 lwip_netconf.c:227:9:LwIP_DHCP	72	static
 lwip_netconf.c:463:6:LwIP_ReleaseIP	24	static
 lwip_netconf.c:483:10:LwIP_GetMAC	0	static

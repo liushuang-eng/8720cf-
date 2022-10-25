@@ -2941,20 +2941,20 @@ sdio_dev_pins:
 	.byte	-1
 	.text
 .Letext0:
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 13 "<built-in>"
-	.file 14 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 15 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 14 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 15 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 16 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
 	.file 17 "../../../component/soc/realtek/8710c/cmsis/cmsis-core/include/core_armv8mml.h"
 	.file 18 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/system_rtl8710c.h"
 	.file 19 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/rtl8710c.h"
 	.file 20 "../../../component/soc/realtek/8710c/fwlib/include/hal_api.h"
-	.file 21 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 21 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
 	.file 22 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
 	.file 23 "../../../component/soc/realtek/8710c/app/stdio_port/stdio_port.h"
 	.file 24 "../../../component/soc/realtek/8710c/app/rtl_printf/include/printf_entry.h"
@@ -2971,7 +2971,7 @@ sdio_dev_pins:
 	.file 35 "../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_gpio.h"
 	.file 36 "../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_sdio_dev_type.h"
 	.file 37 "../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_sdio_dev.h"
-	.file 38 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 38 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 39 "../../../component/os/freertos/freertos_service.h"
 	.file 40 "../../../component/os/os_dep/include/osdep_service.h"
 	.file 41 "../../../component/soc/realtek/8710c/fwlib/include/hal_pinmux.h"
@@ -17489,6 +17489,9 @@ sdio_dev_pins:
 	.ascii	"float\000"
 .LASF792:
 	.ascii	"sdio_dev_pins\000"
+.LASF892:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF121:
 	.ascii	"_wcsrtombs_state\000"
 .LASF773:
@@ -17710,9 +17713,6 @@ sdio_dev_pins:
 	.ascii	"dispatch_txagg_pkt\000"
 .LASF351:
 	.ascii	"ptxt_range_list\000"
-.LASF892:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF404:
 	.ascii	"PID_FLASH\000"
 .LASF255:

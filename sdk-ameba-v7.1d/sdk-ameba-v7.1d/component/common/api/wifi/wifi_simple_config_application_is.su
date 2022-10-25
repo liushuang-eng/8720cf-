@@ -15,7 +15,7 @@ wifi_simple_config.c:717:16:SC_parse_scan_result_and_connect	256	static
 wifi_simple_config.c:851:5:SC_connect_to_candidate_AP	40	static
 wifi_simple_config.c:892:16:SC_translate_security	8	static
 wifi_simple_config.c:936:5:sc_set_val2	24	static
-wifi_simple_config.c:986:16:SC_connect_to_AP	224	static
+wifi_simple_config.c:986:16:SC_connect_to_AP	120	static
 wifi_simple_config.c:1575:13:simple_config_channel_control	344	static
 wifi_simple_config.c:1146:6:init_simple_config_lib_config	0	static
 wifi_simple_config.c:1166:5:init_test_data	64	static

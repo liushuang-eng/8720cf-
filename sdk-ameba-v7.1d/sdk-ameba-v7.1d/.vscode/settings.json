@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "atcmd_lwip.h": "c",
+        "atcmd_wifi.h": "c",
+        "log_service.h": "c"
+    },
+    "search.useGlobalIgnoreFiles": true,
+    "search.useParentIgnoreFiles": true
+}

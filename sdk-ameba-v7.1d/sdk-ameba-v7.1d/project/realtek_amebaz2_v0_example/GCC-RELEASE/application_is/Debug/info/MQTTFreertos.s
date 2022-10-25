@@ -1832,18 +1832,18 @@ NetworkConnect:
 	.ascii	"  This certificate has no flags\012\000"
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 7 "<built-in>"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 11 "../inc/FreeRTOSConfig.h"
 	.file 12 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
-	.file 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
 	.file 14 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
 	.file 15 "../../../component/soc/realtek/8710c/app/stdio_port/stdio_port.h"
 	.file 16 "../../../component/soc/realtek/8710c/app/rtl_printf/include/printf_entry.h"
@@ -1853,7 +1853,7 @@ NetworkConnect:
 	.file 20 "../../../component/os/freertos/freertos_v10.0.1/Source/include/queue.h"
 	.file 21 "../../../component/os/freertos/freertos_v10.0.1/Source/include/semphr.h"
 	.file 22 "../../../component/os/freertos/freertos_v10.0.1/Source/include/task.h"
-	.file 23 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 23 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 24 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/cc.h"
 	.file 25 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip4_addr.h"
 	.file 26 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip_addr.h"
@@ -1876,7 +1876,7 @@ NetworkConnect:
 	.file 43 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
 	.file 44 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/def.h"
 	.file 45 "../../../component/os/freertos/freertos_v10.0.1/Source/include/portable.h"
-	.file 46 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 46 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0x3a0d
@@ -12039,6 +12039,9 @@ NetworkConnect:
 	.ascii	"float\000"
 .LASF348:
 	.ascii	"renego_records_seen\000"
+.LASF567:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF392:
 	.ascii	"secure_renegotiation\000"
 .LASF202:
@@ -12187,9 +12190,6 @@ NetworkConnect:
 	.ascii	"_mbtowc_state\000"
 .LASF230:
 	.ascii	"ssl_free\000"
-.LASF567:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF263:
 	.ascii	"MBEDTLS_PK_RSA\000"
 .LASF434:

@@ -568,13 +568,13 @@ bas_cbs:
 	.word	bas_cccd_update_cb
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 9 "../../../component/common/bluetooth/realtek/sdk/inc/platform/trace.h"
 	.file 10 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/profile/gatt.h"
 	.file 11 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap.h"
@@ -4365,8 +4365,9 @@ bas_cbs:
 	.section	.debug_line,"",%progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",%progbits,1
-.LASF257:
-	.ascii	"bas_attr_tbl\000"
+.LASF285:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF162:
 	.ascii	"TRACE_MODULE_FS\000"
 .LASF195:
@@ -4474,8 +4475,6 @@ bas_cbs:
 	.ascii	"uint32_t\000"
 .LASF33:
 	.ascii	"__tm_hour\000"
-.LASF98:
-	.ascii	"_add\000"
 .LASF244:
 	.ascii	"T_FUN_GATT_SERVICE_CBS\000"
 .LASF20:
@@ -4851,9 +4850,8 @@ bas_cbs:
 	.ascii	"TYPE_UPPERSTACK_BDADDR2\000"
 .LASF227:
 	.ascii	"WRITE_LONG\000"
-.LASF285:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF98:
+	.ascii	"_add\000"
 .LASF224:
 	.ascii	"WRITE_REQUEST\000"
 .LASF281:
@@ -4870,6 +4868,8 @@ bas_cbs:
 	.ascii	"TRACE_MODULE_IR\000"
 .LASF92:
 	.ascii	"_glue\000"
+.LASF257:
+	.ascii	"bas_attr_tbl\000"
 .LASF222:
 	.ascii	"bond_storage_num\000"
 .LASF178:

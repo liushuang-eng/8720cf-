@@ -1630,18 +1630,18 @@ message_id:
 	.space	2
 	.text
 .Letext0:
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 8 "<built-in>"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
-	.file 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
-	.file 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
-	.file 14 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 14 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h"
 	.file 15 "../../../component/common/network/coap/include/sn_coap_header.h"
 	.file 16 "../../../component/common/network/coap/include/sn_coap_header_internal.h"
 	.file 17 "../inc/FreeRTOSConfig.h"
@@ -1661,7 +1661,7 @@ message_id:
 	.file 31 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/errno.h"
 	.file 32 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/netdb.h"
 	.file 33 "../../../component/common/network/coap/include/sn_coap_protocol_internal.h"
-	.file 34 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 34 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.file 35 "../../../component/common/network/coap/include/sn_coap_ameba_port.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
@@ -9251,8 +9251,9 @@ message_id:
 	.section	.debug_str,"MS",%progbits,1
 .LASF57:
 	.ascii	"__sFILE\000"
-.LASF402:
-	.ascii	"dst_packet_data_ptr\000"
+.LASF440:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF156:
 	.ascii	"COAP_MSG_CODE_REQUEST_PUT\000"
 .LASF27:
@@ -9688,8 +9689,6 @@ message_id:
 	.ascii	"memcmp_s\000"
 .LASF12:
 	.ascii	"long long int\000"
-.LASF141:
-	.ascii	"uint_fast8_t\000"
 .LASF341:
 	.ascii	"in6addr_any\000"
 .LASF55:
@@ -9748,6 +9747,8 @@ message_id:
 	.ascii	"resending_intervall\000"
 .LASF16:
 	.ascii	"long double\000"
+.LASF402:
+	.ascii	"dst_packet_data_ptr\000"
 .LASF349:
 	.ascii	"param\000"
 .LASF45:
@@ -10000,9 +10001,8 @@ message_id:
 	.ascii	"_nexttmp\000"
 .LASF347:
 	.ascii	"send_msg_ptr\000"
-.LASF440:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF141:
+	.ascii	"uint_fast8_t\000"
 .LASF428:
 	.ascii	"ns_list_remove_\000"
 .LASF296:

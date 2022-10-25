@@ -1094,17 +1094,17 @@ MQTTPacket_names:
 	.ascii	"DISCONNECT\000"
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 7 "../../../component/common/application/mqtt/MQTTPacket/MQTTPacket.h"
 	.file 8 "../../../component/common/application/mqtt/MQTTPacket/MQTTConnect.h"
 	.file 9 "../../../component/common/application/mqtt/MQTTPacket/MQTTPublish.h"
 	.file 10 "../../../component/common/application/mqtt/MQTTPacket/MQTTSubscribe.h"
 	.file 11 "../../../component/common/application/mqtt/MQTTPacket/MQTTUnsubscribe.h"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0x189a
@@ -6107,6 +6107,9 @@ MQTTPacket_names:
 	.section	.debug_line,"",%progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",%progbits,1
+.LASF203:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF160:
 	.ascii	"password\000"
 .LASF178:
@@ -6181,8 +6184,6 @@ MQTTPacket_names:
 	.ascii	"__tm_hour\000"
 .LASF186:
 	.ascii	"strindex\000"
-.LASF95:
-	.ascii	"_add\000"
 .LASF205:
 	.ascii	"msgTypes\000"
 .LASF17:
@@ -6453,9 +6454,8 @@ MQTTPacket_names:
 	.ascii	"retained\000"
 .LASF135:
 	.ascii	"PINGRESP\000"
-.LASF203:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF95:
+	.ascii	"_add\000"
 .LASF189:
 	.ascii	"MQTTStringFormat_connect\000"
 .LASF45:

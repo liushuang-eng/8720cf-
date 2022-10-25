@@ -325,20 +325,20 @@ jtag_pins:
 	.byte	4
 	.text
 .Letext0:
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 8 "<built-in>"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 11 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
 	.file 12 "../../../component/soc/realtek/8710c/cmsis/cmsis-core/include/core_armv8mml.h"
 	.file 13 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/system_rtl8710c.h"
 	.file 14 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/rtl8710c.h"
 	.file 15 "../../../component/soc/realtek/8710c/fwlib/include/hal_api.h"
-	.file 16 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 16 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
 	.file 17 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
 	.file 18 "../../../component/soc/realtek/8710c/app/stdio_port/stdio_port.h"
 	.file 19 "../../../component/soc/realtek/8710c/app/rtl_printf/include/printf_entry.h"
@@ -8628,8 +8628,6 @@ jtag_pins:
 	.ascii	"config_debug_err\000"
 .LASF695:
 	.ascii	"hal_gpio_port_dir\000"
-.LASF541:
-	.ascii	"rdsr3\000"
 .LASF174:
 	.ascii	"tfnf\000"
 .LASF591:
@@ -9185,8 +9183,9 @@ jtag_pins:
 	.ascii	"_sign\000"
 .LASF217:
 	.ascii	"rxuicr_b\000"
-.LASF262:
-	.ascii	"wr_octal_cmd\000"
+.LASF751:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF121:
 	.ascii	"_wcsrtombs_state\000"
 .LASF734:
@@ -9365,9 +9364,8 @@ jtag_pins:
 	.ascii	"txoicr\000"
 .LASF539:
 	.ascii	"rdsr2\000"
-.LASF751:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF541:
+	.ascii	"rdsr3\000"
 .LASF529:
 	.ascii	"dc_2read\000"
 .LASF424:
@@ -9833,4 +9831,6 @@ jtag_pins:
 	.ascii	"ctrlr1_b\000"
 .LASF746:
 	.ascii	"hal_flash_return_spi\000"
+.LASF262:
+	.ascii	"wr_octal_cmd\000"
 	.ident	"GCC: (Realtek ASDK-6.5.0 Build 3215) 6.5.0"

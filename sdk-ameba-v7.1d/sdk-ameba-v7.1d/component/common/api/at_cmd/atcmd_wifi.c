@@ -2097,14 +2097,14 @@ void fATPN(void *arg)
 	char empty_bssid[6] = {0}, assoc_by_bssid = 0;
 	u8 connect_channel;
 	u8 pscan_config;
-
+	at_printf("\r\n[ATPN1] OK");	
 	if(!arg){
 		AT_DBG_MSG(AT_FLAG_WIFI, AT_DBG_ERROR,
 			"\r\n[ATPN] Usage : ATPN=<ssid>,<pwd>[,<key_id>,<bssid>]");
 		error_no = 1;
 		goto exit;
 	}
-
+	at_printf("\r\n[ATPN2] OK");
 	argc = parse_param(arg, argv);
 	if( (argc < 2) || (argc > 5) ){
 		//at_printf("\r\n[ATPN] ERROR : command format error");

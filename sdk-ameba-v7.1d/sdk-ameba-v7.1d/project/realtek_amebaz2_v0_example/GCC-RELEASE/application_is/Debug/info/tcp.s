@@ -592,7 +592,7 @@ tcp_update_rcv_ann_wnd:
 	.cfi_offset 6, -8
 	.cfi_offset 14, -4
 	.loc 1 763 0
-	movw	r6, #1460
+	movw	r6, #2920
 	.loc 1 761 0
 	ldrh	r5, [r0, #40]
 	.loc 1 763 0
@@ -665,7 +665,7 @@ tcp_recved:
 	add	r1, r1, r3
 .LVL64:
 	.loc 1 803 0
-	movw	r3, #2920
+	movw	r3, #5840
 	.loc 1 802 0
 	uxth	r1, r1
 	.loc 1 803 0
@@ -676,7 +676,7 @@ tcp_recved:
 	bls	.L100
 .L103:
 	.loc 1 804 0
-	movw	r3, #2920
+	movw	r3, #5840
 	strh	r3, [r4, #40]	@ movhi
 .L101:
 	.loc 1 817 0
@@ -685,7 +685,7 @@ tcp_recved:
 	bl	tcp_update_rcv_ann_wnd
 .LVL66:
 	.loc 1 823 0
-	movw	r3, #729
+	movw	r3, #1459
 	cmp	r0, r3
 	ble	.L99
 .LVL67:
@@ -1910,7 +1910,7 @@ tcp_close_shutdown:
 	ldr	r3, [r4, #116]
 	cbnz	r3, .L264
 	.loc 1 268 0 discriminator 1
-	movw	r3, #2920
+	movw	r3, #5840
 	ldrh	r2, [r4, #40]
 	cmp	r2, r3
 	beq	.L262
@@ -2326,7 +2326,7 @@ tcp_process_refused_data:
 .LBB59:
 .LBB60:
 	.loc 1 1361 0
-	movw	r2, #2920
+	movw	r2, #5840
 	ldrh	r3, [r4, #40]
 	.loc 1 1364 0
 	ldr	r6, [r4, #128]
@@ -3201,7 +3201,7 @@ tcp_alloc:
 	bl	memset
 .LVL316:
 	.loc 1 1631 0
-	movw	r2, #2920
+	movw	r2, #5840
 	strh	r2, [r4, #42]	@ movhi
 	strh	r2, [r4, #40]	@ movhi
 	.loc 1 1632 0
@@ -3209,54 +3209,54 @@ tcp_alloc:
 	strb	r2, [r4, #10]
 	.loc 1 1635 0
 	mov	r2, #536
+	.loc 1 1628 0
+	movw	r3, #7300
+	.loc 1 1635 0
 	strh	r2, [r4, #50]	@ movhi
 	.loc 1 1636 0
 	movs	r2, #6
 	.loc 1 1628 0
-	movw	r3, #7300
+	strh	r3, [r4, #96]	@ movhi
+	.loc 1 1649 0
+	strh	r3, [r4, #74]	@ movhi
+	.loc 1 1652 0
+	ldr	r3, .L429+12
 	.loc 1 1636 0
 	strh	r2, [r4, #64]	@ movhi
+	.loc 1 1652 0
+	str	r3, [r4, #128]
+	.loc 1 1656 0
+	movw	r3, #10000
 	.loc 1 1637 0
 	strh	r2, [r4, #62]	@ movhi
 	.loc 1 1638 0
 	movw	r2, #65535
-	.loc 1 1628 0
-	strh	r3, [r4, #96]	@ movhi
-	.loc 1 1638 0
-	strh	r2, [r4, #48]	@ movhi
-	.loc 1 1649 0
-	strh	r3, [r4, #74]	@ movhi
-	.loc 1 1639 0
-	movs	r2, #1
-	.loc 1 1652 0
-	ldr	r3, .L429+12
-	.loc 1 1639 0
-	strh	r2, [r4, #72]	@ movhi
-	.loc 1 1652 0
-	str	r3, [r4, #128]
-	.loc 1 1656 0
-	ldr	r3, .L429+16
-	.loc 1 1640 0
-	ldr	r2, [r5]
 	.loc 1 1656 0
 	str	r3, [r4, #144]
 	.loc 1 1659 0
-	ldr	r3, .L429+20
-	.loc 1 1640 0
-	str	r2, [r4, #32]
+	mov	r3, #1000
+	.loc 1 1638 0
+	strh	r2, [r4, #48]	@ movhi
+	.loc 1 1639 0
+	movs	r2, #1
 	.loc 1 1659 0
 	str	r3, [r4, #148]
 	.loc 1 1660 0
-	movs	r3, #9
-	.loc 1 1641 0
-	ldr	r2, .L429+24
+	movs	r3, #10
+	.loc 1 1639 0
+	strh	r2, [r4, #72]	@ movhi
+	.loc 1 1640 0
+	ldr	r2, [r5]
 	.loc 1 1627 0
 	strb	r6, [r4, #21]
+	.loc 1 1640 0
+	str	r2, [r4, #32]
 	.loc 1 1641 0
-	ldrb	r2, [r2]	@ zero_extendqisi2
+	ldr	r2, .L429+16
 	.loc 1 1660 0
 	str	r3, [r4, #152]
 	.loc 1 1641 0
+	ldrb	r2, [r2]	@ zero_extendqisi2
 	strb	r2, [r4, #29]
 .L407:
 	.loc 1 1664 0
@@ -3312,8 +3312,6 @@ tcp_alloc:
 	.word	tcp_tw_pcbs
 	.word	tcp_active_pcbs
 	.word	tcp_recv_null
-	.word	7200000
-	.word	75000
 	.word	.LANCHOR3
 .LBE78:
 .LBE80:
@@ -3540,7 +3538,7 @@ tcp_connect:
 	subs	r0, r0, #1
 .LVL349:
 	.loc 1 965 0
-	movw	r3, #2920
+	movw	r3, #5840
 	.loc 1 958 0
 	movs	r2, #0
 	.loc 1 960 0
@@ -3964,12 +3962,12 @@ tcp_state_str:
 	.word	.LC10
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 8 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/cc.h"
 	.file 9 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/priv/memp_priv.h"
 	.file 10 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/memp.h"
@@ -13354,6 +13352,9 @@ tcp_state_str:
 	.section	.debug_line,"",%progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",%progbits,1
+.LASF431:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF402:
 	.ascii	"shut_tx\000"
 .LASF391:
@@ -13530,8 +13531,6 @@ tcp_state_str:
 	.ascii	"tcp_active_pcbs_changed\000"
 .LASF240:
 	.ascii	"rcv_ann_wnd\000"
-.LASF96:
-	.ascii	"_add\000"
 .LASF297:
 	.ascii	"accept\000"
 .LASF406:
@@ -14088,9 +14087,8 @@ tcp_state_str:
 	.ascii	"keep_idle\000"
 .LASF231:
 	.ascii	"callback_arg\000"
-.LASF431:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF96:
+	.ascii	"_add\000"
 .LASF341:
 	.ascii	"tcp_arg\000"
 .LASF324:

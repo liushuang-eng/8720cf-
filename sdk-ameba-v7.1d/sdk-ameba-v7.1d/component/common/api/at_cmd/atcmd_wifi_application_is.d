@@ -57,6 +57,9 @@
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/memp.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/priv/memp_std.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/priv/memp_priv.h \
+ ../../../component/common/drivers/wlan/realtek/include/wifi_structures.h \
+ ../../../component/common/drivers/wlan/realtek/include/wifi_constants.h \
+ ../../../component/common/example/wlan_fast_connect/example_wlan_fast_connect.h \
  ../../../component/common/network/dhcp/dhcps.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/udp.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip.h \
@@ -73,11 +76,88 @@
  ../../../component/common/test/wlan/wlan_test_inc.h \
  ../../../component/common/api/wifi/wifi_conf.h \
  ../../../component/common/drivers/wlan/realtek/include/wifi_constants.h \
- ../../../component/common/drivers/wlan/realtek/include/wifi_structures.h \
- ../../../component/common/drivers/wlan/realtek/include/wifi_constants.h \
  ../../../component/common/api/wifi/wifi_util.h \
  ../../../component/common/drivers/wlan/realtek/src/osdep/wireless.h \
  ../../../component/common/drivers/wlan/realtek/src/osdep/wlan_intf.h \
  ../../../component/common/api/wifi/wifi_ind.h \
  ../../../component/common/api/wifi/wifi_conf.h \
- ../../../component/common/api/wifi/wifi_util.h ../inc/platform_opts_bt.h
+ ../../../component/common/api/wifi/wifi_util.h \
+ ../../../component/common/mbed/hal_ext/flash_api.h \
+ ../../../component/common/mbed/targets/hal/rtl8710c/device.h \
+ ../../../component/common/mbed/targets/hal/rtl8710c/objects.h \
+ ../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/cmsis.h \
+ ../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/platform_conf.h \
+ ../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h \
+ ../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/rtl8710c.h \
+ ../../../component/soc/realtek/8710c/cmsis/cmsis-core/include/core_armv8mml.h \
+ ../../../component/soc/realtek/8710c/cmsis/cmsis-core/include/cmsis_version.h \
+ ../../../component/soc/realtek/8710c/cmsis/cmsis-core/include/cmsis_compiler.h \
+ ../../../component/soc/realtek/8710c/cmsis/cmsis-core/include/mpu_armv8.h \
+ ../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/system_rtl8710c.h \
+ ../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/section_config.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_api.h \
+ ../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/rtl8710c_irq.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_syson_ctrl.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_vendor_ctrl.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_peri_id.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_pin_name.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_cache.h \
+ ../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/core_tm9_cache.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_gdma.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_uart.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_uart_type.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_timer.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_tg_type.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_tm_type.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_pwm.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_timer.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_pwm_comm_type.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_pwm_type.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_flash.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_spic.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_ssi.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_gpio.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_gpio_type.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_lpi.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_sce.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_sce_type.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_misc.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_pinmux.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_pin_name.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_i2c.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_i2c_type.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_efuse.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_sdio_dev.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/rtl8710c_sdio_dev_type.h \
+ ../../../component/os/freertos/cmsis_os.h \
+ ../../../component/os/freertos/freertos_v10.0.1/Source/include/timers.h \
+ ../../../component/os/freertos/freertos_v10.0.1/Source/include/task.h \
+ ../../../component/os/freertos/freertos_v10.0.1/Source/include/event_groups.h \
+ ../../../component/os/freertos/freertos_v10.0.1/Source/include/timers.h \
+ ../../../component/common/mbed/targets/hal/rtl8710c/PortNames.h \
+ ../../../component/common/mbed/targets/hal/rtl8710c/PinNames.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_api.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_syson.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_cache.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_crypto.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_efuse.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_flash.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_gdma.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_gpio.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_i2c.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_irq.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_misc.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_pinmux.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_pwm.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_spic.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_ssi.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_timer.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_uart.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_lpi.h \
+ ../../../component/soc/realtek/8710c/fwlib/include/hal_sce.h \
+ ../../../component/os/os_dep/include/device_lock.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/inet.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/errno.h \
+ ../inc/platform_opts_bt.h

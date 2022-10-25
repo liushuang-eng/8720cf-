@@ -4800,15 +4800,15 @@ x509_crt_verify_strings:
 	.word	0
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 9 "../../../component/common/network/ssl/ssl_ram_map/rom/rom_ssl_ram_map.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 11 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/asn1.h"
 	.file 12 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/md.h"
 	.file 13 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/pk.h"
@@ -4817,8 +4817,8 @@ x509_crt_verify_strings:
 	.file 16 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/x509_crt.h"
 	.file 17 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/pem.h"
 	.file 18 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/platform.h"
-	.file 19 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
-	.file 20 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 19 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 20 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
 	.file 21 "../../../component/common/network/ssl/mbedtls-2.4.0/include/mbedtls/oid.h"
 	.file 22 "../../../component/os/os_dep/include/device_lock.h"
 	.section	.debug_info,"",%progbits
@@ -20016,6 +20016,9 @@ x509_crt_verify_strings:
 	.section	.debug_line,"",%progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",%progbits,1
+.LASF376:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF261:
 	.ascii	"parent\000"
 .LASF291:
@@ -20180,8 +20183,6 @@ x509_crt_verify_strings:
 	.ascii	"sig_opts\000"
 .LASF356:
 	.ascii	"strstr\000"
-.LASF98:
-	.ascii	"_add\000"
 .LASF354:
 	.ascii	"device_mutex_unlock\000"
 .LASF20:
@@ -20668,9 +20669,8 @@ x509_crt_verify_strings:
 	.ascii	"need_ca_bit\000"
 .LASF346:
 	.ascii	"mbedtls_x509_dn_gets\000"
-.LASF376:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF98:
+	.ascii	"_add\000"
 .LASF357:
 	.ascii	"mbedtls_asn1_get_tag\000"
 .LASF198:

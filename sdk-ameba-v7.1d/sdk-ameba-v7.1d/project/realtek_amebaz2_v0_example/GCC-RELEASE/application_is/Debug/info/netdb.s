@@ -591,54 +591,54 @@ lwip_getaddrinfo:
 .LFE149:
 	.size	lwip_getaddrinfo, .-lwip_getaddrinfo
 	.comm	h_errno,4,4
-	.section	.bss.s_aliases.7794,"aw",%nobits
+	.section	.bss.s_aliases.7795,"aw",%nobits
 	.align	2
 	.set	.LANCHOR4,. + 0
-	.type	s_aliases.7794, %object
-	.size	s_aliases.7794, 4
-s_aliases.7794:
+	.type	s_aliases.7795, %object
+	.size	s_aliases.7795, 4
+s_aliases.7795:
 	.space	4
-	.section	.bss.s_hostent.7793,"aw",%nobits
+	.section	.bss.s_hostent.7794,"aw",%nobits
 	.align	2
 	.set	.LANCHOR0,. + 0
-	.type	s_hostent.7793, %object
-	.size	s_hostent.7793, 20
-s_hostent.7793:
+	.type	s_hostent.7794, %object
+	.size	s_hostent.7794, 20
+s_hostent.7794:
 	.space	20
-	.section	.bss.s_hostent_addr.7795,"aw",%nobits
+	.section	.bss.s_hostent_addr.7796,"aw",%nobits
 	.align	2
 	.set	.LANCHOR1,. + 0
-	.type	s_hostent_addr.7795, %object
-	.size	s_hostent_addr.7795, 4
-s_hostent_addr.7795:
+	.type	s_hostent_addr.7796, %object
+	.size	s_hostent_addr.7796, 4
+s_hostent_addr.7796:
 	.space	4
-	.section	.bss.s_hostname.7797,"aw",%nobits
+	.section	.bss.s_hostname.7798,"aw",%nobits
 	.set	.LANCHOR3,. + 0
-	.type	s_hostname.7797, %object
-	.size	s_hostname.7797, 257
-s_hostname.7797:
+	.type	s_hostname.7798, %object
+	.size	s_hostname.7798, 257
+s_hostname.7798:
 	.space	257
-	.section	.bss.s_phostent_addr.7796,"aw",%nobits
+	.section	.bss.s_phostent_addr.7797,"aw",%nobits
 	.align	2
 	.set	.LANCHOR2,. + 0
-	.type	s_phostent_addr.7796, %object
-	.size	s_phostent_addr.7796, 8
-s_phostent_addr.7796:
+	.type	s_phostent_addr.7797, %object
+	.size	s_phostent_addr.7797, 8
+s_phostent_addr.7797:
 	.space	8
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 7 "<built-in>"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
-	.file 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
-	.file 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 14 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
 	.file 15 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/cc.h"
 	.file 16 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip4_addr.h"
@@ -658,7 +658,7 @@ s_phostent_addr.7796:
 	.file 30 "../../../component/soc/realtek/8710c/misc/utilities/include/utility.h"
 	.file 31 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/dns.h"
 	.file 32 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/def.h"
-	.file 33 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 33 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.file 34 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
@@ -3494,7 +3494,7 @@ s_phostent_addr.7796:
 	.4byte	0xc0d
 	.byte	0x5
 	.byte	0x3
-	.4byte	s_hostent.7793
+	.4byte	s_hostent.7794
 	.uleb128 0x35
 	.4byte	.LASF300
 	.byte	0x1
@@ -3502,7 +3502,7 @@ s_phostent_addr.7796:
 	.4byte	0x5a0
 	.byte	0x5
 	.byte	0x3
-	.4byte	s_aliases.7794
+	.4byte	s_aliases.7795
 	.uleb128 0x35
 	.4byte	.LASF301
 	.byte	0x1
@@ -3510,7 +3510,7 @@ s_phostent_addr.7796:
 	.4byte	0x9d7
 	.byte	0x5
 	.byte	0x3
-	.4byte	s_hostent_addr.7795
+	.4byte	s_hostent_addr.7796
 	.uleb128 0x35
 	.4byte	.LASF302
 	.byte	0x1
@@ -3518,7 +3518,7 @@ s_phostent_addr.7796:
 	.4byte	0x131d
 	.byte	0x5
 	.byte	0x3
-	.4byte	s_phostent_addr.7796
+	.4byte	s_phostent_addr.7797
 	.uleb128 0x35
 	.4byte	.LASF303
 	.byte	0x1
@@ -3526,7 +3526,7 @@ s_phostent_addr.7796:
 	.4byte	0x173b
 	.byte	0x5
 	.byte	0x3
-	.4byte	s_hostname.7797
+	.4byte	s_hostname.7798
 	.uleb128 0x32
 	.4byte	.LVL1
 	.4byte	0x17a3
@@ -5380,6 +5380,9 @@ s_phostent_addr.7796:
 	.ascii	"s_phostent_addr\000"
 .LASF310:
 	.ascii	"memp_free\000"
+.LASF314:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF143:
 	.ascii	"addr\000"
 .LASF288:
@@ -5462,9 +5465,6 @@ s_phostent_addr.7796:
 	.ascii	"__wchb\000"
 .LASF110:
 	.ascii	"_mbtowc_state\000"
-.LASF314:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF165:
 	.ascii	"ERR_ISCONN\000"
 .LASF212:

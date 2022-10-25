@@ -324,7 +324,7 @@ _bt_uart_bridge_irq:
 	ldr	r3, .L64+8
 	.loc 1 230 0
 	mov	r1, r5
-	movs	r2, #100
+	mov	r2, #1600
 	ldr	r0, .L64+12
 .LVL12:
 	.loc 1 229 0
@@ -773,17 +773,17 @@ uart_parity:
 	.ascii	"ATM2=bridge,close\000"
 	.text
 .Letext0:
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 8 "<built-in>"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
-	.file 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
-	.file 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 14 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
 	.file 15 "../inc/FreeRTOSConfig.h"
 	.file 16 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
@@ -825,11 +825,11 @@ uart_parity:
 	.file 52 "../../../component/common/api/at_cmd/log_service.h"
 	.file 53 "../../../component/os/freertos/freertos_service.h"
 	.file 54 "../../../component/common/bluetooth/realtek/sdk/board/common/inc/hci_uart.h"
-	.file 55 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 55 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.file 56 "../../../component/os/os_dep/include/osdep_service.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
-	.4byte	0x7933
+	.4byte	0x7935
 	.2byte	0x3
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
@@ -15615,10 +15615,10 @@ uart_parity:
 	.4byte	0x162
 	.uleb128 0x9
 	.4byte	0x5cc
-	.4byte	0x740f
-	.uleb128 0xa
+	.4byte	0x7410
+	.uleb128 0x33
 	.4byte	0x124
-	.byte	0x63
+	.2byte	0x63f
 	.byte	0
 	.uleb128 0x22
 	.4byte	.LASF148
@@ -15641,7 +15641,7 @@ uart_parity:
 	.4byte	0x4867
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x33
+	.uleb128 0x34
 	.4byte	.LASF1402
 	.byte	0x1
 	.byte	0x15
@@ -15649,7 +15649,7 @@ uart_parity:
 	.byte	0x5
 	.byte	0x3
 	.4byte	baud_0
-	.uleb128 0x33
+	.uleb128 0x34
 	.4byte	.LASF1403
 	.byte	0x1
 	.byte	0x17
@@ -15657,7 +15657,7 @@ uart_parity:
 	.byte	0x5
 	.byte	0x3
 	.4byte	uart_parity
-	.uleb128 0x33
+	.uleb128 0x34
 	.4byte	.LASF1404
 	.byte	0x1
 	.byte	0x18
@@ -15665,7 +15665,7 @@ uart_parity:
 	.byte	0x5
 	.byte	0x3
 	.4byte	check_byte_num
-	.uleb128 0x33
+	.uleb128 0x34
 	.4byte	.LASF1405
 	.byte	0x1
 	.byte	0x3d
@@ -15673,7 +15673,7 @@ uart_parity:
 	.byte	0x5
 	.byte	0x3
 	.4byte	log_flag
-	.uleb128 0x34
+	.uleb128 0x35
 	.byte	0x1
 	.4byte	.LASF1406
 	.byte	0x1
@@ -15684,142 +15684,142 @@ uart_parity:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x75aa
-	.uleb128 0x35
+	.4byte	0x75ab
+	.uleb128 0x36
 	.ascii	"tx\000"
 	.byte	0x1
 	.2byte	0x15d
 	.4byte	0x71d1
 	.4byte	.LLST6
-	.uleb128 0x35
+	.uleb128 0x36
 	.ascii	"rx\000"
 	.byte	0x1
 	.2byte	0x15d
 	.4byte	0x71d1
 	.4byte	.LLST7
-	.uleb128 0x36
-	.4byte	0x78bf
+	.uleb128 0x37
+	.4byte	0x78c1
 	.4byte	.LBB34
 	.4byte	.LBE34
 	.byte	0x1
 	.2byte	0x163
-	.4byte	0x74d4
-	.uleb128 0x37
-	.4byte	0x78d0
+	.4byte	0x74d5
 	.uleb128 0x38
+	.4byte	0x78d2
+	.uleb128 0x39
 	.4byte	.LVL31
 	.byte	0x3
 	.byte	0x74
 	.sleb128 4
 	.byte	0x6
 	.byte	0
-	.uleb128 0x36
-	.4byte	0x7897
+	.uleb128 0x37
+	.4byte	0x7899
 	.4byte	.LBB36
 	.4byte	.LBE36
 	.byte	0x1
 	.2byte	0x166
-	.4byte	0x7500
-	.uleb128 0x37
-	.4byte	0x78a8
-	.uleb128 0x39
-	.4byte	0x78b3
-	.4byte	.LLST8
+	.4byte	0x7501
 	.uleb128 0x38
+	.4byte	0x78aa
+	.uleb128 0x3a
+	.4byte	0x78b5
+	.4byte	.LLST8
+	.uleb128 0x39
 	.4byte	.LVL33
 	.byte	0x3
 	.byte	0x74
 	.sleb128 12
 	.byte	0x6
 	.byte	0
-	.uleb128 0x36
-	.4byte	0x7859
+	.uleb128 0x37
+	.4byte	0x785b
 	.4byte	.LBB38
 	.4byte	.LBE38
 	.byte	0x1
 	.2byte	0x16a
-	.4byte	0x7548
-	.uleb128 0x37
-	.4byte	0x786a
-	.uleb128 0x39
-	.4byte	0x7875
-	.4byte	.LLST9
-	.uleb128 0x39
-	.4byte	0x788b
-	.4byte	.LLST10
-	.uleb128 0x39
-	.4byte	0x7880
-	.4byte	.LLST11
+	.4byte	0x7549
+	.uleb128 0x38
+	.4byte	0x786c
 	.uleb128 0x3a
+	.4byte	0x7877
+	.4byte	.LLST9
+	.uleb128 0x3a
+	.4byte	0x788d
+	.4byte	.LLST10
+	.uleb128 0x3a
+	.4byte	0x7882
+	.4byte	.LLST11
+	.uleb128 0x3b
 	.4byte	.LVL35
 	.byte	0x2
 	.byte	0x75
 	.sleb128 0
-	.uleb128 0x3b
+	.uleb128 0x3c
 	.byte	0x1
 	.byte	0x51
 	.byte	0x1
 	.byte	0x38
-	.uleb128 0x3b
+	.uleb128 0x3c
 	.byte	0x1
 	.byte	0x53
 	.byte	0x1
 	.byte	0x31
 	.byte	0
 	.byte	0
-	.uleb128 0x36
-	.4byte	0x77a0
+	.uleb128 0x37
+	.4byte	0x77a2
 	.4byte	.LBB40
 	.4byte	.LBE40
 	.byte	0x1
 	.2byte	0x16c
-	.4byte	0x7599
-	.uleb128 0x37
-	.4byte	0x77ae
-	.uleb128 0x39
-	.4byte	0x77ba
+	.4byte	0x759a
+	.uleb128 0x38
+	.4byte	0x77b0
+	.uleb128 0x3a
+	.4byte	0x77bc
 	.4byte	.LLST12
-	.uleb128 0x39
-	.4byte	0x77c6
-	.4byte	.LLST13
-	.uleb128 0x39
-	.4byte	0x77d1
+	.uleb128 0x3a
+	.4byte	0x77c8
 	.4byte	.LLST13
 	.uleb128 0x3a
+	.4byte	0x77d3
+	.4byte	.LLST13
+	.uleb128 0x3b
 	.4byte	.LVL38
 	.byte	0x2
 	.byte	0x74
 	.sleb128 0
-	.uleb128 0x3b
+	.uleb128 0x3c
 	.byte	0x1
 	.byte	0x51
 	.byte	0x5
 	.byte	0x3
 	.4byte	_bt_uart_bridge_irq
-	.uleb128 0x3b
+	.uleb128 0x3c
 	.byte	0x1
 	.byte	0x52
 	.byte	0x1
 	.byte	0x30
-	.uleb128 0x3b
+	.uleb128 0x3c
 	.byte	0x1
 	.byte	0x53
 	.byte	0x1
 	.byte	0x30
 	.byte	0
 	.byte	0
-	.uleb128 0x3c
+	.uleb128 0x3d
 	.4byte	.LVL39
 	.byte	0x1
-	.4byte	0x78dc
-	.uleb128 0x3b
+	.4byte	0x78de
+	.uleb128 0x3c
 	.byte	0x1
 	.byte	0x50
 	.byte	0x1
 	.byte	0x31
 	.byte	0
 	.byte	0
-	.uleb128 0x3d
+	.uleb128 0x3e
 	.byte	0x1
 	.4byte	.LASF1429
 	.byte	0x1
@@ -15830,7 +15830,7 @@ uart_parity:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uleb128 0x34
+	.uleb128 0x35
 	.byte	0x1
 	.4byte	.LASF1407
 	.byte	0x1
@@ -15841,36 +15841,36 @@ uart_parity:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x7613
-	.uleb128 0x3e
+	.4byte	0x7614
+	.uleb128 0x3f
 	.4byte	.LASF1408
 	.byte	0x1
 	.2byte	0x149
 	.4byte	0x954
 	.byte	0x1
 	.byte	0x50
-	.uleb128 0x3e
+	.uleb128 0x3f
 	.4byte	.LASF1409
 	.byte	0x1
 	.2byte	0x149
 	.4byte	0x954
 	.byte	0x1
 	.byte	0x51
-	.uleb128 0x3e
+	.uleb128 0x3f
 	.4byte	.LASF1410
 	.byte	0x1
 	.2byte	0x149
 	.4byte	0x90a
 	.byte	0x1
 	.byte	0x52
-	.uleb128 0x3f
+	.uleb128 0x40
 	.4byte	.LASF1411
 	.byte	0x1
 	.2byte	0x149
 	.4byte	0x90a
 	.4byte	.LLST5
 	.byte	0
-	.uleb128 0x40
+	.uleb128 0x41
 	.4byte	.LASF1430
 	.byte	0x1
 	.byte	0x3f
@@ -15880,109 +15880,109 @@ uart_parity:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x76e1
-	.uleb128 0x41
+	.4byte	0x76e3
+	.uleb128 0x42
 	.ascii	"id\000"
 	.byte	0x1
 	.byte	0x3f
 	.4byte	0x954
 	.4byte	.LLST2
-	.uleb128 0x42
+	.uleb128 0x43
 	.4byte	.LASF1412
 	.byte	0x1
 	.byte	0x3f
 	.4byte	0x954
 	.4byte	.LLST3
-	.uleb128 0x43
+	.uleb128 0x44
 	.ascii	"rc\000"
 	.byte	0x1
 	.byte	0x41
 	.4byte	0x3b
 	.4byte	.LLST4
-	.uleb128 0x33
+	.uleb128 0x34
 	.4byte	.LASF1413
 	.byte	0x1
 	.byte	0x42
-	.4byte	0x76f1
+	.4byte	0x76f3
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -44
-	.uleb128 0x44
-	.4byte	.LVL10
-	.4byte	0x76f6
 	.uleb128 0x45
+	.4byte	.LVL10
+	.4byte	0x76f8
+	.uleb128 0x46
 	.4byte	.LVL13
-	.4byte	0x78e9
-	.4byte	0x7686
-	.uleb128 0x3b
+	.4byte	0x78eb
+	.4byte	0x7688
+	.uleb128 0x3c
 	.byte	0x1
 	.byte	0x51
 	.byte	0x2
 	.byte	0x75
 	.sleb128 0
-	.uleb128 0x3b
+	.uleb128 0x3c
 	.byte	0x1
 	.byte	0x52
-	.byte	0x2
-	.byte	0x8
-	.byte	0x64
+	.byte	0x3
+	.byte	0xa
+	.2byte	0x640
 	.byte	0
-	.uleb128 0x45
+	.uleb128 0x46
 	.4byte	.LVL14
-	.4byte	0x78f4
-	.4byte	0x769a
-	.uleb128 0x3b
+	.4byte	0x78f6
+	.4byte	0x769c
+	.uleb128 0x3c
 	.byte	0x1
 	.byte	0x50
 	.byte	0x2
 	.byte	0x76
 	.sleb128 0
 	.byte	0
-	.uleb128 0x45
+	.uleb128 0x46
 	.4byte	.LVL15
-	.4byte	0x7901
-	.4byte	0x76ae
-	.uleb128 0x3b
+	.4byte	0x7903
+	.4byte	0x76b0
+	.uleb128 0x3c
 	.byte	0x1
 	.byte	0x51
 	.byte	0x2
 	.byte	0x76
 	.sleb128 0
 	.byte	0
-	.uleb128 0x45
+	.uleb128 0x46
 	.4byte	.LVL16
-	.4byte	0x78dc
-	.4byte	0x76c2
-	.uleb128 0x3b
+	.4byte	0x78de
+	.4byte	0x76c4
+	.uleb128 0x3c
 	.byte	0x1
 	.byte	0x50
 	.byte	0x2
 	.byte	0x75
 	.sleb128 0
 	.byte	0
-	.uleb128 0x46
+	.uleb128 0x47
 	.4byte	.LVL17
 	.byte	0x1
-	.4byte	0x790e
-	.uleb128 0x46
+	.4byte	0x7910
+	.uleb128 0x47
 	.4byte	.LVL22
 	.byte	0x1
-	.4byte	0x791c
-	.uleb128 0x46
+	.4byte	0x791e
+	.uleb128 0x47
 	.4byte	.LVL26
 	.byte	0x1
-	.4byte	0x7929
+	.4byte	0x792b
 	.byte	0
 	.uleb128 0x9
 	.4byte	0x5d3
-	.4byte	0x76f1
+	.4byte	0x76f3
 	.uleb128 0xa
 	.4byte	0x124
 	.byte	0x11
 	.byte	0
 	.uleb128 0x4
-	.4byte	0x76e1
-	.uleb128 0x47
+	.4byte	0x76e3
+	.uleb128 0x48
 	.byte	0x1
 	.4byte	.LASF1431
 	.byte	0x1
@@ -15994,28 +15994,28 @@ uart_parity:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x7741
-	.uleb128 0x48
-	.4byte	0x77fb
+	.4byte	0x7743
+	.uleb128 0x49
+	.4byte	0x77fd
 	.4byte	.LBB18
 	.4byte	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x30
-	.4byte	0x772b
-	.uleb128 0x37
-	.4byte	0x780c
+	.4byte	0x772d
+	.uleb128 0x38
+	.4byte	0x780e
 	.byte	0
-	.uleb128 0x49
-	.4byte	0x77de
+	.uleb128 0x4a
+	.4byte	0x77e0
 	.4byte	.LBB22
 	.4byte	.LBE22
 	.byte	0x1
 	.byte	0x31
-	.uleb128 0x37
-	.4byte	0x77ef
+	.uleb128 0x38
+	.4byte	0x77f1
 	.byte	0
 	.byte	0
-	.uleb128 0x4a
+	.uleb128 0x4b
 	.byte	0x1
 	.4byte	.LASF1414
 	.byte	0x1
@@ -16026,227 +16026,227 @@ uart_parity:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x77a0
-	.uleb128 0x42
+	.4byte	0x77a2
+	.uleb128 0x43
 	.4byte	.LASF1098
 	.byte	0x1
 	.byte	0x1e
 	.4byte	0x90a
 	.4byte	.LLST0
-	.uleb128 0x4b
-	.4byte	0x783c
+	.uleb128 0x4c
+	.4byte	0x783e
 	.4byte	.LBB10
 	.4byte	.LBE10
 	.byte	0x1
 	.byte	0x21
-	.4byte	0x7781
-	.uleb128 0x37
-	.4byte	0x784d
+	.4byte	0x7783
+	.uleb128 0x38
+	.4byte	0x784f
 	.byte	0
-	.uleb128 0x49
-	.4byte	0x7818
+	.uleb128 0x4a
+	.4byte	0x781a
 	.4byte	.LBB12
 	.4byte	.LBE12
 	.byte	0x1
 	.byte	0x22
-	.uleb128 0x39
-	.4byte	0x7830
+	.uleb128 0x3a
+	.4byte	0x7832
 	.4byte	.LLST1
-	.uleb128 0x37
-	.4byte	0x7825
+	.uleb128 0x38
+	.4byte	0x7827
 	.byte	0
 	.byte	0
-	.uleb128 0x4c
+	.uleb128 0x4d
 	.4byte	.LASF899
 	.byte	0x2
 	.2byte	0x1cb
 	.byte	0x1
 	.byte	0x3
-	.4byte	0x77de
-	.uleb128 0x4d
+	.4byte	0x77e0
+	.uleb128 0x4e
 	.4byte	.LASF1415
 	.byte	0x2
 	.2byte	0x1cb
 	.4byte	0x4873
-	.uleb128 0x4d
+	.uleb128 0x4e
 	.4byte	.LASF1416
 	.byte	0x2
 	.2byte	0x1cb
 	.4byte	0x4416
-	.uleb128 0x4e
+	.uleb128 0x4f
 	.ascii	"id\000"
 	.byte	0x2
 	.2byte	0x1cb
 	.4byte	0x954
-	.uleb128 0x4d
+	.uleb128 0x4e
 	.4byte	.LASF1412
 	.byte	0x2
 	.2byte	0x1cb
 	.4byte	0x954
 	.byte	0
-	.uleb128 0x4f
+	.uleb128 0x50
 	.4byte	.LASF883
 	.byte	0x2
 	.byte	0xf8
 	.byte	0x1
 	.4byte	0x5cc
 	.byte	0x3
-	.4byte	0x77fb
-	.uleb128 0x50
+	.4byte	0x77fd
+	.uleb128 0x51
 	.4byte	.LASF1415
 	.byte	0x2
 	.byte	0xf8
 	.4byte	0x4873
 	.byte	0
-	.uleb128 0x4f
+	.uleb128 0x50
 	.4byte	.LASF882
 	.byte	0x2
 	.byte	0xec
 	.byte	0x1
 	.4byte	0x9da
 	.byte	0x3
-	.4byte	0x7818
-	.uleb128 0x50
+	.4byte	0x781a
+	.uleb128 0x51
 	.4byte	.LASF1415
 	.byte	0x2
 	.byte	0xec
 	.4byte	0x4873
 	.byte	0
-	.uleb128 0x51
+	.uleb128 0x52
 	.4byte	.LASF875
 	.byte	0x2
 	.byte	0x93
 	.byte	0x1
 	.byte	0x3
-	.4byte	0x783c
-	.uleb128 0x50
+	.4byte	0x783e
+	.uleb128 0x51
 	.4byte	.LASF1415
 	.byte	0x2
 	.byte	0x93
 	.4byte	0x4873
-	.uleb128 0x50
+	.uleb128 0x51
 	.4byte	.LASF1098
 	.byte	0x2
 	.byte	0x93
 	.4byte	0x90a
 	.byte	0
-	.uleb128 0x4f
+	.uleb128 0x50
 	.4byte	.LASF874
 	.byte	0x2
 	.byte	0x86
 	.byte	0x1
 	.4byte	0x9da
 	.byte	0x3
-	.4byte	0x7859
-	.uleb128 0x50
+	.4byte	0x785b
+	.uleb128 0x51
 	.4byte	.LASF1415
 	.byte	0x2
 	.byte	0x86
 	.4byte	0x4873
 	.byte	0
-	.uleb128 0x4f
+	.uleb128 0x50
 	.4byte	.LASF862
 	.byte	0x2
 	.byte	0x78
 	.byte	0x1
 	.4byte	0x3907
 	.byte	0x3
-	.4byte	0x7897
-	.uleb128 0x50
+	.4byte	0x7899
+	.uleb128 0x51
 	.4byte	.LASF1415
 	.byte	0x2
 	.byte	0x78
 	.4byte	0x4873
-	.uleb128 0x50
+	.uleb128 0x51
 	.4byte	.LASF1417
 	.byte	0x2
 	.byte	0x78
 	.4byte	0x954
-	.uleb128 0x50
+	.uleb128 0x51
 	.4byte	.LASF1410
 	.byte	0x2
 	.byte	0x79
 	.4byte	0x954
-	.uleb128 0x50
+	.uleb128 0x51
 	.4byte	.LASF1418
 	.byte	0x2
 	.byte	0x79
 	.4byte	0x954
 	.byte	0
-	.uleb128 0x4f
+	.uleb128 0x50
 	.4byte	.LASF861
 	.byte	0x2
 	.byte	0x64
 	.byte	0x1
 	.4byte	0x3907
 	.byte	0x3
-	.4byte	0x78bf
-	.uleb128 0x50
+	.4byte	0x78c1
+	.uleb128 0x51
 	.4byte	.LASF1415
 	.byte	0x2
 	.byte	0x64
 	.4byte	0x4873
-	.uleb128 0x50
+	.uleb128 0x51
 	.4byte	.LASF775
 	.byte	0x2
 	.byte	0x64
 	.4byte	0x954
 	.byte	0
-	.uleb128 0x4f
+	.uleb128 0x50
 	.4byte	.LASF859
 	.byte	0x2
 	.byte	0x48
 	.byte	0x1
 	.4byte	0x3907
 	.byte	0x3
-	.4byte	0x78dc
-	.uleb128 0x50
+	.4byte	0x78de
+	.uleb128 0x51
 	.4byte	.LASF1415
 	.byte	0x2
 	.byte	0x48
 	.4byte	0x4873
 	.byte	0
-	.uleb128 0x52
+	.uleb128 0x53
 	.byte	0x1
 	.byte	0x1
 	.4byte	.LASF1419
 	.4byte	.LASF1419
 	.byte	0x36
 	.byte	0x1f
+	.uleb128 0x54
+	.byte	0x1
+	.byte	0x1
+	.4byte	.LASF192
+	.4byte	.LASF192
 	.uleb128 0x53
-	.byte	0x1
-	.byte	0x1
-	.4byte	.LASF192
-	.4byte	.LASF192
-	.uleb128 0x52
 	.byte	0x1
 	.byte	0x1
 	.4byte	.LASF1420
 	.4byte	.LASF1420
 	.byte	0x37
 	.byte	0x25
-	.uleb128 0x52
+	.uleb128 0x53
 	.byte	0x1
 	.byte	0x1
 	.4byte	.LASF1421
 	.4byte	.LASF1421
 	.byte	0x37
 	.byte	0x28
-	.uleb128 0x54
+	.uleb128 0x55
 	.byte	0x1
 	.byte	0x1
 	.4byte	.LASF1422
 	.4byte	.LASF1422
 	.byte	0x38
 	.2byte	0x1e3
-	.uleb128 0x52
+	.uleb128 0x53
 	.byte	0x1
 	.byte	0x1
 	.4byte	.LASF1423
 	.4byte	.LASF1423
 	.byte	0x1
 	.byte	0x3e
-	.uleb128 0x52
+	.uleb128 0x53
 	.byte	0x1
 	.byte	0x1
 	.4byte	.LASF1424
@@ -16885,6 +16885,15 @@ uart_parity:
 	.byte	0
 	.byte	0
 	.uleb128 0x33
+	.uleb128 0x21
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x2f
+	.uleb128 0x5
+	.byte	0
+	.byte	0
+	.uleb128 0x34
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -16899,7 +16908,7 @@ uart_parity:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x34
+	.uleb128 0x35
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -16924,7 +16933,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x35
+	.uleb128 0x36
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x3
@@ -16939,7 +16948,7 @@ uart_parity:
 	.uleb128 0x6
 	.byte	0
 	.byte	0
-	.uleb128 0x36
+	.uleb128 0x37
 	.uleb128 0x1d
 	.byte	0x1
 	.uleb128 0x31
@@ -16956,14 +16965,14 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x37
+	.uleb128 0x38
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x31
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x38
+	.uleb128 0x39
 	.uleb128 0x4109
 	.byte	0
 	.uleb128 0x11
@@ -16972,7 +16981,7 @@ uart_parity:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x39
+	.uleb128 0x3a
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x31
@@ -16981,7 +16990,7 @@ uart_parity:
 	.uleb128 0x6
 	.byte	0
 	.byte	0
-	.uleb128 0x3a
+	.uleb128 0x3b
 	.uleb128 0x4109
 	.byte	0x1
 	.uleb128 0x11
@@ -16990,7 +16999,7 @@ uart_parity:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x3b
+	.uleb128 0x3c
 	.uleb128 0x410a
 	.byte	0
 	.uleb128 0x2
@@ -16999,7 +17008,7 @@ uart_parity:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x3c
+	.uleb128 0x3d
 	.uleb128 0x4109
 	.byte	0x1
 	.uleb128 0x11
@@ -17010,7 +17019,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x3d
+	.uleb128 0x3e
 	.uleb128 0x2e
 	.byte	0
 	.uleb128 0x3f
@@ -17033,7 +17042,7 @@ uart_parity:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x3e
+	.uleb128 0x3f
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x3
@@ -17048,7 +17057,7 @@ uart_parity:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x3f
+	.uleb128 0x40
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x3
@@ -17063,7 +17072,7 @@ uart_parity:
 	.uleb128 0x6
 	.byte	0
 	.byte	0
-	.uleb128 0x40
+	.uleb128 0x41
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3
@@ -17086,7 +17095,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x41
+	.uleb128 0x42
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x3
@@ -17101,7 +17110,7 @@ uart_parity:
 	.uleb128 0x6
 	.byte	0
 	.byte	0
-	.uleb128 0x42
+	.uleb128 0x43
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x3
@@ -17116,7 +17125,7 @@ uart_parity:
 	.uleb128 0x6
 	.byte	0
 	.byte	0
-	.uleb128 0x43
+	.uleb128 0x44
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -17131,7 +17140,7 @@ uart_parity:
 	.uleb128 0x6
 	.byte	0
 	.byte	0
-	.uleb128 0x44
+	.uleb128 0x45
 	.uleb128 0x4109
 	.byte	0
 	.uleb128 0x11
@@ -17140,7 +17149,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x45
+	.uleb128 0x46
 	.uleb128 0x4109
 	.byte	0x1
 	.uleb128 0x11
@@ -17151,7 +17160,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x46
+	.uleb128 0x47
 	.uleb128 0x4109
 	.byte	0
 	.uleb128 0x11
@@ -17162,7 +17171,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x47
+	.uleb128 0x48
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -17189,7 +17198,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x48
+	.uleb128 0x49
 	.uleb128 0x1d
 	.byte	0x1
 	.uleb128 0x31
@@ -17206,7 +17215,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x49
+	.uleb128 0x4a
 	.uleb128 0x1d
 	.byte	0x1
 	.uleb128 0x31
@@ -17221,7 +17230,7 @@ uart_parity:
 	.uleb128 0xb
 	.byte	0
 	.byte	0
-	.uleb128 0x4a
+	.uleb128 0x4b
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -17246,7 +17255,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x4b
+	.uleb128 0x4c
 	.uleb128 0x1d
 	.byte	0x1
 	.uleb128 0x31
@@ -17263,7 +17272,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x4c
+	.uleb128 0x4d
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3
@@ -17280,7 +17289,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x4d
+	.uleb128 0x4e
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x3
@@ -17293,7 +17302,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x4e
+	.uleb128 0x4f
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x3
@@ -17306,7 +17315,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x4f
+	.uleb128 0x50
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3
@@ -17325,7 +17334,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x50
+	.uleb128 0x51
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x3
@@ -17338,7 +17347,7 @@ uart_parity:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x51
+	.uleb128 0x52
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3
@@ -17353,23 +17362,6 @@ uart_parity:
 	.uleb128 0xb
 	.uleb128 0x1
 	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x52
-	.uleb128 0x2e
-	.byte	0
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x2007
-	.uleb128 0xe
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
 	.byte	0
 	.byte	0
 	.uleb128 0x53
@@ -17383,9 +17375,26 @@ uart_parity:
 	.uleb128 0xe
 	.uleb128 0x3
 	.uleb128 0xe
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
 	.byte	0
 	.byte	0
 	.uleb128 0x54
+	.uleb128 0x2e
+	.byte	0
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x2007
+	.uleb128 0xe
+	.uleb128 0x3
+	.uleb128 0xe
+	.byte	0
+	.byte	0
+	.uleb128 0x55
 	.uleb128 0x2e
 	.byte	0
 	.uleb128 0x3f
@@ -17734,6 +17743,9 @@ uart_parity:
 	.ascii	"RESERVED22\000"
 .LASF830:
 	.ascii	"tx_td_cb_ev\000"
+.LASF1427:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF1429:
 	.ascii	"bt_uart_bridge_close\000"
 .LASF144:
@@ -18804,9 +18816,6 @@ uart_parity:
 	.ascii	"hal_pwm_set_clk_sel\000"
 .LASF986:
 	.ascii	"hal_timer_start_periodical\000"
-.LASF1427:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF1317:
 	.ascii	"pstdio_port\000"
 .LASF455:

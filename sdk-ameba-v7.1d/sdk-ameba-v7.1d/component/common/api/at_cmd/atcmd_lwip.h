@@ -49,7 +49,7 @@
 #if ATCMD_VER == ATVER_2 
 
 #ifndef ATCMD_SUPPORT_SSL
-#define ATCMD_SUPPORT_SSL 0
+#define ATCMD_SUPPORT_SSL  0
 #endif
 
 #define SERVER "127.0.0.1"

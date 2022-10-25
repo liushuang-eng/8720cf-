@@ -65,6 +65,7 @@
 #define AP_GW_ADDR2   43
 #define AP_GW_ADDR3   1  
 #endif
+extern void fATPN(void *arg);
 
 #if (defined(CONFIG_EXAMPLE_UART_ATCMD) && (CONFIG_EXAMPLE_UART_ATCMD))
 #include "wifi_structures.h"

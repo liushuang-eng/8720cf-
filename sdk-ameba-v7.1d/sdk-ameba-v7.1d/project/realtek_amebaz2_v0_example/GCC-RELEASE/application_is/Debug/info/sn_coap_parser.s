@@ -1487,16 +1487,16 @@ sn_coap_parser_release_allocated_coap_msg_mem:
 	.size	sn_coap_parser_release_allocated_coap_msg_mem, .-sn_coap_parser_release_allocated_coap_msg_mem
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 7 "<built-in>"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
-	.file 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
 	.file 12 "../../../component/common/network/coap/include/sn_coap_header.h"
 	.file 13 "../../../component/common/network/coap/include/sn_coap_header_internal.h"
 	.file 14 "../../../component/common/network/coap/include/ns_list.h"
@@ -1507,7 +1507,7 @@ sn_coap_parser_release_allocated_coap_msg_mem:
 	.file 19 "../../../component/soc/realtek/8710c/app/rtl_printf/include/printf_entry.h"
 	.file 20 "../../../component/soc/realtek/8710c/app/rtl_printf/include/rt_printf.h"
 	.file 21 "../../../component/soc/realtek/8710c/misc/utilities/include/utility.h"
-	.file 22 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 22 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 23 "../../../component/common/drivers/wlan/realtek/src/osdep/wireless.h"
 	.file 24 "../../../component/common/drivers/wlan/realtek/include/autoconf.h"
 	.file 25 "../../../component/common/api/wifi/wifi_util.h"
@@ -7468,8 +7468,9 @@ sn_coap_parser_release_allocated_coap_msg_mem:
 	.section	.debug_str,"MS",%progbits,1
 .LASF57:
 	.ascii	"__sFILE\000"
-.LASF379:
-	.ascii	"sn_coap_rx_callback\000"
+.LASF429:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF154:
 	.ascii	"COAP_MSG_CODE_REQUEST_PUT\000"
 .LASF27:
@@ -8006,6 +8007,8 @@ sn_coap_parser_release_allocated_coap_msg_mem:
 	.ascii	"COAP_VERSION_1\000"
 .LASF383:
 	.ascii	"sn_coap_block_data_size\000"
+.LASF379:
+	.ascii	"sn_coap_rx_callback\000"
 .LASF41:
 	.ascii	"__tm_mon\000"
 .LASF173:
@@ -8209,9 +8212,6 @@ sn_coap_parser_release_allocated_coap_msg_mem:
 	.ascii	"sn_coap_parser_init_message\000"
 .LASF371:
 	.ascii	"send_msg_ptr\000"
-.LASF429:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF319:
 	.ascii	"rt_printf\000"
 .LASF297:

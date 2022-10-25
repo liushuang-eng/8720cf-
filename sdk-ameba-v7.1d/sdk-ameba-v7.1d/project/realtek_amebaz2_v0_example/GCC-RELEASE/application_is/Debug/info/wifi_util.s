@@ -6351,20 +6351,20 @@ __func__.9639:
 	.ascii	"\012\015ioctl[SIOCDEVPRIVWWPTN] error\000"
 	.text
 .Letext0:
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 8 "<built-in>"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 11 "../../../component/common/drivers/wlan/realtek/src/osdep/wireless.h"
 	.file 12 "../../../component/common/drivers/wlan/realtek/include/autoconf.h"
 	.file 13 "../../../component/common/drivers/wlan/realtek/include/wifi_constants.h"
-	.file 14 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
-	.file 15 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
-	.file 16 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 14 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 15 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 16 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 17 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
 	.file 18 "../../../component/common/drivers/wlan/realtek/include/wifi_structures.h"
 	.file 19 "../../../component/common/api/wifi/wifi_util.h"
@@ -6376,7 +6376,7 @@ __func__.9639:
 	.file 25 "../../../component/soc/realtek/8710c/misc/utilities/include/utility.h"
 	.file 26 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
 	.file 27 "../../../component/os/os_dep/include/osdep_service.h"
-	.file 28 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 28 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.file 29 "../../../component/os/freertos/freertos_v10.0.1/Source/include/portable.h"
 	.file 30 "../../../component/common/api/wifi/wifi_ind.h"
 	.file 31 "../../../component/common/drivers/wlan/realtek/src/osdep/wlan_intf.h"
@@ -23804,8 +23804,6 @@ __func__.9639:
 	.ascii	"cmdname\000"
 .LASF12:
 	.ascii	"size_t\000"
-.LASF419:
-	.ascii	"wext_set_scan\000"
 .LASF20:
 	.ascii	"sizetype\000"
 .LASF507:
@@ -24389,6 +24387,9 @@ __func__.9639:
 	.ascii	"WIFI_EVENT_SEND_ACTION_DONE\000"
 .LASF442:
 	.ascii	"wext_set_beacon_mode\000"
+.LASF506:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF245:
 	.ascii	"WIFI_EVENT_SCAN_RESULT_REPORT\000"
 .LASF160:
@@ -24523,9 +24524,8 @@ __func__.9639:
 	.ascii	"tx_seq\000"
 .LASF0:
 	.ascii	"__int8_t\000"
-.LASF506:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF419:
+	.ascii	"wext_set_scan\000"
 .LASF364:
 	.ascii	"item\000"
 .LASF10:

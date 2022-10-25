@@ -2046,26 +2046,26 @@ sn_coap_builder_calc_needed_packet_data_size:
 	.size	sn_coap_builder_calc_needed_packet_data_size, .-sn_coap_builder_calc_needed_packet_data_size
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 7 "<built-in>"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 10 "../../../component/common/network/coap/include/sn_coap_header.h"
 	.file 11 "../../../component/common/network/coap/include/sn_coap_header_internal.h"
 	.file 12 "../../../component/common/network/coap/include/ns_list.h"
 	.file 13 "../inc/FreeRTOSConfig.h"
 	.file 14 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
-	.file 15 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 15 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
 	.file 16 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
 	.file 17 "../../../component/soc/realtek/8710c/app/stdio_port/stdio_port.h"
 	.file 18 "../../../component/soc/realtek/8710c/app/rtl_printf/include/printf_entry.h"
 	.file 19 "../../../component/soc/realtek/8710c/app/rtl_printf/include/rt_printf.h"
 	.file 20 "../../../component/soc/realtek/8710c/misc/utilities/include/utility.h"
-	.file 21 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 21 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 22 "../../../component/common/drivers/wlan/realtek/src/osdep/wireless.h"
 	.file 23 "../../../component/common/drivers/wlan/realtek/include/autoconf.h"
 	.file 24 "../../../component/common/api/wifi/wifi_util.h"
@@ -9642,8 +9642,9 @@ sn_coap_builder_calc_needed_packet_data_size:
 	.section	.debug_str,"MS",%progbits,1
 .LASF57:
 	.ascii	"__sFILE\000"
-.LASF436:
-	.ascii	"dst_packet_data_ptr\000"
+.LASF448:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF151:
 	.ascii	"COAP_MSG_CODE_REQUEST_PUT\000"
 .LASF27:
@@ -10159,6 +10160,8 @@ sn_coap_builder_calc_needed_packet_data_size:
 	.ascii	"in6addr_any\000"
 .LASF65:
 	.ascii	"_close\000"
+.LASF436:
+	.ascii	"dst_packet_data_ptr\000"
 .LASF372:
 	.ascii	"param\000"
 .LASF45:
@@ -10401,9 +10404,6 @@ sn_coap_builder_calc_needed_packet_data_size:
 	.ascii	"dst_byte_count_to_be_built\000"
 .LASF370:
 	.ascii	"send_msg_ptr\000"
-.LASF448:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF318:
 	.ascii	"rt_printf\000"
 .LASF296:

@@ -772,12 +772,12 @@ autoip_accept_packet:
 	.size	autoip_accept_packet, .-autoip_accept_packet
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 8 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/cc.h"
 	.file 9 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip4_addr.h"
 	.file 10 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip_addr.h"
@@ -791,7 +791,7 @@ autoip_accept_packet:
 	.file 18 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/autoip.h"
 	.file 19 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/autoip.h"
 	.file 20 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/etharp.h"
-	.file 21 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 21 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.file 22 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/def.h"
 	.file 23 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/mem.h"
 	.section	.debug_info,"",%progbits
@@ -4846,6 +4846,9 @@ autoip_accept_packet:
 	.section	.debug_line,"",%progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",%progbits,1
+.LASF237:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF191:
 	.ascii	"eth_addr\000"
 .LASF200:
@@ -4942,8 +4945,6 @@ autoip_accept_packet:
 	.ascii	"autoip_start_probing\000"
 .LASF30:
 	.ascii	"__tm_hour\000"
-.LASF95:
-	.ascii	"_add\000"
 .LASF217:
 	.ascii	"autoip_network_changed\000"
 .LASF17:
@@ -5244,9 +5245,8 @@ autoip_accept_packet:
 	.ascii	"autoip_tmr\000"
 .LASF208:
 	.ascii	"AUTOIP_STATE_PROBING\000"
-.LASF237:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF95:
+	.ascii	"_add\000"
 .LASF220:
 	.ascii	"sn_mask\000"
 .LASF129:

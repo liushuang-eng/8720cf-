@@ -27,7 +27,12 @@ int main(void)
 
 	/* Enable Schedule, Start Kernel */
 	vTaskStartScheduler();
-
+	// ATPN=FTY_RD_001,fty12345678*
+	// fATPN("FTY_RD_001,fty12345678*");
+	// ATPS=0,4004
+	// fATPS("0,4004");
+	// //ATPK=1
+	// fATK("1");
 	/* Should NEVER reach here */
 	return 0;
 }

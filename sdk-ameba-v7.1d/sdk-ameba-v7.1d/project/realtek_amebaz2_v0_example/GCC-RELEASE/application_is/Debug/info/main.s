@@ -47,7 +47,7 @@ main:
 	.loc 1 29 0
 	bl	vTaskStartScheduler
 .LVL4:
-	.loc 1 33 0
+	.loc 1 38 0
 	movs	r0, #0
 	pop	{r3, pc}
 	.cfi_endproc
@@ -55,37 +55,37 @@ main:
 	.size	main, .-main
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 7 "<built-in>"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 10 "../inc/FreeRTOSConfig.h"
 	.file 11 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
 	.file 13 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
 	.file 14 "../../../component/soc/realtek/8710c/app/stdio_port/stdio_port.h"
 	.file 15 "../../../component/soc/realtek/8710c/app/rtl_printf/include/printf_entry.h"
 	.file 16 "../../../component/soc/realtek/8710c/app/rtl_printf/include/rt_printf.h"
 	.file 17 "../../../component/soc/realtek/8710c/misc/utilities/include/utility.h"
 	.file 18 "../../../component/common/drivers/wlan/realtek/include/autoconf.h"
-	.file 19 "../../../component/common/example/example_entry.h"
-	.file 20 "../inc/main.h"
+	.file 19 "../inc/main.h"
+	.file 20 "../../../component/common/example/example_entry.h"
 	.file 21 "../../../component/os/freertos/freertos_v10.0.1/Source/include/task.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
-	.4byte	0xed0
+	.4byte	0xf1e
 	.2byte	0x3
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
 	.uleb128 0x1
-	.4byte	.LASF190
+	.4byte	.LASF196
 	.byte	0xc
-	.4byte	.LASF191
-	.4byte	.LASF192
+	.4byte	.LASF197
+	.4byte	.LASF198
 	.4byte	.Ldebug_ranges0+0
 	.4byte	0
 	.4byte	0
@@ -1109,7 +1109,7 @@ main:
 	.byte	0x18
 	.byte	0
 	.uleb128 0x1e
-	.4byte	.LASF193
+	.4byte	.LASF199
 	.byte	0x1
 	.uleb128 0x10
 	.byte	0x4
@@ -1825,9 +1825,51 @@ main:
 	.4byte	0x3b
 	.byte	0x1
 	.byte	0x1
+	.uleb128 0x21
+	.4byte	.LASF185
+	.byte	0x13
+	.byte	0x26
+	.4byte	0xe3
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x21
+	.4byte	.LASF186
+	.byte	0x13
+	.byte	0x26
+	.4byte	0xe3
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x21
+	.4byte	.LASF187
+	.byte	0x13
+	.byte	0x26
+	.4byte	0xe3
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x21
+	.4byte	.LASF188
+	.byte	0x13
+	.byte	0x27
+	.4byte	0xe3
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x21
+	.4byte	.LASF189
+	.byte	0x13
+	.byte	0x27
+	.4byte	0xe3
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x21
+	.4byte	.LASF190
+	.byte	0x13
+	.byte	0x27
+	.4byte	0xe3
+	.byte	0x1
+	.byte	0x1
 	.uleb128 0x24
 	.byte	0x1
-	.4byte	.LASF194
+	.4byte	.LASF200
 	.byte	0x1
 	.byte	0xe
 	.byte	0x1
@@ -1837,56 +1879,56 @@ main:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0xe91
+	.4byte	0xedf
 	.uleb128 0x25
 	.4byte	.LVL0
-	.4byte	0xe91
+	.4byte	0xedf
 	.uleb128 0x25
 	.4byte	.LVL1
-	.4byte	0xe9e
+	.4byte	0xeec
 	.uleb128 0x25
 	.4byte	.LVL2
-	.4byte	0xeab
+	.4byte	0xef9
 	.uleb128 0x25
 	.4byte	.LVL3
-	.4byte	0xeb8
+	.4byte	0xf06
 	.uleb128 0x25
 	.4byte	.LVL4
-	.4byte	0xec5
+	.4byte	0xf13
 	.byte	0
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x1
-	.4byte	.LASF185
-	.4byte	.LASF185
+	.4byte	.LASF191
+	.4byte	.LASF191
 	.byte	0x1
 	.byte	0x7
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x1
-	.4byte	.LASF186
-	.4byte	.LASF186
-	.byte	0x13
+	.4byte	.LASF192
+	.4byte	.LASF192
+	.byte	0x14
 	.byte	0x6
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x1
-	.4byte	.LASF187
-	.4byte	.LASF187
-	.byte	0x14
+	.4byte	.LASF193
+	.4byte	.LASF193
+	.byte	0x13
 	.byte	0xb
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x1
-	.4byte	.LASF188
-	.4byte	.LASF188
-	.byte	0x13
+	.4byte	.LASF194
+	.4byte	.LASF194
+	.byte	0x14
 	.byte	0x5
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x1
-	.4byte	.LASF189
-	.4byte	.LASF189
+	.4byte	.LASF195
+	.4byte	.LASF195
 	.byte	0x15
 	.2byte	0x4a7
 	.byte	0
@@ -2407,6 +2449,9 @@ main:
 	.section	.debug_line,"",%progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",%progbits,1
+.LASF198:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF152:
 	.ascii	"rt_printfl\000"
 .LASF42:
@@ -2471,10 +2516,10 @@ main:
 	.ascii	"uint32_t\000"
 .LASF35:
 	.ascii	"__tm_hour\000"
-.LASF100:
-	.ascii	"_add\000"
 .LASF137:
 	.ascii	"buf_sz\000"
+.LASF187:
+	.ascii	"sta_gw\000"
 .LASF20:
 	.ascii	"__count\000"
 .LASF176:
@@ -2513,19 +2558,25 @@ main:
 	.ascii	"__gnuc_va_list\000"
 .LASF164:
 	.ascii	"rt_sscanf\000"
+.LASF189:
+	.ascii	"ap_netmask\000"
+.LASF190:
+	.ascii	"ap_gw\000"
 .LASF11:
 	.ascii	"size_t\000"
 .LASF182:
 	.ascii	"utility_stubs\000"
 .LASF174:
 	.ascii	"memcmp\000"
-.LASF190:
+.LASF196:
 	.ascii	"GNU C11 6.5.0 -march=armv8-m.main+dsp -mthumb -mcms"
 	.ascii	"e -mfloat-abi=soft -mabi=aapcs -g -gdwarf-3 -gdwarf"
 	.ascii	"-3 -Os -fstack-usage -fdata-sections -ffunction-sec"
 	.ascii	"tions\000"
 .LASF33:
 	.ascii	"__tm_sec\000"
+.LASF185:
+	.ascii	"sta_ip\000"
 .LASF40:
 	.ascii	"__tm_yday\000"
 .LASF75:
@@ -2566,6 +2617,8 @@ main:
 	.ascii	"printf_putc_t\000"
 .LASF23:
 	.ascii	"_flock_t\000"
+.LASF188:
+	.ascii	"ap_ip\000"
 .LASF17:
 	.ascii	"__wch\000"
 .LASF96:
@@ -2582,7 +2635,7 @@ main:
 	.ascii	"_timezone\000"
 .LASF133:
 	.ascii	"va_list\000"
-.LASF188:
+.LASF194:
 	.ascii	"example_entry\000"
 .LASF72:
 	.ascii	"_stdin\000"
@@ -2626,7 +2679,7 @@ main:
 	.ascii	"_h_errno\000"
 .LASF183:
 	.ascii	"__rom_stubs_utility_ns\000"
-.LASF187:
+.LASF193:
 	.ascii	"wlan_network\000"
 .LASF155:
 	.ascii	"printf_core\000"
@@ -2640,7 +2693,7 @@ main:
 	.ascii	"long double\000"
 .LASF130:
 	.ascii	"SystemCoreClock\000"
-.LASF194:
+.LASF200:
 	.ascii	"main\000"
 .LASF59:
 	.ascii	"_write\000"
@@ -2664,7 +2717,7 @@ main:
 	.ascii	"__sf\000"
 .LASF30:
 	.ascii	"_sign\000"
-.LASF186:
+.LASF192:
 	.ascii	"pre_example_entry\000"
 .LASF66:
 	.ascii	"_data\000"
@@ -2694,6 +2747,8 @@ main:
 	.ascii	"_l64a_buf\000"
 .LASF139:
 	.ascii	"initialed\000"
+.LASF186:
+	.ascii	"sta_netmask\000"
 .LASF64:
 	.ascii	"_blksize\000"
 .LASF32:
@@ -2702,7 +2757,7 @@ main:
 	.ascii	"__va_list\000"
 .LASF67:
 	.ascii	"_lock\000"
-.LASF185:
+.LASF191:
 	.ascii	"console_init\000"
 .LASF19:
 	.ascii	"sizetype\000"
@@ -2714,7 +2769,7 @@ main:
 	.ascii	"wint_t\000"
 .LASF44:
 	.ascii	"_dso_handle\000"
-.LASF189:
+.LASF195:
 	.ascii	"vTaskStartScheduler\000"
 .LASF86:
 	.ascii	"_cvtbuf\000"
@@ -2722,13 +2777,12 @@ main:
 	.ascii	"unsigned char\000"
 .LASF6:
 	.ascii	"__uint32_t\000"
-.LASF191:
+.LASF197:
 	.ascii	"../src/main.c\000"
 .LASF113:
 	.ascii	"_getdate_err\000"
-.LASF192:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
+.LASF100:
+	.ascii	"_add\000"
 .LASF156:
 	.ascii	"rt_printf\000"
 .LASF134:
@@ -2785,7 +2839,7 @@ main:
 	.ascii	"_seed\000"
 .LASF106:
 	.ascii	"_rand_next\000"
-.LASF193:
+.LASF199:
 	.ascii	"__locale_t\000"
 .LASF173:
 	.ascii	"config_debug_info\000"

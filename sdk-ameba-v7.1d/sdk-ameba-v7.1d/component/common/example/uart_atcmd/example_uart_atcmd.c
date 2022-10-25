@@ -554,7 +554,30 @@ void uart_atcmd_main(void)
 #if defined(configUSE_WAKELOCK_PMU) && (configUSE_WAKELOCK_PMU == 1)
 	uart_at_rx_wakeup();
 #endif
+
+	
 #endif
+	
+
+	// // ATPW=3 WIFImode的sta和ap模式可以共存 但是实际功能只能一个有效
+	// fATPW("3");
+
+	// // ATPA="SSID",,11,0
+	// //ATPF=192.168.55.100,192.168.55.199,192.168.55.1
+	// fATPF("192.168.43.100,192.168.43.199,192.168.43.1");
+
+	// fATPA("SSID,,11,0");
+
+	// fATPN("FTY_RD_001,fty12345678*");
+	////ATPN=Redmi_1111,12345678
+	// fATPN("Redmi_1111,12345678");
+//ls
+	// fATWx(" ");
+	// fATPS("0,10086");
+	// // ATPK=1
+	// fATPK("1");
+
+
 }
 
 static void uart_atcmd_thread(void *param)

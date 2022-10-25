@@ -137,6 +137,9 @@
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/memp.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/priv/memp_std.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/priv/memp_priv.h \
+ ../../../component/common/drivers/wlan/realtek/include/wifi_structures.h \
+ ../../../component/common/drivers/wlan/realtek/include/wifi_constants.h \
+ ../../../component/common/example/wlan_fast_connect/example_wlan_fast_connect.h \
  ../../../component/common/api/at_cmd/atcmd_lwip.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/inet.h \

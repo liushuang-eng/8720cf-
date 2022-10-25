@@ -381,7 +381,7 @@ memp_free:
 	.global	memp_TCPIP_MSG_API
 	.comm	memp_memory_TCPIP_MSG_API_base,131,1
 	.global	memp_NETCONN
-	.comm	memp_memory_NETCONN_base,387,1
+	.comm	memp_memory_NETCONN_base,523,1
 	.global	memp_NETBUF
 	.comm	memp_memory_NETBUF_base,35,1
 	.global	memp_FRAG_PBUF
@@ -395,7 +395,7 @@ memp_free:
 	.global	memp_TCP_PCB
 	.comm	memp_memory_TCP_PCB_base,1603,1
 	.global	memp_UDP_PCB
-	.comm	memp_memory_UDP_PCB_base,243,1
+	.comm	memp_memory_UDP_PCB_base,403,1
 	.global	memp_RAW_PCB
 	.comm	memp_memory_RAW_PCB_base,115,1
 	.section	.bss.memp_tab_FRAG_PBUF,"aw",%nobits
@@ -526,8 +526,8 @@ memp_NETBUF:
 	.type	memp_NETCONN, %object
 	.size	memp_NETCONN, 12
 memp_NETCONN:
-	.short	48
-	.short	8
+	.short	52
+	.short	10
 	.word	memp_memory_NETCONN_base
 	.word	memp_tab_NETCONN
 	.section	.rodata.memp_NETDB,"a",%progbits
@@ -635,7 +635,7 @@ memp_TCP_SEG:
 	.size	memp_UDP_PCB, 12
 memp_UDP_PCB:
 	.short	40
-	.short	6
+	.short	10
 	.word	memp_memory_UDP_PCB_base
 	.word	memp_tab_UDP_PCB
 	.section	.rodata.memp_pools,"a",%progbits
@@ -662,17 +662,17 @@ memp_pools:
 	.word	memp_PBUF_POOL
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
 	.file 7 "<built-in>"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
-	.file 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
-	.file 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
-	.file 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h"
+	.file 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h"
+	.file 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 13 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
 	.file 14 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/cc.h"
 	.file 15 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/memp.h"
@@ -704,7 +704,7 @@ memp_pools:
 	.file 41 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sys.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
-	.4byte	0x22cf
+	.4byte	0x22d0
 	.2byte	0x3
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
@@ -4154,10 +4154,10 @@ memp_pools:
 	.4byte	memp_RAW_PCB
 	.uleb128 0x8
 	.4byte	0x95b
-	.4byte	0x1c09
-	.uleb128 0x9
+	.4byte	0x1c0a
+	.uleb128 0x2c
 	.4byte	0xf3
-	.byte	0xf2
+	.2byte	0x192
 	.byte	0
 	.uleb128 0x2a
 	.4byte	.LASF381
@@ -4187,7 +4187,7 @@ memp_pools:
 	.4byte	memp_UDP_PCB
 	.uleb128 0x8
 	.4byte	0x95b
-	.4byte	0x1c4f
+	.4byte	0x1c50
 	.uleb128 0x2c
 	.4byte	0xf3
 	.2byte	0x642
@@ -4196,7 +4196,7 @@ memp_pools:
 	.4byte	.LASF385
 	.byte	0x28
 	.byte	0x32
-	.4byte	0x1c3e
+	.4byte	0x1c3f
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4220,7 +4220,7 @@ memp_pools:
 	.4byte	memp_TCP_PCB
 	.uleb128 0x8
 	.4byte	0x95b
-	.4byte	0x1c94
+	.4byte	0x1c95
 	.uleb128 0x9
 	.4byte	0xf3
 	.byte	0x8e
@@ -4229,7 +4229,7 @@ memp_pools:
 	.4byte	.LASF388
 	.byte	0x28
 	.byte	0x33
-	.4byte	0x1c84
+	.4byte	0x1c85
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4253,7 +4253,7 @@ memp_pools:
 	.4byte	memp_TCP_PCB_LISTEN
 	.uleb128 0x8
 	.4byte	0x95b
-	.4byte	0x1cda
+	.4byte	0x1cdb
 	.uleb128 0x2c
 	.4byte	0xf3
 	.2byte	0x142
@@ -4262,7 +4262,7 @@ memp_pools:
 	.4byte	.LASF391
 	.byte	0x28
 	.byte	0x34
-	.4byte	0x1cc9
+	.4byte	0x1cca
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4286,7 +4286,7 @@ memp_pools:
 	.4byte	memp_TCP_SEG
 	.uleb128 0x8
 	.4byte	0x95b
-	.4byte	0x1d1f
+	.4byte	0x1d20
 	.uleb128 0x9
 	.4byte	0xf3
 	.byte	0xa2
@@ -4295,7 +4295,7 @@ memp_pools:
 	.4byte	.LASF394
 	.byte	0x28
 	.byte	0x38
-	.4byte	0x1d0f
+	.4byte	0x1d10
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4319,7 +4319,7 @@ memp_pools:
 	.4byte	memp_REASSDATA
 	.uleb128 0x8
 	.4byte	0x95b
-	.4byte	0x1d65
+	.4byte	0x1d66
 	.uleb128 0x2c
 	.4byte	0xf3
 	.2byte	0x16a
@@ -4328,7 +4328,7 @@ memp_pools:
 	.4byte	.LASF397
 	.byte	0x28
 	.byte	0x3b
-	.4byte	0x1d54
+	.4byte	0x1d55
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4352,7 +4352,7 @@ memp_pools:
 	.4byte	memp_FRAG_PBUF
 	.uleb128 0x8
 	.4byte	0x95b
-	.4byte	0x1daa
+	.4byte	0x1dab
 	.uleb128 0x9
 	.4byte	0xf3
 	.byte	0x22
@@ -4361,7 +4361,7 @@ memp_pools:
 	.4byte	.LASF400
 	.byte	0x28
 	.byte	0x3f
-	.4byte	0x1d9a
+	.4byte	0x1d9b
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4385,16 +4385,16 @@ memp_pools:
 	.4byte	memp_NETBUF
 	.uleb128 0x8
 	.4byte	0x95b
-	.4byte	0x1df0
+	.4byte	0x1df1
 	.uleb128 0x2c
 	.4byte	0xf3
-	.2byte	0x182
+	.2byte	0x20a
 	.byte	0
 	.uleb128 0x2a
 	.4byte	.LASF403
 	.byte	0x28
 	.byte	0x40
-	.4byte	0x1ddf
+	.4byte	0x1de0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4418,7 +4418,7 @@ memp_pools:
 	.4byte	memp_NETCONN
 	.uleb128 0x8
 	.4byte	0x95b
-	.4byte	0x1e35
+	.4byte	0x1e36
 	.uleb128 0x9
 	.4byte	0xf3
 	.byte	0x82
@@ -4427,7 +4427,7 @@ memp_pools:
 	.4byte	.LASF406
 	.byte	0x28
 	.byte	0x44
-	.4byte	0x1e25
+	.4byte	0x1e26
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4453,7 +4453,7 @@ memp_pools:
 	.4byte	.LASF409
 	.byte	0x28
 	.byte	0x52
-	.4byte	0x1e25
+	.4byte	0x1e26
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4479,7 +4479,7 @@ memp_pools:
 	.4byte	.LASF412
 	.byte	0x28
 	.byte	0x5b
-	.4byte	0x1e25
+	.4byte	0x1e26
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4505,7 +4505,7 @@ memp_pools:
 	.4byte	.LASF415
 	.byte	0x28
 	.byte	0x5f
-	.4byte	0x1d0f
+	.4byte	0x1d10
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4529,7 +4529,7 @@ memp_pools:
 	.4byte	memp_SYS_TIMEOUT
 	.uleb128 0x8
 	.4byte	0x95b
-	.4byte	0x1f1a
+	.4byte	0x1f1b
 	.uleb128 0x2c
 	.4byte	0xf3
 	.2byte	0x136
@@ -4538,7 +4538,7 @@ memp_pools:
 	.4byte	.LASF418
 	.byte	0x28
 	.byte	0x63
-	.4byte	0x1f09
+	.4byte	0x1f0a
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4564,7 +4564,7 @@ memp_pools:
 	.4byte	.LASF421
 	.byte	0x28
 	.byte	0x7e
-	.4byte	0x1c3e
+	.4byte	0x1c3f
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4588,7 +4588,7 @@ memp_pools:
 	.4byte	memp_PBUF
 	.uleb128 0x8
 	.4byte	0x95b
-	.4byte	0x1f95
+	.4byte	0x1f96
 	.uleb128 0x2c
 	.4byte	0xf3
 	.2byte	0x2852
@@ -4597,7 +4597,7 @@ memp_pools:
 	.4byte	.LASF424
 	.byte	0x28
 	.byte	0x7f
-	.4byte	0x1f84
+	.4byte	0x1f85
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4637,7 +4637,7 @@ memp_pools:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x205f
+	.4byte	0x2060
 	.uleb128 0x2f
 	.4byte	.LASF220
 	.byte	0x1
@@ -4651,32 +4651,32 @@ memp_pools:
 	.4byte	0x131
 	.4byte	.LLST12
 	.uleb128 0x31
-	.4byte	0x20e7
+	.4byte	0x20e8
 	.4byte	.LBB10
 	.4byte	.Ldebug_ranges0+0x18
 	.byte	0x1
 	.2byte	0x1e9
 	.uleb128 0x32
-	.4byte	0x20f5
+	.4byte	0x20f6
 	.4byte	.LLST13
 	.uleb128 0x32
-	.4byte	0x2101
+	.4byte	0x2102
 	.4byte	.LLST14
 	.uleb128 0x33
 	.4byte	.Ldebug_ranges0+0x18
 	.uleb128 0x34
-	.4byte	0x210d
+	.4byte	0x210e
 	.4byte	.LLST15
 	.uleb128 0x34
-	.4byte	0x2119
+	.4byte	0x211a
 	.4byte	.LLST16
 	.uleb128 0x35
 	.4byte	.LVL25
-	.4byte	0x22b6
+	.4byte	0x22b7
 	.uleb128 0x36
 	.4byte	.LVL27
 	.byte	0x1
-	.4byte	0x22c4
+	.4byte	0x22c5
 	.byte	0
 	.byte	0
 	.byte	0
@@ -4691,7 +4691,7 @@ memp_pools:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x20e7
+	.4byte	0x20e8
 	.uleb128 0x2f
 	.4byte	.LASF429
 	.byte	0x1
@@ -4705,32 +4705,32 @@ memp_pools:
 	.4byte	0x131
 	.4byte	.LLST6
 	.uleb128 0x31
-	.4byte	0x20e7
+	.4byte	0x20e8
 	.4byte	.LBB4
 	.4byte	.Ldebug_ranges0+0
 	.byte	0x1
 	.2byte	0x1cb
 	.uleb128 0x32
-	.4byte	0x20f5
+	.4byte	0x20f6
 	.4byte	.LLST7
 	.uleb128 0x32
-	.4byte	0x2101
+	.4byte	0x2102
 	.4byte	.LLST8
 	.uleb128 0x33
 	.4byte	.Ldebug_ranges0+0
 	.uleb128 0x34
-	.4byte	0x210d
+	.4byte	0x210e
 	.4byte	.LLST9
 	.uleb128 0x34
-	.4byte	0x2119
+	.4byte	0x211a
 	.4byte	.LLST10
 	.uleb128 0x35
 	.4byte	.LVL20
-	.4byte	0x22b6
+	.4byte	0x22b7
 	.uleb128 0x36
 	.4byte	.LVL22
 	.byte	0x1
-	.4byte	0x22c4
+	.4byte	0x22c5
 	.byte	0
 	.byte	0
 	.byte	0
@@ -4740,7 +4740,7 @@ memp_pools:
 	.2byte	0x197
 	.byte	0x1
 	.byte	0x1
-	.4byte	0x2126
+	.4byte	0x2127
 	.uleb128 0x38
 	.4byte	.LASF429
 	.byte	0x1
@@ -4774,7 +4774,7 @@ memp_pools:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x2180
+	.4byte	0x2181
 	.uleb128 0x2f
 	.4byte	.LASF220
 	.byte	0x1
@@ -4789,9 +4789,9 @@ memp_pools:
 	.uleb128 0x3c
 	.4byte	.LVL16
 	.byte	0x1
-	.4byte	0x227a
+	.4byte	0x227b
 	.uleb128 0x3d
-	.4byte	0x21dd
+	.4byte	0x21de
 	.byte	0xf
 	.byte	0xf3
 	.uleb128 0x1
@@ -4819,7 +4819,7 @@ memp_pools:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x21cb
+	.4byte	0x21cc
 	.uleb128 0x2f
 	.4byte	.LASF429
 	.byte	0x1
@@ -4829,7 +4829,7 @@ memp_pools:
 	.uleb128 0x3c
 	.4byte	.LVL13
 	.byte	0x1
-	.4byte	0x227a
+	.4byte	0x227b
 	.uleb128 0x3e
 	.byte	0x1
 	.byte	0x50
@@ -4840,7 +4840,7 @@ memp_pools:
 	.byte	0x23
 	.uleb128 0x8
 	.uleb128 0x3d
-	.4byte	0x21dd
+	.4byte	0x21de
 	.byte	0x3
 	.byte	0xf3
 	.uleb128 0x1
@@ -4854,7 +4854,7 @@ memp_pools:
 	.byte	0x1
 	.4byte	0x131
 	.byte	0x1
-	.4byte	0x2202
+	.4byte	0x2203
 	.uleb128 0x38
 	.4byte	.LASF429
 	.byte	0x1
@@ -4882,7 +4882,7 @@ memp_pools:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x223a
+	.4byte	0x223b
 	.uleb128 0x40
 	.ascii	"i\000"
 	.byte	0x1
@@ -4891,7 +4891,7 @@ memp_pools:
 	.4byte	.LLST2
 	.uleb128 0x41
 	.4byte	.LVL10
-	.4byte	0x223a
+	.4byte	0x223b
 	.uleb128 0x3e
 	.byte	0x1
 	.byte	0x50
@@ -4911,7 +4911,7 @@ memp_pools:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x227a
+	.4byte	0x227b
 	.uleb128 0x43
 	.4byte	.LASF429
 	.byte	0x1
@@ -4934,28 +4934,28 @@ memp_pools:
 	.byte	0x53
 	.byte	0
 	.uleb128 0x45
-	.4byte	0x21cb
+	.4byte	0x21cc
 	.4byte	.LFB154
 	.4byte	.LFE154
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.4byte	0x22b6
+	.4byte	0x22b7
 	.uleb128 0x46
-	.4byte	0x21dd
+	.4byte	0x21de
 	.uleb128 0x47
-	.4byte	0x21e9
+	.4byte	0x21ea
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x34
-	.4byte	0x21f5
+	.4byte	0x21f6
 	.4byte	.LLST0
 	.uleb128 0x35
 	.4byte	.LVL0
-	.4byte	0x22b6
+	.4byte	0x22b7
 	.uleb128 0x35
 	.4byte	.LVL2
-	.4byte	0x22c4
+	.4byte	0x22c5
 	.byte	0
 	.uleb128 0x48
 	.byte	0x1
@@ -6761,6 +6761,9 @@ memp_pools:
 	.ascii	"memmove\000"
 .LASF427:
 	.ascii	"memp_free\000"
+.LASF439:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF223:
 	.ascii	"addr\000"
 .LASF268:
@@ -6875,9 +6878,6 @@ memp_pools:
 	.ascii	"__wchb\000"
 .LASF109:
 	.ascii	"_mbtowc_state\000"
-.LASF439:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF147:
 	.ascii	"MEMP_FRAG_PBUF\000"
 .LASF162:

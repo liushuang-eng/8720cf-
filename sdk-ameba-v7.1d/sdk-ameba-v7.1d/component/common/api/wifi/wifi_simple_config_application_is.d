@@ -83,4 +83,6 @@
  ../../../component/common/drivers/wlan/realtek/src/osdep/wireless.h \
  ../../../component/common/drivers/wlan/realtek/src/osdep/wlan_intf.h \
  ../../../component/common/api/wifi/wifi_ind.h ../inc/platform_opts_bt.h \
+ ../../../component/common/api/at_cmd/atcmd_wifi.h \
+ ../../../component/common/example/wlan_fast_connect/example_wlan_fast_connect.h \
  ../../../component/common/api/wifi/wifi_conf.h

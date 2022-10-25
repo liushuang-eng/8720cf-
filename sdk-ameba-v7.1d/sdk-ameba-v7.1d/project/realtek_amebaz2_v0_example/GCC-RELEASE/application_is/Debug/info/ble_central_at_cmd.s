@@ -2351,11 +2351,11 @@ ble_central_app_handle_at_cmd:
 	.cfi_endproc
 .LFE29:
 	.size	ble_central_app_handle_at_cmd, .-ble_central_app_handle_at_cmd
-	.section	.bss.scan_is_processing.7139,"aw",%nobits
+	.section	.bss.scan_is_processing.7147,"aw",%nobits
 	.set	.LANCHOR0,. + 0
-	.type	scan_is_processing.7139, %object
-	.size	scan_is_processing.7139, 1
-scan_is_processing.7139:
+	.type	scan_is_processing.7147, %object
+	.size	scan_is_processing.7147, 1
+scan_is_processing.7147:
 	.space	1
 	.section	.rodata.ble_central_at_cmd_auth.str1.1,"aMS",%progbits,1
 .LC25:
@@ -2439,13 +2439,13 @@ scan_is_processing.7139:
 	.ascii	"There is no scan\012\015\000"
 	.text
 .Letext0:
-	.file 2 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
-	.file 3 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
-	.file 4 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
-	.file 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
-	.file 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
-	.file 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
-	.file 8 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+	.file 2 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h"
+	.file 3 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h"
+	.file 4 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h"
+	.file 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h"
+	.file 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h"
+	.file 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h"
+	.file 8 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 	.file 9 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap.h"
 	.file 10 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap_le_types.h"
 	.file 11 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap_storage_le.h"
@@ -2455,10 +2455,10 @@ scan_is_processing.7139:
 	.file 15 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap_conn_le.h"
 	.file 16 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/profile/profile_client.h"
 	.file 17 "../../../component/common/bluetooth/realtek/sdk/example/ble_central/ble_central_client_app.h"
-	.file 18 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
+	.file 18 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h"
 	.file 19 "../../../component/common/api/at_cmd/log_service.h"
 	.file 20 "../../../component/common/api/at_cmd/atcmd_bt.h"
-	.file 21 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
+	.file 21 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h"
 	.file 22 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/profile/client/gcs_client.h"
 	.file 23 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
 	.file 24 "../../../component/common/bluetooth/realtek/sdk/inc/bluetooth/gap/gap_le.h"
@@ -5633,7 +5633,7 @@ scan_is_processing.7139:
 	.4byte	0x8d7
 	.byte	0x5
 	.byte	0x3
-	.4byte	scan_is_processing.7139
+	.4byte	scan_is_processing.7147
 	.uleb128 0x2d
 	.4byte	.LVL183
 	.4byte	0x2462
@@ -10440,6 +10440,9 @@ scan_is_processing.7139:
 	.ascii	"_sign\000"
 .LASF192:
 	.ascii	"GAP_PARAM_BOND_MIN_KEY_SIZE\000"
+.LASF349:
+	.ascii	"/home/ls/samba_share/sdk-ameba-v7.1d/project/realte"
+	.ascii	"k_amebaz2_v0_example/GCC-RELEASE\000"
 .LASF175:
 	.ascii	"addr\000"
 .LASF342:
@@ -10551,9 +10554,6 @@ scan_is_processing.7139:
 	.ascii	"ble_central_at_cmd_connect\000"
 .LASF0:
 	.ascii	"__int8_t\000"
-.LASF349:
-	.ascii	"/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_ame"
-	.ascii	"baz2_v0_example/GCC-RELEASE\000"
 .LASF11:
 	.ascii	"long long unsigned int\000"
 .LASF224:

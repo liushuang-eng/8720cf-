@@ -1,66 +1,66 @@
 # 1 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/project/realtek_amebaz2_v0_example/GCC-RELEASE//"
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/project/realtek_amebaz2_v0_example/GCC-RELEASE//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../../component/common/api/platform/time64.h" 1
 # 17 "../../../component/common/api/platform/time64.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 1 3
-# 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 1 3
-# 15 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 1 3
-# 14 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_newlib_version.h" 1 3
-# 15 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 2 3
-# 16 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 1 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 1 3
+# 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 1 3
+# 15 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 1 3
+# 14 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_newlib_version.h" 1 3
+# 15 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/newlib.h" 2 3
+# 16 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 1 3
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/ieeefp.h" 1 3
-# 5 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/features.h" 1 3
-# 6 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 2 3
-# 17 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 2 3
-# 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 1 3
-# 43 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 1 3
-# 41 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/ieeefp.h" 1 3
+# 5 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/features.h" 1 3
+# 6 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/config.h" 2 3
+# 17 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 2 3
+# 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 1 3
+# 43 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 1 3
+# 41 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 
-# 41 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 41 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef signed char __int8_t;
 
 typedef unsigned char __uint8_t;
-# 55 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 55 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef short int __int16_t;
 
 typedef short unsigned int __uint16_t;
-# 77 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 77 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef long int __int32_t;
 
 typedef long unsigned int __uint32_t;
-# 103 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 103 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef long long int __int64_t;
 
 typedef long long unsigned int __uint64_t;
-# 134 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 134 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef signed char __int_least8_t;
 
 typedef unsigned char __uint_least8_t;
-# 160 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 160 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef short int __int_least16_t;
 
 typedef short unsigned int __uint_least16_t;
-# 182 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 182 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef long int __int_least32_t;
 
 typedef long unsigned int __uint_least32_t;
-# 200 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 200 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef long long int __int_least64_t;
 
 typedef long long unsigned int __uint_least64_t;
-# 214 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
+# 214 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_default_types.h" 3
 typedef long long int __intmax_t;
 
 
@@ -80,33 +80,33 @@ typedef long long unsigned int __uintmax_t;
 typedef int __intptr_t;
 
 typedef unsigned int __uintptr_t;
-# 44 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 2 3
+# 44 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 2 3
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 149 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 149 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
 typedef int ptrdiff_t;
-# 216 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
+# 216 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
 typedef unsigned int size_t;
-# 328 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
+# 328 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
 typedef unsigned int wchar_t;
-# 426 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
+# 426 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
 typedef struct {
   long long __max_align_ll __attribute__((__aligned__(__alignof__(long long))));
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
 } max_align_t;
-# 46 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 2 3
-# 12 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 1 3
-# 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 1 3
-# 14 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 15 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 1 3
-# 24 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_types.h" 1 3
-# 25 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h" 1 3
+# 46 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/cdefs.h" 2 3
+# 12 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 1 3
+# 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/_ansi.h" 1 3
+# 14 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 15 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 1 3
+# 24 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_types.h" 1 3
+# 25 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/lock.h" 1 3
 
 
 
@@ -114,7 +114,7 @@ typedef struct {
 
 typedef int _LOCK_T;
 typedef int _LOCK_RECURSIVE_T;
-# 26 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
+# 26 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
 
 
 typedef long __blkcnt_t;
@@ -163,7 +163,7 @@ typedef __uint32_t __id_t;
 
 
 typedef unsigned short __ino_t;
-# 88 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
+# 88 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
 typedef __uint32_t __mode_t;
 
 
@@ -191,18 +191,18 @@ typedef long __key_t;
 
 
 typedef long _fpos_t;
-# 129 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
+# 129 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
 typedef unsigned int __size_t;
-# 145 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
+# 145 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
 typedef signed int _ssize_t;
-# 156 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
+# 156 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 3
 typedef _ssize_t __ssize_t;
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 357 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 357 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 3 4
 typedef unsigned int wint_t;
-# 160 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
+# 160 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_types.h" 2 3
 
 
 
@@ -252,7 +252,7 @@ typedef unsigned long __useconds_t;
 
 
 typedef __builtin_va_list __va_list;
-# 16 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
+# 16 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 2 3
 
 
 
@@ -260,7 +260,7 @@ typedef __builtin_va_list __va_list;
 
 
 typedef unsigned long __ULong;
-# 38 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 38 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct _reent;
 
 struct __locale_t;
@@ -306,7 +306,7 @@ struct _on_exit_args {
 
  __ULong _is_cxa;
 };
-# 93 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 93 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct _atexit {
  struct _atexit *_next;
  int _ind;
@@ -314,12 +314,12 @@ struct _atexit {
  void (*_fns[32])(void);
         struct _on_exit_args _on_exit_args;
 };
-# 117 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 117 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct __sbuf {
  unsigned char *_base;
  int _size;
 };
-# 181 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 181 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct __sFILE {
   unsigned char *_p;
   int _r;
@@ -370,7 +370,7 @@ struct __sFILE {
   _mbstate_t _mbstate;
   int _flags2;
 };
-# 287 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 287 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 typedef struct __sFILE __FILE;
 
 
@@ -381,7 +381,7 @@ struct _glue
   int _niobs;
   __FILE *_iobs;
 };
-# 319 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 319 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct _rand48 {
   unsigned short _seed[3];
   unsigned short _mult[3];
@@ -391,7 +391,7 @@ struct _rand48 {
 
 
 };
-# 569 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 569 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 struct _reent
 {
   int _errno;
@@ -472,24 +472,24 @@ struct _reent
   struct _glue __sglue;
   __FILE __sf[3];
 };
-# 766 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
+# 766 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/reent.h" 3
 extern struct _reent *_impure_ptr ;
 extern struct _reent *const _global_impure_ptr ;
 
 void _reclaim_reent (struct _reent *);
-# 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 17 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 17 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/time.h" 1 3
-# 20 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
-# 28 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 1 3
-# 28 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/time.h" 1 3
+# 20 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 28 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 1 3
+# 28 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
 typedef __uint8_t u_int8_t;
 
 
@@ -502,12 +502,12 @@ typedef __uint32_t u_int32_t;
 typedef __uint64_t u_int64_t;
 
 typedef int register_t;
-# 62 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 63 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 62 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 63 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h" 1 3
-# 20 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h" 1 3
+# 20 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_stdint.h" 3
 typedef __int8_t int8_t ;
 
 
@@ -571,61 +571,61 @@ typedef __intptr_t intptr_t;
 
 
 typedef __uintptr_t uintptr_t;
-# 65 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 65 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/endian.h" 1 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/endian.h" 1 3
 
 
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_endian.h" 1 3
-# 7 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/endian.h" 2 3
-# 68 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 1 3
-# 25 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_sigset.h" 1 3
-# 41 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_sigset.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/_endian.h" 1 3
+# 7 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/endian.h" 2 3
+# 68 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 1 3
+# 25 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_sigset.h" 1 3
+# 41 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_sigset.h" 3
 typedef unsigned long __sigset_t;
-# 26 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 1 3
-# 35 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
+# 26 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 1 3
+# 35 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
 typedef __suseconds_t suseconds_t;
-# 52 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
+# 52 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
 struct timeval {
  
-# 53 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h"
+# 53 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h"
 long long 
-# 53 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
+# 53 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timeval.h" 3
         tv_sec;
  suseconds_t tv_usec;
 };
-# 27 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 1 3
-# 38 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 1 3
-# 45 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 3
+# 27 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 1 3
+# 38 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 1 3
+# 45 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 3
 struct timespec {
  
-# 46 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h"
+# 46 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h"
 long long 
-# 46 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 3
+# 46 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_timespec.h" 3
        tv_sec;
  long tv_nsec;
 };
-# 39 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 2 3
-# 58 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 3
+# 39 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 2 3
+# 58 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/timespec.h" 3
 struct itimerspec {
  struct timespec it_interval;
  struct timespec it_value;
 };
-# 28 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
+# 28 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 2 3
 
 
 
 typedef __sigset_t sigset_t;
-# 45 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
+# 45 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
 typedef unsigned long fd_mask;
 
 
@@ -637,7 +637,7 @@ typedef unsigned long fd_mask;
 typedef struct _types_fd_set {
  fd_mask fds_bits[(((64)+(((sizeof (fd_mask) * 8))-1))/((sizeof (fd_mask) * 8)))];
 } _types_fd_set;
-# 71 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
+# 71 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/select.h" 3
 
 
 int select (int __n, _types_fd_set *__readfds, _types_fd_set *__writefds, _types_fd_set *__exceptfds, struct timeval *__timeout)
@@ -649,7 +649,7 @@ int pselect (int __n, _types_fd_set *__readfds, _types_fd_set *__writefds, _type
 
 
 
-# 69 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 69 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
 
 
 
@@ -660,7 +660,7 @@ typedef __uint32_t in_addr_t;
 
 
 typedef __uint16_t in_port_t;
-# 87 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 87 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
 typedef unsigned char u_char;
 
 
@@ -698,7 +698,7 @@ typedef __blksize_t blksize_t;
 
 
 typedef unsigned long clock_t;
-# 135 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 135 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
 typedef long daddr_t;
 
 
@@ -720,7 +720,7 @@ typedef __id_t id_t;
 
 
 typedef __ino_t ino_t;
-# 173 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 173 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
 typedef __off_t off_t;
 
 
@@ -776,23 +776,23 @@ typedef __timer_t timer_t;
 
 
 typedef __useconds_t useconds_t;
-# 236 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
+# 236 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 3
 typedef __int64_t sbintime_t;
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_pthreadtypes.h" 1 3
-# 240 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/types.h" 1 3
-# 241 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
-# 29 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_pthreadtypes.h" 1 3
+# 240 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/types.h" 1 3
+# 241 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/types.h" 2 3
+# 29 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_locale.h" 1 3
-# 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_locale.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_locale.h" 1 3
+# 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_locale.h" 3
 struct __locale_t;
 typedef struct __locale_t *locale_t;
-# 33 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
+# 33 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 2 3
 
 
 
@@ -818,44 +818,44 @@ struct tm
 
 clock_t clock (void);
 double difftime (
-# 57 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 57 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
          long long 
-# 57 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 57 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
          _time2, 
-# 57 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 57 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
          long long 
-# 57 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 57 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
          _time1);
 
-# 58 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 58 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 long long 
-# 58 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 58 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
          mktime (struct tm *_timeptr);
 
-# 59 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 59 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
 long long 
-# 59 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 59 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
          time (
-# 59 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 59 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
          long long 
-# 59 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 59 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
          *_timer);
 
 char *asctime (const struct tm *_tblock);
 char *ctime (const 
-# 62 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 62 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
        long long 
-# 62 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 62 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
        *_time);
 struct tm *gmtime (const 
-# 63 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 63 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
           long long 
-# 63 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 63 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
           *_timer);
 struct tm *localtime (const 
-# 64 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 64 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
           long long 
-# 64 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 64 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
           *_timer);
 
 size_t strftime (char *restrict _s, size_t _maxsize, const char *restrict _fmt, const struct tm *restrict _t)
@@ -871,25 +871,25 @@ extern size_t strftime_l (char *restrict _s, size_t _maxsize,
 char *asctime_r (const struct tm *restrict, char *restrict)
                        ;
 char *ctime_r (const 
-# 78 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 78 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
        long long 
-# 78 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 78 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
        *, char *);
 struct tm *gmtime_r (const 
-# 79 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 79 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
           long long 
-# 79 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 79 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
           *restrict, struct tm *restrict)
                             ;
 struct tm *localtime_r (const 
-# 81 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 81 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
           long long 
-# 81 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 81 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
           *restrict, struct tm *restrict)
                             ;
 
 
-# 101 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 101 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
 void tzset (void);
 
 void _tzset_r (struct _reent *);
@@ -902,9 +902,9 @@ typedef struct __tzrule_struct
   int d;
   int s;
   
-# 112 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
+# 112 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h"
  long long 
-# 112 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 112 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
         change;
   long offset;
 } __tzrule_type;
@@ -917,7 +917,7 @@ typedef struct __tzinfo_struct
 } __tzinfo_type;
 
 __tzinfo_type *__gettzinfo (void);
-# 154 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
+# 154 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/time.h" 3
 extern long _timezone;
 extern int _daylight;
 
@@ -930,24 +930,24 @@ extern char *_tzname[2];
 # 47 "../../../component/common/api/platform/platform_stdlib.h"
 # 1 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h" 1
 # 11 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 1 3
-# 36 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 37 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 1 3
+# 36 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 37 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 2 3
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 1 3 4
-# 40 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 1 3 4
+# 40 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 3 4
 typedef __builtin_va_list __gnuc_va_list;
-# 41 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 2 3
+# 41 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 2 3
 
 
 
 
 
 typedef __gnuc_va_list va_list;
-# 63 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 63 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 
 
 
@@ -964,9 +964,9 @@ typedef _fpos_t fpos_t;
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/stdio.h" 1 3
-# 80 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 2 3
-# 181 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/stdio.h" 1 3
+# 80 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 2 3
+# 181 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 char * ctermid (char *);
 
 
@@ -1034,7 +1034,7 @@ int sprintf (char *restrict, const char *restrict, ...) __attribute__ ((__format
                                                             ;
 int remove (const char *);
 int rename (const char *, const char *);
-# 257 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 257 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 int fseeko (FILE *, off_t, int);
 off_t ftello ( FILE *);
 
@@ -1054,7 +1054,7 @@ int vscanf (const char *, __gnuc_va_list) __attribute__ ((__format__ (__scanf__,
                                                            ;
 int vsscanf (const char *restrict, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 2, 0)))
                                                            ;
-# 284 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 284 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 int asiprintf (char **, const char *, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
                                                             ;
 char * asniprintf (char *, size_t *, const char *, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
@@ -1101,7 +1101,7 @@ int vsiscanf (const char *, const char *, __gnuc_va_list) __attribute__ ((__form
                                                            ;
 int vsniprintf (char *, size_t, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
                                                             ;
-# 339 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 339 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 FILE * fdopen (int, const char *);
 
 int fileno (FILE *);
@@ -1128,7 +1128,7 @@ int ftrylockfile (FILE *);
 void funlockfile (FILE *);
 int putc_unlocked (int, FILE *);
 int putchar_unlocked (int);
-# 374 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 374 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 int dprintf (int, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
                                                             ;
 
@@ -1296,10 +1296,10 @@ int fgetc_unlocked (FILE *);
 int fputc_unlocked (int, FILE *);
 size_t fread_unlocked (void * restrict, size_t _size, size_t _n, FILE *restrict);
 size_t fwrite_unlocked (const void * restrict , size_t _size, size_t _n, FILE *);
-# 574 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 574 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 int __srget_r (struct _reent *, FILE *);
 int __swbuf_r (struct _reent *, int, FILE *);
-# 598 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 598 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 FILE *funopen (const void * __cookie, int (*__readfn)(void * __cookie, char *__buf, int __n), int (*__writefn)(void * __cookie, const char *__buf, int __n), fpos_t (*__seekfn)(void * __cookie, fpos_t __off, int __whence), int (*__closefn)(void * __cookie))
 
 
@@ -1314,7 +1314,7 @@ FILE *_funopen_r (struct _reent *, const void * __cookie, int (*__readfn)(void *
 
 
                                    ;
-# 684 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 684 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 static __inline__ int __sputc_r(struct _reent *_ptr, int _c, FILE *_p) {
 
 
@@ -1325,29 +1325,29 @@ static __inline__ int __sputc_r(struct _reent *_ptr, int _c, FILE *_p) {
  else
   return (__swbuf_r(_ptr, _c, _p));
 }
-# 767 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
+# 767 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdio.h" 3
 
 # 12 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h" 2
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 1 3
-# 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/ieeefp.h" 1 3
-# 11 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 1 3
+# 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/ieeefp.h" 1 3
+# 11 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
 
 
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 17 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 17 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
 
 
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/stdlib.h" 1 3
-# 21 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/machine/stdlib.h" 1 3
+# 21 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/alloca.h" 1 3
-# 23 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
-# 33 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/alloca.h" 1 3
+# 23 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 2 3
+# 33 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
 
 
 typedef struct
@@ -1485,7 +1485,7 @@ long strtol (const char *restrict __n, char **restrict __end_PTR, int __base);
 long _strtol_r (struct _reent *,const char *restrict __n, char **restrict __end_PTR, int __base);
 unsigned long strtoul (const char *restrict __n, char **restrict __end_PTR, int __base);
 unsigned long _strtoul_r (struct _reent *,const char *restrict __n, char **restrict __end_PTR, int __base);
-# 186 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 186 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
 int system (const char *__string);
 
 
@@ -1508,7 +1508,7 @@ void * _reallocf_r (struct _reent *, void *, size_t);
 int setenv (const char *__string, const char *__value, int __overwrite);
 
 int _setenv_r (struct _reent *, const char *__string, const char *__value, int __overwrite);
-# 219 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 219 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
 char * __itoa (int, char *, int);
 char * __utoa (unsigned, char *, int);
 
@@ -1587,10 +1587,10 @@ void _mstats_r (struct _reent *, char *);
 int _system_r (struct _reent *, const char *);
 
 void __eprintf (const char *, const char *, unsigned int, const char *);
-# 306 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 306 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
 void qsort_r (void * __base, size_t __nmemb, size_t __size, void * __thunk, int (*_compar)(void *, const void *, const void *))
              __asm__ ("" "__bsd_qsort_r");
-# 316 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
+# 316 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdlib.h" 3
 extern long double _strtold_r (struct _reent *, const char *restrict, char **restrict);
 
 extern long double strtold (const char *restrict, char **restrict);
@@ -1610,10 +1610,10 @@ _Noreturn void
 
 
 # 13 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h" 2
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 1 3
-# 17 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 18 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 2 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 1 3
+# 17 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 18 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 2 3
 
 
 
@@ -1674,7 +1674,7 @@ char *index (const char *, int);
 
 
 void * memccpy (void * restrict, const void * restrict, int, size_t);
-# 86 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
+# 86 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
 char *rindex (const char *, int);
 
 
@@ -1696,7 +1696,7 @@ char *_strdup_r (struct _reent *, const char *);
 char *strndup (const char *, size_t);
 
 char *_strndup_r (struct _reent *, const char *, size_t);
-# 121 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
+# 121 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
 int strerror_r (int, char *, size_t)
 
              __asm__ ("" "__xpg_strerror_r")
@@ -1732,20 +1732,20 @@ char *strupr (char *);
 
 
 char *strsignal (int __signo);
-# 192 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/string.h" 1 3
-# 193 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 2 3
+# 192 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/string.h" 1 3
+# 193 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/string.h" 2 3
 
 
 # 14 "../../../component/common/api/platform/platform_stdlib_rtl8710c.h" 2
 # 1 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h" 1
 # 32 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 1 3 4
-# 9 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 3 4
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 1 3 4
-# 13 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 1 3 4
-# 35 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 1 3 4
+# 9 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 1 3 4
+# 13 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 1 3 4
+# 35 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 3 4
        
        
        
@@ -1753,7 +1753,7 @@ char *strsignal (int __signo);
        
        
        
-# 187 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 3 4
+# 187 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/sys/_intsup.h" 3 4
        
        
        
@@ -1761,7 +1761,7 @@ char *strsignal (int __signo);
        
        
        
-# 14 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 2 3 4
+# 14 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 2 3 4
 
 
 
@@ -1789,21 +1789,21 @@ typedef __uint_least32_t uint_least32_t;
 
 typedef __int_least64_t int_least64_t;
 typedef __uint_least64_t uint_least64_t;
-# 51 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
+# 51 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
   typedef int int_fast8_t;
   typedef unsigned int uint_fast8_t;
-# 61 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
+# 61 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
   typedef int int_fast16_t;
   typedef unsigned int uint_fast16_t;
-# 71 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
+# 71 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
   typedef int int_fast32_t;
   typedef unsigned int uint_fast32_t;
-# 81 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
+# 81 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/stdint.h" 3 4
   typedef long long int int_fast64_t;
   typedef long long unsigned int uint_fast64_t;
-# 10 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 2 3 4
+# 10 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdint.h" 2 3 4
 # 33 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h" 2
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
 # 34 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h" 2
 # 70 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/basic_types.h"
 
@@ -2004,6 +2004,11 @@ typedef struct _at_command_item_{
 
 void log_service_add_table(log_item_t *tbl, int len);
 int parse_param(char *buf, char **argv);
+
+void log_service_lock_init(void);
+void log_service_lock(void);
+uint32_t log_service_lock_timeout(uint32_t ms);
+void log_service_unlock(void);
 # 6 "../../../component/common/api/at_cmd/atcmd_lwip.c" 2
 # 1 "../../../component/common/api/at_cmd/atcmd_wifi.h" 1
 
@@ -2023,6 +2028,9 @@ extern unsigned char g_user_ap_sta_num;
 
 
 void wlan_network(void);
+# 38 "../inc/main.h"
+extern unsigned char sta_ip[4], sta_netmask[4], sta_gw[4];
+extern unsigned char ap_ip[4], ap_netmask[4], ap_gw[4];
 # 4 "../../../component/common/api/at_cmd/atcmd_wifi.h" 2
 # 1 "../../../component/common/api/lwip_netconf.h" 1
 # 18 "../../../component/common/api/lwip_netconf.h"
@@ -2061,16 +2069,16 @@ typedef u32_t mem_ptr_t;
 typedef int sys_prot_t;
 # 49 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h" 2
 # 105 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
 # 106 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h" 2
 # 138 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 1 3
-# 21 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
-# 22 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 2 3
-# 307 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 1 3
+# 21 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 22 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 2 3
+# 307 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
 
-# 307 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
+# 307 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/arm-none-eabi/include/inttypes.h" 3
 typedef struct {
   intmax_t quot;
   intmax_t rem;
@@ -2088,7 +2096,7 @@ extern intmax_t wcstoimax(const wchar_t *restrict, wchar_t **restrict, int);
 extern uintmax_t wcstoumax(const wchar_t *restrict, wchar_t **restrict, int);
 # 139 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h" 2
 # 175 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include-fixed/limits.h" 1 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include-fixed/limits.h" 1 3 4
 # 176 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/arch.h" 2
 # 41 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/debug.h" 2
 # 53 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/opt.h" 2
@@ -2152,7 +2160,7 @@ int err_to_errno(err_t err);
 # 35 "../../../component/common/network/lwip/lwip_v2.0.2/port/realtek/arch/sys_arch.h"
 # 1 "../../../component/os/freertos/freertos_v10.0.1/Source/include/FreeRTOS.h" 1
 # 34 "../../../component/os/freertos/freertos_v10.0.1/Source/include/FreeRTOS.h"
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
 # 35 "../../../component/os/freertos/freertos_v10.0.1/Source/include/FreeRTOS.h" 2
 # 56 "../../../component/os/freertos/freertos_v10.0.1/Source/include/FreeRTOS.h"
 # 1 "../inc/FreeRTOSConfig.h" 1
@@ -2164,9 +2172,9 @@ extern uint32_t SystemCoreClock;
 # 1 "../../../component/soc/realtek/8710c/cmsis/rtl8710c/include/platform_conf.h" 1
 # 32 "../../../component/soc/realtek/8710c/app/rtl_printf/include/diag.h" 2
 
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 1 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stdarg.h" 1 3 4
 # 34 "../../../component/soc/realtek/8710c/app/rtl_printf/include/diag.h" 2
-# 1 "/home/ls/8720cf/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
+# 1 "/home/ls/samba_share/sdk-ameba-v7.1d/tools/arm-none-eabi-gcc/asdk/linux/newlib/lib/gcc/arm-none-eabi/6.5.0/include/stddef.h" 1 3 4
 # 35 "../../../component/soc/realtek/8710c/app/rtl_printf/include/diag.h" 2
 # 1 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h" 1
 # 42 "../../../component/soc/realtek/8710c/app/rtl_printf/include/log_buf.h"
@@ -5052,6 +5060,862 @@ void LwIP_AUTOIP(struct netif *pnetif);
 
 uint32_t LWIP_Get_Dynamic_Sleep_Interval(void);
 # 5 "../../../component/common/api/at_cmd/atcmd_wifi.h" 2
+# 68 "../../../component/common/api/at_cmd/atcmd_wifi.h"
+extern void fATPN(void *arg);
+
+
+# 1 "../../../component/common/drivers/wlan/realtek/include/wifi_structures.h" 1
+# 33 "../../../component/common/drivers/wlan/realtek/include/wifi_structures.h"
+# 1 "../../../component/common/drivers/wlan/realtek/include/wifi_constants.h" 1
+# 63 "../../../component/common/drivers/wlan/realtek/include/wifi_constants.h"
+enum
+{
+    RTW_SUCCESS = 0,
+    RTW_PENDING = 1,
+    RTW_TIMEOUT = 2,
+    RTW_PARTIAL_RESULTS = 3,
+    RTW_INVALID_KEY = 4,
+    RTW_DOES_NOT_EXIST = 5,
+    RTW_NOT_AUTHENTICATED = 6,
+    RTW_NOT_KEYED = 7,
+    RTW_IOCTL_FAIL = 8,
+    RTW_BUFFER_UNAVAILABLE_TEMPORARY = 9,
+    RTW_BUFFER_UNAVAILABLE_PERMANENT = 10,
+    RTW_WPS_PBC_OVERLAP = 11,
+    RTW_CONNECTION_LOST = 12,
+
+    RTW_ERROR = -1,
+    RTW_BADARG = -2,
+    RTW_BADOPTION = -3,
+    RTW_NOTUP = -4,
+    RTW_NOTDOWN = -5,
+    RTW_NOTAP = -6,
+    RTW_NOTSTA = -7,
+    RTW_BADKEYIDX = -8,
+    RTW_RADIOOFF = -9,
+    RTW_NOTBANDLOCKED = -10,
+    RTW_NOCLK = -11,
+    RTW_BADRATESET = -12,
+    RTW_BADBAND = -13,
+    RTW_BUFTOOSHORT = -14,
+    RTW_BUFTOOLONG = -15,
+    RTW_BUSY = -16,
+    RTW_NOTASSOCIATED = -17,
+    RTW_BADSSIDLEN = -18,
+    RTW_OUTOFRANGECHAN = -19,
+    RTW_BADCHAN = -20,
+    RTW_BADADDR = -21,
+    RTW_NORESOURCE = -22,
+    RTW_UNSUPPORTED = -23,
+    RTW_BADLEN = -24,
+    RTW_NOTREADY = -25,
+    RTW_EPERM = -26,
+    RTW_NOMEM = -27,
+    RTW_ASSOCIATED = -28,
+    RTW_RANGE = -29,
+    RTW_NOTFOUND = -30,
+    RTW_WME_NOT_ENABLED = -31,
+    RTW_TSPEC_NOTFOUND = -32,
+    RTW_ACM_NOTSUPPORTED = -33,
+    RTW_NOT_WME_ASSOCIATION = -34,
+    RTW_SDIO_ERROR = -35,
+    RTW_WLAN_DOWN = -36,
+    RTW_BAD_VERSION = -37,
+    RTW_TXFAIL = -38,
+    RTW_RXFAIL = -39,
+    RTW_NODEVICE = -40,
+    RTW_UNFINISHED = -41,
+    RTW_NONRESIDENT = -42,
+    RTW_DISABLED = -43
+};
+typedef signed long rtw_result_t;
+
+
+
+
+
+
+enum {
+    RTW_SECURITY_OPEN = 0,
+    RTW_SECURITY_WEP_PSK = 0x0001,
+    RTW_SECURITY_WEP_SHARED = ( 0x0001 | 0x00008000 ),
+    RTW_SECURITY_WPA_TKIP_PSK = ( 0x00200000 | 0x0002 ),
+    RTW_SECURITY_WPA_AES_PSK = ( 0x00200000 | 0x0004 ),
+    RTW_SECURITY_WPA2_AES_PSK = ( 0x00400000 | 0x0004 ),
+    RTW_SECURITY_WPA2_TKIP_PSK = ( 0x00400000 | 0x0002 ),
+    RTW_SECURITY_WPA2_MIXED_PSK = ( 0x00400000 | 0x0004 | 0x0002 ),
+    RTW_SECURITY_WPA_WPA2_MIXED = ( 0x00200000 | 0x00400000 ),
+    RTW_SECURITY_WPA2_AES_CMAC = ( 0x00400000 | 0x0010),
+
+    RTW_SECURITY_WPS_OPEN = 0x10000000,
+    RTW_SECURITY_WPS_SECURE = (0x10000000 | 0x0004),
+
+    RTW_SECURITY_WPA3_AES_PSK = (0x00800000 | 0x0004),
+
+    RTW_SECURITY_UNKNOWN = -1,
+
+    RTW_SECURITY_FORCE_32_BIT = 0x7fffffff
+};
+typedef unsigned long rtw_security_t;
+
+enum {
+    RTW_ENCRYPTION_UNKNOWN = 0,
+    RTW_ENCRYPTION_OPEN = 1,
+    RTW_ENCRYPTION_WEP40 = 2,
+    RTW_ENCRYPTION_WPA_TKIP = 3,
+    RTW_ENCRYPTION_WPA_AES = 4,
+    RTW_ENCRYPTION_WPA2_TKIP = 5,
+    RTW_ENCRYPTION_WPA2_AES = 6,
+    RTW_ENCRYPTION_WPA2_MIXED = 7,
+    RTW_ENCRYPTION_WEP104 = 9,
+    RTW_ENCRYPTION_UNDEF = 0xFF,
+};
+typedef unsigned long rtw_encryption_t;
+
+enum {
+ RTW_FALSE = 0,
+ RTW_TRUE = 1
+};
+typedef unsigned long rtw_bool_t;
+
+
+
+
+enum {
+ RTW_802_11_BAND_5GHZ = 0,
+ RTW_802_11_BAND_2_4GHZ = 1
+};
+typedef unsigned long rtw_802_11_band_t;
+
+
+
+
+enum {
+
+ RTW_COUNTRY_WORLD1,
+ RTW_COUNTRY_ETSI1,
+ RTW_COUNTRY_FCC1,
+ RTW_COUNTRY_MKK1,
+ RTW_COUNTRY_ETSI2,
+ RTW_COUNTRY_FCC2,
+ RTW_COUNTRY_WORLD2,
+ RTW_COUNTRY_MKK2,
+ RTW_COUNTRY_GLOBAL,
+
+
+ RTW_COUNTRY_WORLD,
+ RTW_COUNTRY_EU,
+
+
+ RTW_COUNTRY_JP,
+
+
+ RTW_COUNTRY_AS,
+ RTW_COUNTRY_BM,
+ RTW_COUNTRY_CA,
+ RTW_COUNTRY_DM,
+ RTW_COUNTRY_DO,
+ RTW_COUNTRY_FM,
+ RTW_COUNTRY_GD,
+ RTW_COUNTRY_GT,
+ RTW_COUNTRY_GU,
+ RTW_COUNTRY_HT,
+ RTW_COUNTRY_MH,
+ RTW_COUNTRY_MP,
+ RTW_COUNTRY_NI,
+ RTW_COUNTRY_PA,
+ RTW_COUNTRY_PR,
+ RTW_COUNTRY_PW,
+ RTW_COUNTRY_TW,
+ RTW_COUNTRY_US,
+ RTW_COUNTRY_VI,
+
+
+ RTW_COUNTRY_AD,
+ RTW_COUNTRY_AE,
+ RTW_COUNTRY_AF,
+ RTW_COUNTRY_AI,
+ RTW_COUNTRY_AL,
+ RTW_COUNTRY_AM,
+ RTW_COUNTRY_AN,
+ RTW_COUNTRY_AR,
+ RTW_COUNTRY_AT,
+ RTW_COUNTRY_AU,
+ RTW_COUNTRY_AW,
+ RTW_COUNTRY_AZ,
+ RTW_COUNTRY_BA,
+ RTW_COUNTRY_BB,
+ RTW_COUNTRY_BD,
+ RTW_COUNTRY_BE,
+ RTW_COUNTRY_BF,
+ RTW_COUNTRY_BG,
+ RTW_COUNTRY_BH,
+ RTW_COUNTRY_BL,
+ RTW_COUNTRY_BN,
+ RTW_COUNTRY_BO,
+ RTW_COUNTRY_BR,
+ RTW_COUNTRY_BS,
+ RTW_COUNTRY_BT,
+ RTW_COUNTRY_BY,
+ RTW_COUNTRY_BZ,
+ RTW_COUNTRY_CF,
+ RTW_COUNTRY_CH,
+ RTW_COUNTRY_CI,
+ RTW_COUNTRY_CL,
+ RTW_COUNTRY_CN,
+ RTW_COUNTRY_CO,
+ RTW_COUNTRY_CR,
+ RTW_COUNTRY_CX,
+ RTW_COUNTRY_CY,
+ RTW_COUNTRY_CZ,
+ RTW_COUNTRY_DE,
+ RTW_COUNTRY_DK,
+ RTW_COUNTRY_DZ,
+ RTW_COUNTRY_EC,
+ RTW_COUNTRY_EE,
+ RTW_COUNTRY_EG,
+ RTW_COUNTRY_ES,
+ RTW_COUNTRY_ET,
+ RTW_COUNTRY_FI,
+ RTW_COUNTRY_FR,
+ RTW_COUNTRY_GB,
+ RTW_COUNTRY_GE,
+ RTW_COUNTRY_GF,
+ RTW_COUNTRY_GH,
+ RTW_COUNTRY_GL,
+ RTW_COUNTRY_GP,
+ RTW_COUNTRY_GR,
+ RTW_COUNTRY_GY,
+ RTW_COUNTRY_HK,
+ RTW_COUNTRY_HN,
+ RTW_COUNTRY_HR,
+ RTW_COUNTRY_HU,
+ RTW_COUNTRY_ID,
+ RTW_COUNTRY_IE,
+ RTW_COUNTRY_IL,
+ RTW_COUNTRY_IN,
+ RTW_COUNTRY_IQ,
+ RTW_COUNTRY_IR,
+ RTW_COUNTRY_IS,
+ RTW_COUNTRY_IT,
+ RTW_COUNTRY_JM,
+ RTW_COUNTRY_JO,
+ RTW_COUNTRY_KE,
+ RTW_COUNTRY_KH,
+ RTW_COUNTRY_KN,
+ RTW_COUNTRY_KP,
+ RTW_COUNTRY_KR,
+ RTW_COUNTRY_KW,
+ RTW_COUNTRY_KY,
+ RTW_COUNTRY_KZ,
+ RTW_COUNTRY_LA,
+ RTW_COUNTRY_LB,
+ RTW_COUNTRY_LC,
+ RTW_COUNTRY_LI,
+ RTW_COUNTRY_LK,
+ RTW_COUNTRY_LR,
+ RTW_COUNTRY_LS,
+ RTW_COUNTRY_LT,
+ RTW_COUNTRY_LU,
+ RTW_COUNTRY_LV,
+ RTW_COUNTRY_MA,
+ RTW_COUNTRY_MC,
+ RTW_COUNTRY_MD,
+ RTW_COUNTRY_ME,
+ RTW_COUNTRY_MF,
+ RTW_COUNTRY_MK,
+ RTW_COUNTRY_MN,
+ RTW_COUNTRY_MO,
+ RTW_COUNTRY_MQ,
+ RTW_COUNTRY_MR,
+ RTW_COUNTRY_MT,
+ RTW_COUNTRY_MU,
+ RTW_COUNTRY_MV,
+ RTW_COUNTRY_MW,
+ RTW_COUNTRY_MX,
+ RTW_COUNTRY_MY,
+ RTW_COUNTRY_NG,
+ RTW_COUNTRY_NL,
+ RTW_COUNTRY_NO,
+ RTW_COUNTRY_NP,
+ RTW_COUNTRY_NZ,
+ RTW_COUNTRY_OM,
+ RTW_COUNTRY_PE,
+ RTW_COUNTRY_PF,
+ RTW_COUNTRY_PG,
+ RTW_COUNTRY_PH,
+ RTW_COUNTRY_PK,
+ RTW_COUNTRY_PL,
+ RTW_COUNTRY_PM,
+ RTW_COUNTRY_PT,
+ RTW_COUNTRY_PY,
+ RTW_COUNTRY_QA,
+ RTW_COUNTRY_RS,
+ RTW_COUNTRY_RU,
+ RTW_COUNTRY_RW,
+ RTW_COUNTRY_SA,
+ RTW_COUNTRY_SE,
+ RTW_COUNTRY_SG,
+ RTW_COUNTRY_SI,
+ RTW_COUNTRY_SK,
+ RTW_COUNTRY_SN,
+ RTW_COUNTRY_SR,
+ RTW_COUNTRY_SV,
+ RTW_COUNTRY_SY,
+ RTW_COUNTRY_TC,
+ RTW_COUNTRY_TD,
+ RTW_COUNTRY_TG,
+ RTW_COUNTRY_TH,
+ RTW_COUNTRY_TN,
+ RTW_COUNTRY_TR,
+ RTW_COUNTRY_TT,
+ RTW_COUNTRY_TZ,
+ RTW_COUNTRY_UA,
+ RTW_COUNTRY_UG,
+ RTW_COUNTRY_UY,
+ RTW_COUNTRY_UZ,
+ RTW_COUNTRY_VC,
+ RTW_COUNTRY_VE,
+ RTW_COUNTRY_VN,
+ RTW_COUNTRY_VU,
+ RTW_COUNTRY_WF,
+ RTW_COUNTRY_WS,
+ RTW_COUNTRY_YE,
+ RTW_COUNTRY_YT,
+ RTW_COUNTRY_ZA,
+ RTW_COUNTRY_ZW,
+
+ RTW_COUNTRY_MAX
+
+};
+typedef unsigned long rtw_country_code_t;
+
+
+
+
+enum {
+ RTW_ADAPTIVITY_DISABLE = 0,
+ RTW_ADAPTIVITY_NORMAL,
+ RTW_ADAPTIVITY_CARRIER_SENSE
+};
+typedef unsigned long rtw_adaptivity_mode_t;
+
+
+
+
+
+enum {
+ RTW_MODE_NONE = 0,
+ RTW_MODE_STA,
+ RTW_MODE_AP,
+ RTW_MODE_STA_AP,
+ RTW_MODE_PROMISC,
+ RTW_MODE_P2P
+};
+typedef unsigned long rtw_mode_t;
+
+enum {
+ RTW_SCAN_FULL = 0,
+ RTW_SCAN_SOCIAL,
+ RTW_SCAN_ONE
+};
+typedef unsigned long rtw_scan_mode_t;
+
+
+
+
+typedef enum{
+    RTW_AUTORECONNECT_DISABLE,
+    RTW_AUTORECONNECT_FINITE,
+    RTW_AUTORECONNECT_INFINITE
+} rtw_autoreconnect_mode_t;
+
+
+
+
+enum {
+ RTW_LINK_DISCONNECTED = 0,
+ RTW_LINK_CONNECTED
+};
+typedef unsigned long rtw_link_status_t;
+
+
+
+
+enum {
+    RTW_SCAN_TYPE_ACTIVE = 0x00,
+    RTW_SCAN_TYPE_PASSIVE = 0x01,
+    RTW_SCAN_TYPE_PROHIBITED_CHANNELS = 0x04
+};
+typedef unsigned long rtw_scan_type_t;
+
+
+
+
+enum {
+    RTW_BSS_TYPE_INFRASTRUCTURE = 0,
+    RTW_BSS_TYPE_ADHOC = 1,
+    RTW_BSS_TYPE_ANY = 2,
+
+    RTW_BSS_TYPE_UNKNOWN = -1
+};
+typedef unsigned long rtw_bss_type_t;
+
+enum {
+ RTW_SCAN_COMMAMD = 0x01
+};
+typedef unsigned long rtw_scan_command_t;
+
+enum{
+ COMMAND1 = 0x01
+};
+typedef unsigned long rtw_command_type;
+
+enum {
+ RTW_WPS_TYPE_DEFAULT = 0x0000,
+ RTW_WPS_TYPE_USER_SPECIFIED = 0x0001,
+ RTW_WPS_TYPE_MACHINE_SPECIFIED = 0x0002,
+ RTW_WPS_TYPE_REKEY = 0x0003,
+ RTW_WPS_TYPE_PUSHBUTTON = 0x0004,
+ RTW_WPS_TYPE_REGISTRAR_SPECIFIED = 0x0005,
+    RTW_WPS_TYPE_NONE = 0x0006,
+    RTW_WPS_TYPE_WSC = 0x0007
+};
+typedef unsigned long rtw_wps_type_t;
+
+
+
+
+enum {
+    RTW_NETWORK_B = 1,
+ RTW_NETWORK_BG = 3,
+ RTW_NETWORK_BGN = 11
+};
+typedef unsigned long rtw_network_mode_t;
+
+
+
+
+enum {
+    RTW_STA_INTERFACE = 0,
+    RTW_AP_INTERFACE = 1,
+};
+typedef unsigned long rtw_interface_t;
+
+
+
+
+enum {
+ RTW_POSITIVE_MATCHING = 0,
+ RTW_NEGATIVE_MATCHING = 1
+};
+typedef unsigned long rtw_packet_filter_rule_t;
+
+
+
+
+enum {
+ RTW_PROMISC_DISABLE = 0,
+ RTW_PROMISC_ENABLE = 1,
+ RTW_PROMISC_ENABLE_1 = 2,
+ RTW_PROMISC_ENABLE_2 = 3,
+ RTW_PROMISC_ENABLE_3 = 4,
+ RTW_PROMISC_ENABLE_4 = 5,
+};
+typedef unsigned long rtw_rcr_level_t;
+
+
+
+
+
+enum {
+ RTW_RX_NORMAL = 0,
+ RTW_RX_UNSUPPORT = 1,
+};
+typedef unsigned long rtw_rx_type_t;
+
+
+
+
+enum{
+ RTW_NO_ERROR = 0,
+ RTW_NONE_NETWORK = 1,
+ RTW_CONNECT_FAIL = 2,
+ RTW_WRONG_PASSWORD = 3 ,
+ RTW_4WAY_HANDSHAKE_TIMEOUT = 4,
+ RTW_DHCP_FAIL = 5,
+ RTW_UNKNOWN,
+};
+typedef unsigned long rtw_connect_error_flag_t;
+
+enum {
+ RTW_TX_PWR_PERCENTAGE_100 = 0,
+ RTW_TX_PWR_PERCENTAGE_75 = 1,
+ RTW_TX_PWR_PERCENTAGE_50 = 2,
+ RTW_TX_PWR_PERCENTAGE_25 = 3,
+ RTW_TX_PWR_PERCENTAGE_12_5 = 4,
+};
+typedef unsigned long rtw_tx_pwr_percentage_t;
+
+
+
+
+enum _WIFI_EVENT_INDICATE{
+ WIFI_EVENT_CONNECT = 0,
+ WIFI_EVENT_DISCONNECT = 1,
+ WIFI_EVENT_FOURWAY_HANDSHAKE_DONE = 2,
+ WIFI_EVENT_SCAN_RESULT_REPORT = 3,
+ WIFI_EVENT_SCAN_DONE = 4,
+ WIFI_EVENT_RECONNECTION_FAIL = 5,
+ WIFI_EVENT_SEND_ACTION_DONE = 6,
+ WIFI_EVENT_RX_MGNT = 7,
+ WIFI_EVENT_STA_ASSOC = 8,
+ WIFI_EVENT_STA_DISASSOC = 9,
+ WIFI_EVENT_STA_WPS_START = 10,
+ WIFI_EVENT_WPS_FINISH = 11,
+ WIFI_EVENT_EAPOL_START = 12,
+ WIFI_EVENT_EAPOL_RECVD = 13,
+ WIFI_EVENT_NO_NETWORK = 14,
+ WIFI_EVENT_BEACON_AFTER_DHCP = 15,
+ WIFI_EVENT_IP_CHANGED = 16,
+ WIFI_EVENT_ICV_ERROR = 17,
+ WIFI_EVENT_CHALLENGE_FAIL = 18,
+ WIFI_EVENT_STA_START = 19,
+ WIFI_EVENT_STA_STOP = 20,
+ WIFI_EVENT_AP_START = 21,
+ WIFI_EVENT_AP_STOP = 22,
+ WIFI_EVENT_STA_GOT_IP = 23,
+ WIFI_EVENT_STA_LOST_IP = 24,
+ WIFI_EVENT_MAX,
+};
+typedef unsigned long rtw_event_indicate_t;
+# 34 "../../../component/common/drivers/wlan/realtek/include/wifi_structures.h" 2
+
+
+
+
+
+
+#pragma pack(1)
+
+
+
+
+
+typedef struct rtw_ssid {
+    unsigned char len;
+    unsigned char val[33];
+} rtw_ssid_t;
+
+#pragma pack()
+
+
+
+#pragma pack(1)
+
+
+
+
+
+typedef struct rtw_mac {
+    unsigned char octet[6];
+} rtw_mac_t;
+
+#pragma pack()
+# 74 "../../../component/common/drivers/wlan/realtek/include/wifi_structures.h"
+typedef struct rtw_ap_info {
+ rtw_ssid_t ssid;
+ rtw_security_t security_type;
+ unsigned char *password;
+ int password_len;
+ int channel;
+}rtw_ap_info_t;
+
+
+
+
+
+
+
+typedef struct rtw_network_info {
+ rtw_ssid_t ssid;
+ rtw_mac_t bssid;
+ rtw_security_t security_type;
+ unsigned char *password;
+ int password_len;
+ int key_id;
+}rtw_network_info_t;
+
+
+#pragma pack(1)
+
+
+
+
+
+typedef struct rtw_scan_result {
+    rtw_ssid_t SSID;
+    rtw_mac_t BSSID;
+    signed short signal_strength;
+    rtw_bss_type_t bss_type;
+    rtw_security_t security;
+    rtw_wps_type_t wps_type;
+    unsigned int channel;
+    rtw_802_11_band_t band;
+} rtw_scan_result_t;
+
+#pragma pack()
+
+
+
+
+
+typedef struct rtw_scan_handler_result {
+    rtw_scan_result_t ap_details;
+    rtw_bool_t scan_complete;
+    void* user_data;
+
+} rtw_scan_handler_result_t;
+
+
+#pragma pack(1)
+
+
+
+
+
+typedef struct rtw_wifi_setting {
+ rtw_mode_t mode;
+ unsigned char ssid[33];
+ unsigned char channel;
+ rtw_security_t security_type;
+ unsigned char password[65];
+ unsigned char key_idx;
+}rtw_wifi_setting_t;
+
+#pragma pack()
+
+
+
+
+
+typedef struct rtw_wifi_config {
+ unsigned int boot_mode;
+ unsigned char ssid[32];
+ unsigned char ssid_len;
+ unsigned char security_type;
+ unsigned char password[65];
+ unsigned char password_len;
+ unsigned char channel;
+} rtw_wifi_config_t;
+
+
+
+
+typedef struct
+{
+    unsigned int count;
+    rtw_mac_t mac_list[1];
+} rtw_maclist_t;
+
+
+
+
+
+
+typedef struct {
+    unsigned int version;
+    unsigned int length;
+
+    rtw_mac_t BSSID;
+    unsigned short beacon_period;
+    unsigned short capability;
+    unsigned char SSID_len;
+    unsigned char SSID[32];
+    unsigned char channel;
+
+
+
+
+
+    unsigned short atim_window;
+    unsigned char dtim_period;
+    signed short RSSI;
+
+    unsigned char n_cap;
+    unsigned int nbss_cap;
+    unsigned char basic_mcs[16];
+
+    unsigned short ie_offset;
+    unsigned int ie_length;
+} rtw_bss_info_t;
+
+
+
+
+typedef struct {
+ unsigned short offset;
+ unsigned short mask_size;
+ unsigned char* mask;
+ unsigned char* pattern;
+} rtw_packet_filter_pattern_t;
+
+typedef struct ieee80211_frame_info{
+ unsigned short i_fc;
+ unsigned short i_dur;
+ unsigned char i_addr1[6];
+ unsigned char i_addr2[6];
+ unsigned char i_addr3[6];
+ unsigned short i_seq;
+ unsigned char bssid[6];
+ unsigned char encrypt;
+ signed char rssi;
+
+ rtw_rx_type_t type;
+
+}ieee80211_frame_info_t;
+
+
+typedef struct rtw_rx_info {
+ unsigned short length;
+ unsigned char filter;
+ signed char rssi;
+ unsigned short channel;
+ unsigned char agg:1;
+ unsigned char mcs:7;
+}rtw_rx_info_t;
+
+struct rtw_plcp_info {
+ struct rtw_plcp_info *prev;
+ struct rtw_plcp_info *next;
+ rtw_rx_info_t rtw_plcp_info;
+};
+
+struct rtw_rx_buffer {
+ struct rtw_plcp_info *head;
+ struct rtw_plcp_info *tail;
+};
+
+
+typedef struct {
+ char filter_id;
+ rtw_packet_filter_pattern_t patt;
+ rtw_packet_filter_rule_t rule;
+ unsigned char enable;
+}rtw_packet_filter_info_t;
+
+typedef struct rtw_mac_filter_list{
+ struct list_head node;
+ unsigned char mac_addr[6];
+}rtw_mac_filter_list_t;
+
+typedef struct wowlan_pattern {
+ unsigned char eth_da[6];
+ unsigned char eth_sa[6];
+ unsigned char eth_proto_type[2];
+ unsigned char header_len[1];
+
+ unsigned char ip_proto[1];
+
+ unsigned char ip_sa[4];
+ unsigned char ip_da[4];
+    unsigned char src_port[2];
+    unsigned char dest_port[2];
+ unsigned char mask[5];
+} wowlan_pattern_t;
+# 72 "../../../component/common/api/at_cmd/atcmd_wifi.h" 2
+# 1 "../../../component/common/example/wlan_fast_connect/example_wlan_fast_connect.h" 1
+# 21 "../../../component/common/example/wlan_fast_connect/example_wlan_fast_connect.h"
+struct wlan_fast_reconnect {
+ unsigned char psk_essid[32 + 4];
+ unsigned char psk_passphrase[64 + 1];
+ unsigned char wpa_global_PSK[20 * 2];
+ uint32_t channel;
+ uint32_t security_type;
+
+ uint32_t offer_ip;
+
+
+ uint32_t enable;
+
+};
+
+
+
+typedef int (*wlan_init_done_ptr)(void);
+typedef int (*write_reconnect_ptr)(uint8_t *data, uint32_t len);
+
+
+
+extern unsigned char psk_essid[((0) + (1) + 1)][32 +4];
+extern unsigned char psk_passphrase[((0) + (1) + 1)][64 + 1];
+extern unsigned char wpa_global_PSK[((0) + (1) + 1)][20 * 2];
+extern unsigned char psk_passphrase64[64 + 1];
+
+
+extern wlan_init_done_ptr p_wlan_init_done_callback;
+extern write_reconnect_ptr p_write_reconnect_ptr;
+
+void example_wlan_fast_connect(void);
+# 73 "../../../component/common/api/at_cmd/atcmd_wifi.h" 2
+typedef struct _UART_LOG_CONF_{
+ uint32_t BaudRate;
+ uint8_t DataBits;
+ uint8_t StopBits;
+ uint8_t Parity;
+ uint8_t FlowControl;
+}UART_LOG_CONF, *PUART_LOG_CONF;
+
+
+struct atcmd_wifi_conf{
+ int32_t auto_enable;
+ rtw_wifi_setting_t setting;
+ int32_t reconn_num;
+ int32_t reconn_last_index;
+ struct wlan_fast_reconnect reconn[(1)];
+};
+
+
+struct atcmd_lwip_conn_info{
+ int32_t role;
+ uint32_t protocol;
+ uint32_t remote_addr;
+ uint32_t remote_port;
+ uint32_t local_addr;
+ uint32_t local_port;
+ uint32_t reserved;
+};
+struct atcmd_lwip_conf {
+ int32_t enable;
+ int32_t conn_num;
+ int32_t last_index;
+ int32_t reserved;
+ struct atcmd_lwip_conn_info conn[(1)];
+};
+
+typedef enum {
+ AT_PARTITION_ALL = 0,
+ AT_PARTITION_UART = 1,
+ AT_PARTITION_WIFI = 2,
+ AT_PARTITION_LWIP = 3
+} AT_PARTITION;
+
+typedef enum {
+ AT_PARTITION_READ = 0,
+ AT_PARTITION_WRITE = 1,
+ AT_PARTITION_ERASE = 2
+} AT_PARTITION_OP;
+# 136 "../../../component/common/api/at_cmd/atcmd_wifi.h"
+extern void atcmd_update_partition_info(AT_PARTITION id, AT_PARTITION_OP ops, uint8_t *data, uint16_t len);
+
+
+extern char at_string[(1600)];
+
+extern unsigned char gAT_Echo;
+
+
+extern void uart_at_send_string(char *str);
+extern void uart_at_send_buf(uint8_t *buf, uint32_t len);
 # 7 "../../../component/common/api/at_cmd/atcmd_lwip.c" 2
 # 1 "../../../component/common/api/at_cmd/atcmd_lwip.h" 1
 
@@ -6324,7 +7188,15 @@ struct netconn {
 
 
   int socket;
-# 248 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h"
+
+
+
+
+  s32_t send_timeout;
+
+
+
+
   int recv_timeout;
 # 264 "../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h"
   u8_t flags;
@@ -7004,90 +7876,87 @@ int lwip_getaddrinfo(const char *nodename,
        const struct addrinfo *hints,
        struct addrinfo **res);
 # 18 "../../../component/common/api/at_cmd/atcmd_lwip.h" 2
+# 66 "../../../component/common/api/at_cmd/atcmd_lwip.h"
+typedef struct ns
+{
+ int con_id;
+ int sockfd;
+ s8_t role;
+ int protocol;
+ u32_t addr;
+ u16_t port;
+ u32_t local_addr;
+ u16_t local_port;
+ TaskHandle_t handletask;
+ struct ns* next;
+ struct ns* nextseed;
+
+
+
+} node;
+
+extern TaskHandle_t atcmd_lwip_tt_task;
+extern _sema atcmd_lwip_tt_sema;
+extern volatile int atcmd_lwip_tt_datasize;
+extern volatile int atcmd_lwip_tt_lasttickcnt;
+
+
+extern int atcmd_lwip_is_tt_mode(void);
+extern void atcmd_lwip_set_tt_mode(int enable);
+int atcmd_lwip_send_data(node *curnode, uint8_t *data, uint16_t data_sz, struct sockaddr_in cli_addr);
+int atcmd_lwip_receive_data(node *curnode, uint8_t *buffer, uint16_t buffer_size, int *recv_size,
+ u8_t *udp_clientaddr, u16_t *udp_clientport);
+node* create_node(int mode, s8_t role);
+void init_node_pool(void);
+void delete_node(node *n);
+int hang_node(node* insert_node);
+int hang_seednode(node* main_node ,node* insert_node);
+node *seek_node(int con_id);
+node *tryget_node(int n);
+void atcmd_lwip_set_rx_buffer(unsigned char *buf, int bufsize);
 # 8 "../../../component/common/api/at_cmd/atcmd_lwip.c" 2
-# 2961 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-extern char log_buf[100];
+# 2985 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+extern char log_buf[1600];
 extern struct netif xnetif[((0) + (1) + 1)];
 
-static unsigned char _tx_buffer[(100)];
-static unsigned char _rx_buffer[(100)];
+static unsigned char _tx_buffer[(1600)];
+static unsigned char _rx_buffer[(1600)];
 static unsigned char *tx_buffer = _tx_buffer;
 static unsigned char *rx_buffer = _rx_buffer;
-int tx_buffer_size = (100);
-int rx_buffer_size = (100);
-# 3071 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-TaskHandle_t server_task = 
-# 3071 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                         ((void *)0)
-# 3071 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                             ;
-TaskHandle_t client_task = 
-# 3072 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                         ((void *)0)
-# 3072 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                             ;
+int tx_buffer_size = (1600);
+int rx_buffer_size = (1600);
+# 3006 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+node node_pool[(10)];
 
-static int mode = 0;
-static int local_port;
-static int remote_port;
-static char remote_addr[16];
-static int packet_size;
+node* mainlist;
 
-static int sockfd, newsockfd;
-static socklen_t client;
-static struct sockaddr_in serv_addr, cli_addr;
-static int opt = 1;
-
-static int type;
-
-static void init_transport_struct(void)
-{
- mode = 0;
- local_port = 0;
- remote_port = 0;
- sockfd = -1;
- newsockfd = -1;
- packet_size = 0;
- rtw_memset(remote_addr, 0, sizeof(remote_addr));
- rtw_memset(&client, 0, sizeof(client));
- rtw_memset(&serv_addr, 0, sizeof(serv_addr));
-
-}
-
-void socket_close(void)
-{
- lwip_close(sockfd);
- if(server_task != 
-# 3104 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                  ((void *)0)
-# 3104 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                      )
- {
-  vTaskDelete(server_task);
-  server_task = 
-# 3107 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-               ((void *)0)
-# 3107 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                   ;
- }
- if(client_task != 
-# 3109 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                  ((void *)0)
-# 3109 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                      )
- {
-  vTaskDelete(client_task);
-  client_task = 
-# 3112 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-               ((void *)0)
-# 3112 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                   ;
- }
- type = 0;
- init_transport_struct();
-}
+static int atcmd_lwip_auto_recv = 0;
+volatile int atcmd_lwip_tt_mode = 0;
+TaskHandle_t atcmd_lwip_tt_task = 
+# 3012 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                                ((void *)0)
+# 3012 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                    ;
+_sema atcmd_lwip_tt_sema = 
+# 3013 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                          ((void *)0)
+# 3013 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                              ;
+volatile int atcmd_lwip_tt_datasize = 0;
+volatile int atcmd_lwip_tt_lasttickcnt = 0;
 
 
+__attribute__ ((weak)) int errno = 0;
+# 3085 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+static void atcmd_lwip_receive_task(void *param);
+int atcmd_lwip_start_autorecv_task(void);
+int atcmd_lwip_is_autorecv_mode(void);
+void atcmd_lwip_set_autorecv_mode(int enable);
+int atcmd_lwip_start_tt_task(void);
+int atcmd_lwip_is_tt_mode(void);
+void atcmd_lwip_set_tt_mode(int enable);
+int atcmd_lwip_write_info_to_flash(struct atcmd_lwip_conn_info *cur_conn, int enable);
+# 3143 "../../../component/common/api/at_cmd/atcmd_lwip.c"
 static void server_start(void *param)
 {
 
@@ -7100,13 +7969,13 @@ static void server_start(void *param)
  int s_local_port;
  int error_no = 0;
  int s_opt = 1;
-# 3148 "../../../component/common/api/at_cmd/atcmd_lwip.c"
- {
-  s_mode = mode;
-  s_local_port = local_port;
-  s_opt = opt;
+# 3164 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+ node* ServerNodeUsed = (node*)param;
+ if(ServerNodeUsed){
+  s_mode = ServerNodeUsed->protocol;
+  s_local_port = ServerNodeUsed->port;
  }
-# 3172 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+# 3196 "../../../component/common/api/at_cmd/atcmd_lwip.c"
  {
   if(s_mode == 1)
    s_sockfd = lwip_socket(2,2,0);
@@ -7140,12 +8009,21 @@ static void server_start(void *param)
    goto err_exit;
   }
  }
-# 3218 "../../../component/common/api/at_cmd/atcmd_lwip.c"
- {
-  sockfd = s_sockfd;
-  rtw_memcpy(&serv_addr, &s_serv_addr, sizeof(s_serv_addr));
+
+
+
+
+
+ if(ServerNodeUsed != 
+# 3234 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                     ((void *)0)
+# 3234 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                         ) {
+  uint8_t *ip = (uint8_t *)LwIP_GetIP(&xnetif[0]);
+  ServerNodeUsed->sockfd = s_sockfd;
+  ServerNodeUsed->addr = lwip_htonl(*((u32_t *)ip));
  }
-# 3404 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+# 3428 "../../../component/common/api/at_cmd/atcmd_lwip.c"
  {
   if (s_mode == 0){
 
@@ -7156,7 +8034,33 @@ static void server_start(void *param)
     error_no = 8;
     goto err_exit;
    }
-# 3437 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+
+
+
+
+   if(param != 
+# 3442 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+              ((void *)0)
+# 3442 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                  ) {
+    if(hang_node(ServerNodeUsed) < 0)
+    {
+     error_no = 9;
+     goto err_exit;
+    }else{
+
+     log_service_lock();
+
+     do{ snprintf(at_string, (1600), "\r\n[ATPS] OK" "\r\n[ATPS] con_id=%d", ServerNodeUsed->con_id); uart_at_send_string(at_string); }while(0)
+
+                            ;
+     do{ snprintf(at_string, (1600), "\r\n\n# "); uart_at_send_string(at_string); }while(0);
+
+     log_service_unlock();
+
+    }
+   }
+
    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("The TCP SERVER START OK!"); __wrap_printf("\r\n"); }while(0); } }while(0);
    s_client = sizeof(s_cli_addr);
 
@@ -7164,48 +8068,119 @@ static void server_start(void *param)
 
    while(1){
     if((s_newsockfd = lwip_accept(s_sockfd,(struct sockaddr *) &s_cli_addr,&s_client)) < 0){
-# 3452 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-     {
-      do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("ERROR on accept"); __wrap_printf("\r\n"); }while(0); } }while(0)
-                        ;
-     }
 
+     if(param != 
+# 3469 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                ((void *)0)
+# 3469 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                    ) {
+      do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPS] ERROR:ERROR on accept"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                      ;
+     }
+# 3481 "../../../component/common/api/at_cmd/atcmd_lwip.c"
      error_no = 10;
      goto err_exit;
     }
     else{
-# 3506 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-     {
-      newsockfd = s_newsockfd;
-       rtw_memcpy(&cli_addr, &s_cli_addr, sizeof(cli_addr));
-      client = s_client;
-      do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("A client connected to this server :\r\n[PORT]: %d\r\n[IP]:%s", lwip_htons(cli_addr.sin_port), ip4addr_ntoa((const ip4_addr_t*)&(cli_addr.sin_addr.s_addr))); __wrap_printf("\r\n"); }while(0); } }while(0)
 
-                                                                     ;
+
+
+
+     if(param != 
+# 3489 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                ((void *)0)
+# 3489 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                    ) {
+      node* seednode = create_node(s_mode, 2);
+      if(seednode == 
+# 3491 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                    ((void *)0)
+# 3491 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                        ){
+       do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPS]create node failed!"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                    ;
+       error_no = 11;
+       goto err_exit;
+      }
+      seednode->sockfd = s_newsockfd;
+      seednode->port = lwip_htons(s_cli_addr.sin_port);
+      seednode->addr = lwip_htonl(s_cli_addr.sin_addr.s_addr);
+      if(hang_seednode(ServerNodeUsed,seednode) < 0){
+       delete_node(seednode);
+       seednode = 
+# 3502 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                 ((void *)0)
+# 3502 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                     ;
+      }
+      else{
+
+       log_service_lock();
+
+       do{ snprintf(at_string, (1600), "\r\n[ATPS] A client connected to server[%d]\r\n" "con_id:%d," "seed," "tcp," "address:%s," "port:%d," "socket:%d", ServerNodeUsed->con_id, seednode->con_id, ip4addr_ntoa((const ip4_addr_t*)&(s_cli_addr.sin_addr.s_addr)), lwip_htons(s_cli_addr.sin_port), seednode->sockfd); uart_at_send_string(at_string); }while(0)
+# 3520 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+         ;
+       do{ snprintf(at_string, (1600), "\r\n\n# "); uart_at_send_string(at_string); }while(0);
+
+       log_service_unlock();
+
+      }
      }
-
+# 3539 "../../../component/common/api/at_cmd/atcmd_lwip.c"
     }
    }
   }
   else{
-# 3552 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+# 3557 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+   if(ServerNodeUsed != 
+# 3557 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                       ((void *)0)
+# 3557 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                           ) {
+    if(hang_node(ServerNodeUsed) < 0){
+     error_no = 12;
+     goto err_exit;
+    }
+
+    log_service_lock();
+
+    do{ snprintf(at_string, (1600), "\r\n[ATPS] OK" "\r\n[ATPS] con_id=%d", ServerNodeUsed->con_id); uart_at_send_string(at_string); }while(0)
+
+                            ;
+    do{ snprintf(at_string, (1600), "\r\n\n# "); uart_at_send_string(at_string); }while(0);
+
+    log_service_unlock();
+
+
+    ServerNodeUsed->handletask = 
+# 3573 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                                ((void *)0)
+# 3573 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                    ;
+   }
+
    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("The UDP SERVER START OK!"); __wrap_printf("\r\n"); }while(0); } }while(0);
   }
  }
  goto exit;
 err_exit:
-# 3566 "../../../component/common/api/at_cmd/atcmd_lwip.c"
- {
-  socket_close();
+
+ if(ServerNodeUsed){
+
+  ServerNodeUsed->handletask = 
+# 3584 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                              ((void *)0)
+# 3584 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                  ;
+  delete_node(ServerNodeUsed);
  }
+# 3595 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+ log_service_lock();
 
+ do{ snprintf(at_string, (1600), "\r\n[ATPS] ERROR:%d", error_no); uart_at_send_string(at_string); }while(0);
+ do{ snprintf(at_string, (1600), "\r\n\n# "); uart_at_send_string(at_string); }while(0);
 
-
-
- do{__wrap_printf("\r\n[ATPS] ERROR:%d", error_no);}while(0);
- do{__wrap_printf("\r\n\n# ");}while(0);
-
-
+ log_service_unlock();
 
 exit:
  return;
@@ -7222,13 +8197,29 @@ static void client_start(void *param)
  int c_sockfd;
  struct sockaddr_in c_serv_addr;
  int error_no = 0;
-# 3614 "../../../component/common/api/at_cmd/atcmd_lwip.c"
- {
-  c_mode = mode;
-  c_remote_port = remote_port;
-  rtw_memcpy(c_remote_addr, remote_addr, 16*sizeof(char));
+
+
+
+
+
+
+
+ struct in_addr c_addr;
+ node * ClientNodeUsed = (node *)param;
+ if(ClientNodeUsed){
+  c_mode = ClientNodeUsed->protocol;
+  c_remote_port = ClientNodeUsed->port;
+  c_addr.s_addr = lwip_htonl(ClientNodeUsed->addr);
+  if(ip4addr_ntoa_r((const ip4_addr_t*)&(c_addr), c_remote_addr, sizeof(c_remote_addr))==
+# 3630 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                                                               ((void *)0)
+# 3630 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                                                   ){
+   error_no = 6;
+   goto err_exit;
+  }
  }
-# 3638 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+# 3662 "../../../component/common/api/at_cmd/atcmd_lwip.c"
  {
   if(c_mode == 1)
    c_sockfd = lwip_socket(2,2,0);
@@ -7247,12 +8238,15 @@ static void client_start(void *param)
   c_serv_addr.sin_port = lwip_htons(c_remote_port);
  }
  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("OK to create sock_fd!"); __wrap_printf("\r\n"); }while(0); } }while(0);
-# 3667 "../../../component/common/api/at_cmd/atcmd_lwip.c"
- {
-  sockfd = c_sockfd;
-  rtw_memcpy(&serv_addr, &c_serv_addr, sizeof(c_serv_addr));
+
+
+
+
+
+ if(ClientNodeUsed){
+  ClientNodeUsed->sockfd = c_sockfd;
  }
-# 3752 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+# 3776 "../../../component/common/api/at_cmd/atcmd_lwip.c"
  {
   if (c_mode == 0){
 
@@ -7260,36 +8254,127 @@ static void client_start(void *param)
 
    if(lwip_connect(c_sockfd,(struct sockaddr *)&c_serv_addr,sizeof(c_serv_addr)) == 0){
     do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("Connect to Server successful!"); __wrap_printf("\r\n"); }while(0); } }while(0);
-# 3778 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-   }else{
-# 3789 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-    {
-     do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("Connect to Server failed!"); __wrap_printf("\r\n"); }while(0); } }while(0);
+
+
+
+
+    if(ClientNodeUsed != 
+# 3787 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                        ((void *)0)
+# 3787 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                            ) {
+     if(hang_node(ClientNodeUsed) < 0){
+      error_no = 8;
+      goto err_exit;
+     }
+
+     log_service_lock();
+
+     do{ snprintf(at_string, (1600), "\r\n[ATPC] OK\r\n[ATPC] con_id=%d",ClientNodeUsed->con_id); uart_at_send_string(at_string); }while(0);
+     do{ snprintf(at_string, (1600), "\r\n\n# "); uart_at_send_string(at_string); }while(0);
+
+     log_service_unlock();
+
     }
+
+   }else{
+
+
+
+
+    if(ClientNodeUsed != 
+# 3807 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                        ((void *)0)
+# 3807 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                            ) {
+     do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPC] ERROR:Connect to Server failed!"); __wrap_printf("\r\n"); }while(0); } }while(0);
+    }
+
+
+
+
+
+
 
     error_no = 9;
     goto err_exit;
    }
   }
   else{
-# 3863 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+
+   if(ClientNodeUsed != 
+# 3823 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                       ((void *)0)
+# 3823 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                           ) {
+# 3837 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+    ip_addr_t dst_addr;
+    dst_addr.addr = c_serv_addr.sin_addr.s_addr;
+    if((((&dst_addr)->addr & ((((0xf0000000UL) & 0x000000ffUL) << 24) | (((0xf0000000UL) & 0x0000ff00UL) << 8) | (((0xf0000000UL) & 0x00ff0000UL) >> 8) | (((0xf0000000UL) & 0xff000000UL) >> 24))) == ((((0xe0000000UL) & 0x000000ffUL) << 24) | (((0xe0000000UL) & 0x0000ff00UL) << 8) | (((0xe0000000UL) & 0x00ff0000UL) >> 8) | (((0xe0000000UL) & 0xff000000UL) >> 24)))){
+     struct ip_mreq imr;
+     struct in_addr intfAddr;
+
+     xnetif[0].flags |= 0x20U;
+     imr.imr_multiaddr.s_addr = c_serv_addr.sin_addr.s_addr;
+     imr.imr_interface.s_addr = ((u32_t)0x00000000UL);
+     if(lwip_setsockopt(c_sockfd,0,3,&imr,sizeof(imr))
+                         < 0){
+      xnetif[0].flags &= ~0x20U;
+      error_no = 15;
+      goto err_exit;
+     }
+     intfAddr.s_addr = ((u32_t)0x00000000UL);
+     if(lwip_setsockopt(c_sockfd,0,6,&intfAddr,sizeof(struct in_addr))
+                                         < 0){
+      xnetif[0].flags &= ~0x20U;
+      error_no = 16;
+      goto err_exit;
+     }
+    }
+
+    if(ClientNodeUsed->local_port){
+     struct sockaddr_in addr;
+      rtw_memset(&addr, 0, sizeof(addr));
+     addr.sin_family=2;
+     addr.sin_port=lwip_htons(ClientNodeUsed->local_port);
+     addr.sin_addr.s_addr=lwip_htonl(((u32_t)0x00000000UL)) ;
+     if (lwip_bind(ClientNodeUsed->sockfd,(struct sockaddr *)&addr,sizeof(addr))<0) {
+      do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("bind sock error!"); __wrap_printf("\r\n"); }while(0); } }while(0);
+      error_no = 12;
+      goto err_exit;
+     }
+    }
+    if(hang_node(ClientNodeUsed) < 0){
+     error_no = 10;
+     goto err_exit;
+    }
+
+    log_service_lock();
+
+    do{ snprintf(at_string, (1600), "\r\n[ATPC] OK\r\n[ATPC] con_id=%d",ClientNodeUsed->con_id); uart_at_send_string(at_string); }while(0);
+    do{ snprintf(at_string, (1600), "\r\n\n# "); uart_at_send_string(at_string); }while(0);
+
+    log_service_unlock();
+
+   }
+
    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("UDP client starts successful!"); __wrap_printf("\r\n"); }while(0); } }while(0);
   }
  }
  goto exit;
 err_exit:
-# 3876 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+
+ if(ClientNodeUsed)
  {
-  socket_close();
+  delete_node(ClientNodeUsed);
  }
+# 3905 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+ log_service_lock();
 
+ do{ snprintf(at_string, (1600), "\r\n[ATPC] ERROR:%d", error_no); uart_at_send_string(at_string); }while(0);
+ do{ snprintf(at_string, (1600), "\r\n\n# "); uart_at_send_string(at_string); }while(0);
 
-
-
- do{__wrap_printf("\r\n[ATPC] ERROR:%d", error_no);}while(0);
- do{__wrap_printf("\r\n\n# ");}while(0);
-
-
+ log_service_unlock();
 
 exit:
  return;
@@ -7298,388 +8383,1760 @@ exit:
 static void client_start_task(void *param)
 {
  vTaskDelay(1000);
-# 3903 "../../../component/common/api/at_cmd/atcmd_lwip.c"
- if(remote_addr[0] == 0){
-  __wrap_printf("\r\n[ERROR] Please using ATP3 to input an valid remote IP address!\r\n");
-  client_task = 
-# 3905 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-               ((void *)0)
-# 3905 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                   ;
-  vTaskDelete(
-# 3906 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-             ((void *)0)
-# 3906 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                 );
- }
- else if(remote_port == 0){
-  __wrap_printf("\r\n[ERROR] Please using ATP4 to input an valid remote PORT!\r\n");
-  client_task = 
-# 3910 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-               ((void *)0)
-# 3910 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                   ;
-  vTaskDelete(
-# 3911 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-             ((void *)0)
-# 3911 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                 );
- }
- else{
-  __wrap_printf("\n\r\tStart Client\r\n\t[IP]: %s\r\n\t[PORT]:%d\n\r\n\r", remote_addr, remote_port);
-  client_start(param);
- }
- client_task = 
-# 3917 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-              ((void *)0)
-# 3917 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                  ;
 
+ if(param){
+  client_start(param);
+  vTaskDelete(
+# 3922 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+             ((void *)0)
+# 3922 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                 );
+  return;
+ }
+# 3943 "../../../component/common/api/at_cmd/atcmd_lwip.c"
  vTaskDelete(
-# 3919 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+# 3943 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
             ((void *)0)
-# 3919 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+# 3943 "../../../component/common/api/at_cmd/atcmd_lwip.c"
                 );
 }
 
 static void server_start_task(void *param)
 {
  vTaskDelay(1000);
-# 3933 "../../../component/common/api/at_cmd/atcmd_lwip.c"
- if(local_port == 0){
-  __wrap_printf("\r\n[ERROR] Please using ATP2 to input an valid local PORT!\r\n");
-  server_task = 
-# 3935 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-               ((void *)0)
-# 3935 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                   ;
+
+ if(param != 
+# 3950 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+            ((void *)0)
+# 3950 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                ){
+  server_start(param);
   vTaskDelete(
-# 3936 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+# 3952 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
              ((void *)0)
-# 3936 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+# 3952 "../../../component/common/api/at_cmd/atcmd_lwip.c"
                  );
+  return;
+ }
+# 3969 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+ vTaskDelete(
+# 3969 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+            ((void *)0)
+# 3969 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                );
+}
+# 4248 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+void fATP0(void *arg){
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATP0]: _AT_TRANSPORT_ERRNO"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                ;
+
+ do{ snprintf(at_string, (1600), "\r\n[ATP0] OK:%d", errno); uart_at_send_string(at_string); }while(0);
+
+
+
+
+}
+
+void fATPC(void *arg){
+
+ int argc;
+ char* argv[12] = {0};
+ node* clientnode = 
+# 4263 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                   ((void *)0)
+# 4263 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                       ;
+ int mode = 0;
+ int remote_port;
+ int local_port = 0;
+
+ struct in_addr addr;
+ int error_no = 0;
+ uint32_t client_task_stksz = 512;
+
+ struct hostent *server_host;
+
+
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPC]: _AT_TRANSPORT_START_CLIENT"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                       ;
+
+ if(atcmd_lwip_is_tt_mode() && mainlist->next){
+  error_no = 13;
+  goto err_exit;
+ }
+
+ argc = parse_param(arg, argv);
+ if(argc < 4){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPC] Usage: ATPC=<TCP:0/UDP:1/SSL:2>,<REMOTE_IP>,<REMOTE_Port(1~65535)>,[<LOCAL_PORT>]"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                                                              ;
+  error_no = 1;
+  goto err_exit;
+ }
+
+ mode = atoi((char*)argv[1]);
+ if(mode != 0 && mode != 1
+
+
+
+  ){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPC] Unknown connection type[%d]", mode); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                              ;
+  error_no = 17;
+  goto err_exit;
+ }
+
+ remote_port = atoi((char*)argv[3]);
+ if (ip4addr_aton(argv[2], (ip4_addr_t*)&addr) == 0)
+ {
+
+  server_host = lwip_gethostbyname(argv[2]);
+  if (server_host){
+   rtw_memcpy(&addr, server_host->h_addr_list[0], 4);
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPC] Found name '%s' = %s", argv[2], ip4addr_ntoa((const ip4_addr_t*)&(addr))); __wrap_printf("\r\n"); }while(0); } }while(0)
+
+
+
+    ;
+  }
+  else
+
+  {
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPC] ERROR: Host '%s' not found.", argv[2]); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                   ;
+   error_no = 2;
+   goto err_exit;
+  }
+ }
+
+ if(remote_port < 0 || remote_port > 65535) {
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPC] ERROR: remote port invalid"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                       ;
+  error_no = 3;
+  goto err_exit;
+ }
+
+ if(argv[4]){
+  local_port = atoi((char*)argv[4]);
+  if(local_port < 0 || local_port > 65535) {
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPC] ERROR: local port invalid"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                       ;
+   error_no = 11;
+   goto err_exit;
+  }
+ }
+
+ clientnode = create_node(mode, 1);
+ if(clientnode == 
+# 4344 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                 ((void *)0)
+# 4344 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                     ){
+  error_no = 4;
+  goto err_exit;
+ }
+ clientnode->port = remote_port;
+ clientnode->addr = lwip_htonl(addr.s_addr);
+ clientnode->local_port = local_port;
+
+
+
+
+ if(xTaskCreate(client_start_task, ((const char*)"client_start_task"), client_task_stksz, clientnode, (( ( UBaseType_t ) 0U ) + 1), 
+# 4355 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                                                                                                                               ((void *)0)
+# 4355 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                                                                                                                   ) != ( ( ( BaseType_t ) 1 ) ))
+ {
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPC] ERROR: Create tcp/udp/ssl client task failed."); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                          ;
+  error_no = 5;
+  goto err_exit;
+ }
+
+ goto exit;
+err_exit:
+ if(clientnode)
+  delete_node(clientnode);
+ do{ snprintf(at_string, (1600), "\r\n[ATPC] ERROR:%d", error_no); uart_at_send_string(at_string); }while(0);
+exit:
+ return;
+}
+
+
+void fATPS(void *arg){
+ int argc;
+ char *argv[12] = {0};
+ node* servernode = 
+# 4376 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                   ((void *)0)
+# 4376 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                       ;
+ int mode;
+ int local_port;
+ int error_no = 0;
+ uint32_t server_task_stksz = 512;
+
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPS]: _AT_TRANSPORT_START_SERVER"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                       ;
+
+ if(atcmd_lwip_is_tt_mode()){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPS] ERROR: Server can only start when TT is disabled"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                             ;
+  error_no = 13;
+  goto err_exit;
+ }
+
+ argc = parse_param(arg, argv);
+ if(argc != 3){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPS] Usage: ATPS=[TCP:0/UDP:1/SSL:2],[Local port(1~65535)]"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                                  ;
+  error_no = 1;
+  goto err_exit;
+ }
+
+ mode = atoi((char*)argv[1]);
+ if(mode != 0 && mode != 1
+
+
+
+  ){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPS] Unknown connection type[%d]", mode); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                              ;
+  error_no = 15;
+  goto err_exit;
+ }
+
+ local_port = atoi((char*)argv[2]);
+ if(local_port < 0 || local_port > 65535){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPS] Usage: ATPS=[TCP:0/UDP:1/SSL:2],[Local port]"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                         ;
+  error_no = 2;
+  goto err_exit;
+ }
+
+ servernode = create_node(mode, 0);
+ if(servernode == 
+# 4421 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                 ((void *)0)
+# 4421 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                     ){
+  error_no = 3;
+  goto err_exit;
+ }
+ servernode->port = local_port;
+
+
+
+
+
+
+ if(xTaskCreate(server_start_task, ((const char*)"server_start_task"), server_task_stksz, servernode, (( ( UBaseType_t ) 0U ) + 1), &servernode->handletask) != ( ( ( BaseType_t ) 1 ) ))
+ {
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPS] ERROR: Create tcp/udp/ssl server task failed."); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                          ;
+  error_no = 4;
+  goto err_exit;
+ }
+
+ goto exit;
+err_exit:
+ if(servernode)
+  delete_node(servernode);
+ do{ snprintf(at_string, (1600), "\r\n[ATPS] ERROR:%d", error_no); uart_at_send_string(at_string); }while(0);
+exit:
+ return;
+}
+
+void socket_close_all(void)
+{
+ node *currNode = mainlist->next;
+
+ while(currNode)
+ {
+  delete_node(currNode);
+  currNode = mainlist->next;
+ }
+ currNode = 
+# 4458 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+           ((void *)0)
+# 4458 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+               ;
+}
+
+void fATPD(void *arg){
+ int con_id = (-1);
+ int error_no = 0;
+ node *s_node;
+
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPD]: _AT_TRANSPORT_CLOSE_CONNECTION"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                           ;
+
+ if(!arg){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPD] Usage: ATPD=con_id or 0 (close all)"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                ;
+  error_no = 1;
+  goto exit;
+ }
+ con_id = atoi((char*)arg);
+
+ if(con_id == 0){
+  if(atcmd_lwip_is_autorecv_mode()){
+   atcmd_lwip_set_autorecv_mode(0);
+  }
+  socket_close_all();
+  goto exit;
+ }
+
+ s_node = seek_node(con_id);
+ if(s_node == 
+# 4486 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+             ((void *)0)
+# 4486 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                 ){
+  error_no = 3;
+  goto exit;
+ }
+ delete_node(s_node);
+
+exit:
+ s_node = 
+# 4493 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+         ((void *)0)
+# 4493 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+             ;
+ if(error_no)
+  do{ snprintf(at_string, (1600), "\r\n[ATPD] ERROR:%d", error_no); uart_at_send_string(at_string); }while(0);
+ else
+  do{ snprintf(at_string, (1600), "\r\n[ATPD] OK"); uart_at_send_string(at_string); }while(0);
+ return;
+}
+
+int atcmd_lwip_send_data(node *curnode, uint8_t *data, uint16_t data_sz, struct sockaddr_in cli_addr){
+ int error_no = 0;
+
+ if((curnode->protocol == 1) && (curnode->role == 0))
+ {
+  if (lwip_sendto(curnode->sockfd,data,data_sz,0,(struct sockaddr *)&cli_addr,sizeof(cli_addr)) <= 0 ){
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPT] ERROR:Failed to send data"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                       ;
+   error_no = 5;
+  }
+ }else{
+  if(curnode->protocol == 1)
+  {
+   struct sockaddr_in serv_addr;
+   rtw_memset(&serv_addr, 0, sizeof(serv_addr));
+   serv_addr.sin_family = 2;
+   serv_addr.sin_port = lwip_htons(curnode->port);
+   serv_addr.sin_addr.s_addr = lwip_htonl(curnode->addr);
+   if(lwip_sendto(curnode->sockfd,data,data_sz,0,(struct sockaddr *)&serv_addr,sizeof(serv_addr)) <= 0){
+    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPT] ERROR:Failed to send data\n"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                          ;
+    error_no = 6;
+   }
+  }else if((curnode->protocol == 0)
+
+
+
+  )
+  {
+   int ret;
+   if(curnode->role == 0){
+    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPT] ERROR: TCP Server must send data to the seed"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                           ;
+    error_no = 7;
+    goto exit;
+   }
+
+
+
+
+
+
+   {
+    ret = lwip_write(curnode->sockfd,data,data_sz);
+   }
+   if(ret <= 0){
+    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPT] ERROR:Failed to send data"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                        ;
+    error_no = 8;
+   }
+  }
+ }
+
+exit:
+ return error_no;
+}
+
+void fATPT(void *arg){
+
+ int argc;
+ char *argv[12] = {0};
+ int con_id = (-1);
+ int error_no = 0;
+ node* curnode = 
+# 4564 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                ((void *)0)
+# 4564 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                    ;
+ struct sockaddr_in cli_addr;
+ int data_sz;
+ int data_pos = 4 + 1 + strlen(arg) + 1;
+ uint8_t *data = (uint8_t *)log_buf + data_pos;
+
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPT]: _AT_TRANSPORT_SEND_DATA"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                    ;
+
+ argc = parse_param(arg, argv);
+
+ if(argc != 3 && argc != 5) {
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPT] Usage: ATPT=<data_size>," "<con_id>[,<dst_ip>,<dst_port>]" ":<data>(MAX %d)", (1600)); __wrap_printf("\r\n"); }while(0); } }while(0)
+
+
+
+              ;
+  error_no = 1;
+  goto exit;
+ }
+
+ data_sz = atoi((char*)argv[1]);
+ if(data_sz > (1600)){
+  error_no = 2;
+  goto exit;
+ }
+
+ con_id = atoi((char*)argv[2]);
+ curnode = seek_node(con_id);
+ if(curnode == 
+# 4593 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+              ((void *)0)
+# 4593 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                  ){
+  error_no = 3;
+  goto exit;
+ }
+
+ if((curnode->protocol == 1)
+  &&(curnode->role == 0))
+ {
+  char udp_clientaddr[16]={0};
+  strcpy((char*)udp_clientaddr, (char*)argv[3]);
+  cli_addr.sin_family = 2;
+  cli_addr.sin_port = lwip_htons(atoi((char*)argv[4]));
+  if (ip4addr_aton(udp_clientaddr, (ip4_addr_t*)&cli_addr.sin_addr) == 0)
+  {
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPT]ERROR:inet_aton() failed"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                    ;
+   error_no = 4;
+   goto exit;
+  }
+ }
+ error_no = atcmd_lwip_send_data(curnode, data, data_sz, cli_addr);
+exit:
+ if(error_no)
+  do{ snprintf(at_string, (1600), "\r\n[ATPT] ERROR:%d,%d", error_no, con_id); uart_at_send_string(at_string); }while(0);
+ else
+  do{ snprintf(at_string, (1600), "\r\n[ATPT] OK,%d", con_id); uart_at_send_string(at_string); }while(0);
+ return;
+}
+
+void fATPR(void *arg){
+
+ int argc,con_id = (-1);
+ char *argv[12] = {0};
+ int error_no = 0;
+ int recv_size = 0;
+ int packet_size = 0;
+ node* curnode = 
+# 4629 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                ((void *)0)
+# 4629 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                    ;
+ u8_t udp_clientaddr[16] = {0};
+ u16_t udp_clientport = 0;
+# 4641 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPR]: _AT_TRANSPORT_RECEIVE_DATA"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                       ;
+
+ if(atcmd_lwip_is_autorecv_mode()){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPR] ERROR: Receive changed to auto mode."); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                 ;
+  error_no = 10;
+  goto exit;
+ }
+
+ argc = parse_param(arg, argv);
+ if( argc != 3){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPR] Usage: ATPR =<con_id>,<Buffer Size>\n\r"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                    ;
+  error_no = 1;
+  goto exit;
+ }
+
+ con_id = atoi((char*)argv[1]);
+ if(con_id <= 0 || con_id > (10)){
+  error_no = 9;
+  goto exit;
+ }
+
+ packet_size = atoi((char*)argv[2]);
+
+ if (packet_size <= 0
+
+
+
+  || packet_size > (1600)
+
+ ) {
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPR] Recv Size(%d) exceeds MAX_BUFFER(%d)", packet_size, (1600)); __wrap_printf("\r\n"); }while(0); } }while(0)
+
+              ;
+  error_no = 2;
+  goto exit;
+ }
+
+ curnode = seek_node(con_id);
+ if(curnode == 
+# 4682 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+              ((void *)0)
+# 4682 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                  ){
+  error_no = 3;
+  goto exit;
+ }
+
+ if(curnode->protocol == 0 && curnode->role == 0){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPR] ERROR: TCP Server must receive data from the seed"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                              ;
+  error_no = 6;
+  goto exit;
+ }
+
+ memset(rx_buffer, 0, rx_buffer_size);
+ error_no = atcmd_lwip_receive_data(curnode, rx_buffer, 1500, &recv_size, udp_clientaddr, &udp_clientport);
+exit:
+ if(error_no == 0){
+# 4732 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+  if(curnode->protocol == 1 && curnode->role == 0){
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("\r\n[ATPR] OK,%d,%d,%s,%d:%s", recv_size, con_id, udp_clientaddr, udp_clientport, rx_buffer); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                                                                  ;
+   do{ snprintf(at_string, (1600), "\r\n[ATPR] OK,%d,%d,%s,%d:", recv_size, con_id, udp_clientaddr, udp_clientport); uart_at_send_string(at_string); }while(0);
+  }
+  else{
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("\r\n[ATPR] OK,%d,%d:%s", recv_size, con_id, rx_buffer); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                            ;
+   do{ snprintf(at_string, (1600), "\r\n[ATPR] OK,%d,%d:", recv_size, con_id); uart_at_send_string(at_string); }while(0);
+  }
+  if(recv_size)
+   do{ uart_at_send_buf(rx_buffer, recv_size); }while(0);
+
+ }
+ else
+  do{ snprintf(at_string, (1600), "\r\n[ATPR] ERROR:%d,%d", error_no, con_id); uart_at_send_string(at_string); }while(0);
+ return;
+}
+
+void fATPK(void *arg){
+
+ int argc;
+ int error_no = 0;
+ int enable = 0;
+ char *argv[12] = {0};
+
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPK]: _AT_TRANSPORT_AUTO_RECV"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                    ;
+
+ argc = parse_param(arg, argv);
+ if( argc < 2){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPK] Usage: ATPK=<0/1>\n\r"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                  ;
+  error_no = 1;
+  goto exit;
+ }
+
+ enable = atoi((char*)argv[1]);
+
+ if(enable){
+  if(atcmd_lwip_is_autorecv_mode()){
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPK] already enter auto receive mode"); __wrap_printf("\r\n"); }while(0); } }while(0);
+  }
+  else{
+   if(atcmd_lwip_start_autorecv_task())
+    error_no = 2;
+   }
+ }else{
+  if(atcmd_lwip_is_autorecv_mode())
+   atcmd_lwip_set_autorecv_mode(0);
+  else{
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPK] already leave auto receive mode"); __wrap_printf("\r\n"); }while(0); } }while(0);
+  }
+ }
+
+exit:
+ if(error_no)
+  do{ snprintf(at_string, (1600), "\r\n[ATPK] ERROR:%d", error_no); uart_at_send_string(at_string); }while(0);
+ else
+  do{ snprintf(at_string, (1600), "\r\n[ATPK] OK"); uart_at_send_string(at_string); }while(0);
+ return;
+}
+
+void fATPU(void *arg){
+
+ int argc;
+ int error_no = 0;
+ int enable = 0;
+ char *argv[12] = {0};
+
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPU]: _AT_TRANSPORT_TT_MODE"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                  ;
+
+ argc = parse_param(arg, argv);
+ if( argc < 2){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPU] Usage: ATPU=<1>\n\r"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                ;
+  error_no = 1;
+  goto exit;
+ }
+
+ enable = atoi((char*)argv[1]);
+
+ if(enable){
+  if(!mainlist->next){
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPU] No conn found"); __wrap_printf("\r\n"); }while(0); } }while(0);
+    error_no = 2;
+  }else if(mainlist->next->role == 0){
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPU] No TT mode for server"); __wrap_printf("\r\n"); }while(0); } }while(0);
+   error_no = 3;
+  }
+  else if(mainlist->next->next || mainlist->next->nextseed){
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPU] More than one conn found"); __wrap_printf("\r\n"); }while(0); } }while(0);
+   error_no = 4;
+  }
+  else{
+   if(atcmd_lwip_start_tt_task()){
+    error_no = 5;
+   }
+  }
+ }
+
+exit:
+ if(error_no)
+  do{ snprintf(at_string, (1600), "\r\n[ATPU] ERROR:%d", error_no); uart_at_send_string(at_string); }while(0);
+ else
+  do{ snprintf(at_string, (1600), "\r\n[ATPU] OK"); uart_at_send_string(at_string); }while(0);
+ return;
+}
+
+
+void fATPL(void *arg)
+{
+ int argc, error_no = 0;
+ char *argv[12] = {0};
+
+ if(!arg){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("\r\n[ATPL] Usage : ATPL=<enable>"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                      ;
+  error_no = 1;
+  goto exit;
+ }
+ argc = parse_param(arg, argv);
+ if(argc != 2){
+  error_no = 2;
+  goto exit;
+ }
+
+
+ if(argv[1] != 
+# 4861 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+              ((void *)0)
+# 4861 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                  ){
+  int enable = atoi(argv[1]);
+  struct atcmd_lwip_conn_info cur_conn = {0};
+  node *cur_node = mainlist->next;
+  if(enable && cur_node == 
+# 4865 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                          ((void *)0)
+# 4865 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                              ){
+   error_no = 3;
+   goto exit;
+  }
+  cur_conn.role = cur_node->role;
+  cur_conn.protocol = cur_node->protocol;
+  cur_conn.remote_addr = cur_node->addr;
+  cur_conn.remote_port = cur_node->port;
+  cur_conn.local_addr = cur_node->local_addr;
+  cur_conn.local_port = cur_node->local_port;
+  atcmd_lwip_write_info_to_flash(&cur_conn, enable);
+ }
+
+exit:
+ if(error_no == 0)
+  do{ snprintf(at_string, (1600), "\r\n[ATPL] OK"); uart_at_send_string(at_string); }while(0);
+ else
+  do{ snprintf(at_string, (1600), "\r\n[ATPL] ERROR:%d",error_no); uart_at_send_string(at_string); }while(0);
+
+ return;
+}
+
+extern void do_ping_call(char *ip, int loop, int count);
+extern int get_ping_report(int *ping_lost);
+void fATPP(void *arg){
+ int count, argc = 0;
+ char buf[32] = {0};
+ char *argv[12] = {0};
+ int con_id=(-1);
+ int error_no = 0;
+ int ping_lost = 0;
+
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPP]: _AT_TRANSPORT_PING"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                               ;
+
+ if(!arg){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPP] Usage: ATPP=xxxx.xxxx.xxxx.xxxx[y/loop] or ATPP=[con_id],[y/loop]\n\r"); __wrap_printf("\r\n"); }while(0); } }while(0);
+  error_no = 1;
+  goto exit;
+ }
+
+ argc = parse_param(arg, argv);
+
+ if( strlen(argv[1]) < 3 )
+ {
+  node* curnode;
+  struct in_addr addr;
+  con_id = atoi( (char*)argv[1] );
+  curnode = seek_node(con_id);
+  if(curnode == 
+# 4914 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+               ((void *)0)
+# 4914 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                   ){
+   error_no = 2;
+   goto exit;
+  }
+  if(( curnode->role == 1) ||
+     ( curnode->role == 2)){
+   addr.s_addr = lwip_htonl(curnode->addr);
+   ip4addr_ntoa_r((const ip4_addr_t*)&(addr), buf, sizeof(buf));
+  }else if( curnode->role == 0){
+   strcpy(buf,"127.0.0.1");
+  }
+ }else
+  strcpy(buf, argv[1]);
+
+ if(argc == 2){
+  count = 5;
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPP]Repeat Count: %d", count); __wrap_printf("\r\n"); }while(0); } }while(0);
+  do_ping_call(buf, 0, count);
+ }else{
+  if(strcmp(argv[2], "loop") == 0){
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPP]Repeat Count: %s", "loop"); __wrap_printf("\r\n"); }while(0); } }while(0);
+   do_ping_call(buf, 1, 0);
+  }else{
+   count = atoi(argv[2]);
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPP]Repeat Count: %d", count); __wrap_printf("\r\n"); }while(0); } }while(0);
+   do_ping_call(buf, 0, count);
+  }
+ }
+
+ get_ping_report(&ping_lost);
+ if(ping_lost)
+  error_no = (ping_lost == count)?4:3;
+
+exit:
+ if(error_no)
+  do{ snprintf(at_string, (1600), "\r\n[ATPP] ERROR:%d", error_no); uart_at_send_string(at_string); }while(0);
+ else
+  do{ snprintf(at_string, (1600), "\r\n[ATPP] OK"); uart_at_send_string(at_string); }while(0);
+ return;
+}
+
+void fATPI(void *arg){
+ node* n = mainlist->next;
+ struct in_addr addr;
+
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("[ATPI]: _AT_TRANSPORT_CONNECTION_INFO"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                          ;
+
+ while (n != 
+# 4962 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+            ((void *)0)
+# 4962 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                )
+ {
+  if(n->con_id == 0)
+   continue;
+
+  do{ snprintf(at_string, (1600), "\r\ncon_id:%d,", n->con_id); uart_at_send_string(at_string); }while(0);
+
+  if(n->role == 0)
+   do{ snprintf(at_string, (1600), "server,"); uart_at_send_string(at_string); }while(0);
+  else
+   do{ snprintf(at_string, (1600), "client,"); uart_at_send_string(at_string); }while(0);
+  if(n->protocol == 0)
+   do{ snprintf(at_string, (1600), "tcp,"); uart_at_send_string(at_string); }while(0);
+
+
+
+
+  else
+   do{ snprintf(at_string, (1600), "udp,"); uart_at_send_string(at_string); }while(0);
+
+  addr.s_addr = lwip_htonl(n->addr);
+  do{ snprintf(at_string, (1600), "address:%s,port:%d,socket:%d", ip4addr_ntoa((const ip4_addr_t*)&(addr)) ,n->port, n->sockfd); uart_at_send_string(at_string); }while(0);
+  if(n->nextseed != 
+# 4984 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                   ((void *)0)
+# 4984 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                       )
+  {
+   node* seed = n;
+   do{
+    seed = seed->nextseed;
+    do{ snprintf(at_string, (1600), "\r\ncon_id:%d,seed,", seed->con_id); uart_at_send_string(at_string); }while(0);
+    if(seed->protocol == 0)
+     do{ snprintf(at_string, (1600), "tcp,"); uart_at_send_string(at_string); }while(0);
+
+
+
+
+    else
+     do{ snprintf(at_string, (1600), "udp,"); uart_at_send_string(at_string); }while(0);
+    addr.s_addr = lwip_htonl(seed->addr);
+    do{ snprintf(at_string, (1600), "address:%s,port:%d,socket:%d", ip4addr_ntoa((const ip4_addr_t*)&(addr)), seed->port, seed->sockfd); uart_at_send_string(at_string); }while(0);
+   }while (seed->nextseed != 
+# 5000 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                            ((void *)0)
+# 5000 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                );
+  }
+  n = n->next;
+ }
+
+ do{ snprintf(at_string, (1600), "\r\n[ATPI] OK"); uart_at_send_string(at_string); }while(0);
+
+ return;
+}
+
+void init_node_pool(void){
+ int i;
+ rtw_memset(node_pool, 0, sizeof(node_pool));
+ for(i=0;i<(10);i++){
+  node_pool[i].con_id = (-1);
+ }
+}
+
+node* create_node(int mode, s8_t role){
+ int i;
+
+ sys_prot_t lev;
+ for (i = 0; i < (10); ++i) {
+  lev = sys_arch_protect();
+  if (node_pool[i].con_id == (-1)) {
+   node_pool[i].con_id = i;
+   sys_arch_unprotect(lev);
+   node_pool[i].sockfd = (-1);
+   node_pool[i].protocol = mode;
+   node_pool[i].role = role;
+   node_pool[i].addr = 0;
+   node_pool[i].port = -1;
+   node_pool[i].handletask = 
+# 5032 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                            ((void *)0)
+# 5032 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                ;
+   node_pool[i].next = 
+# 5033 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                      ((void *)0)
+# 5033 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                          ;
+   node_pool[i].nextseed = 
+# 5034 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                          ((void *)0)
+# 5034 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                              ;
+
+
+
+   return &node_pool[i];
+  }
+  sys_arch_unprotect(lev);
+ }
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("No con_id available"); __wrap_printf("\r\n"); }while(0); } }while(0);
+ return 
+# 5043 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+       ((void *)0)
+# 5043 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+           ;
+}
+
+void delete_node(node *n)
+{
+ node *currNode, *prevNode, *currSeed, *precvSeed;
+ if(n == 
+# 5049 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+        ((void *)0)
+# 5049 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+            )
+  return;
+ sys_prot_t lev;
+ lev = sys_arch_protect();
+
+ for(currNode = mainlist; currNode != 
+# 5054 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                                     ((void *)0)
+# 5054 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                         ; prevNode = currNode, currNode = currNode->next )
+ {
+  if(currNode == n){
+   prevNode->next = currNode->next;
+  }
+
+  if(currNode->role != 0)
+   continue;
+
+  precvSeed = currNode;
+  currSeed = currNode->nextseed;
+  while (currSeed != 
+# 5065 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                    ((void *)0)
+# 5065 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                        )
+  {
+   if(currSeed == n){
+    precvSeed->nextseed = n->nextseed;
+   }
+   precvSeed = currSeed;
+   currSeed = currSeed->nextseed;
+  }
+ }
+ sys_arch_unprotect(lev);
+
+ if(n->role == 0){
+
+  while(n->nextseed != 
+# 5078 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                      ((void *)0)
+# 5078 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                          ){
+   currSeed = n->nextseed;
+
+
+   if(currSeed->protocol == 0 && currSeed->sockfd != (-1)){
+    lwip_close(currSeed->sockfd);
+   currSeed->sockfd = (-1);
+   }
+# 5101 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+   n->nextseed = currSeed->nextseed;
+   currSeed->con_id = (-1);
+  };
+ }
+
+ if(!((n->protocol == 1)&&(n->role == 2))){
+  if(n->sockfd != (-1)){
+# 5182 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+   {
+    lwip_close(n->sockfd);
+   }
+   n->sockfd = (-1);
+  }
+ }
+
+ if(n->handletask){
+  vTaskDelete(n->handletask);
+  n->handletask = 
+# 5191 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                 ((void *)0)
+# 5191 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                     ;
+ }
+
+
+
+
+
+
+ n->con_id = (-1);
+ return;
+}
+
+int hang_node(node* insert_node)
+{
+ node* n = mainlist;
+ sys_prot_t lev;
+ lev = sys_arch_protect();
+ while (n->next != 
+# 5208 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                  ((void *)0)
+# 5208 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                      )
+ {
+  n = n->next;
+  if(insert_node->role == 0)
+  {
+   if( (n->port == insert_node->port) && ((n->addr== insert_node->addr) && (n->role == insert_node->role) && (n->protocol == insert_node->protocol) ) ){
+    sys_arch_unprotect(lev);
+     struct in_addr addr;
+     addr.s_addr = lwip_htonl(insert_node->addr);
+    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("This conn(IP:%s PORT:%d) already exist", ip4addr_ntoa((const ip4_addr_t*)&(addr)),insert_node->port); __wrap_printf("\r\n"); }while(0); } }while(0)
+
+                                        ;
+    return -1;
+   }
+  }
+ }
+
+ n->next = insert_node;
+ sys_arch_unprotect(lev);
+ return 0;
+}
+
+int hang_seednode(node* main_node ,node* insert_node)
+{
+ node* n = main_node;
+
+ sys_prot_t lev;
+ lev = sys_arch_protect();
+ while (n->nextseed != 
+# 5236 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                      ((void *)0)
+# 5236 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                          )
+ {
+  n = n->nextseed;
+  if( (n->port == insert_node->port) && (n->addr == insert_node->addr)){
+   sys_arch_unprotect(lev);
+   struct in_addr addr;
+   addr.s_addr = lwip_htonl(insert_node->addr);
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("This seed IP:%s PORT:%d already exist", ip4addr_ntoa((const ip4_addr_t*)&(addr)),insert_node->port); __wrap_printf("\r\n"); }while(0); } }while(0)
+
+                                      ;
+   return -1;
+  }
+ }
+
+ n->nextseed = insert_node;
+ sys_arch_unprotect(lev);
+ return 0;
+}
+
+node *seek_node(int con_id)
+{
+ node* n = mainlist;
+ while (n->next != 
+# 5258 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                  ((void *)0)
+# 5258 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                      )
+ {
+  n = n->next;
+  if(n->con_id == con_id)
+   return n;
+
+  if(n->nextseed != 
+# 5264 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                   ((void *)0)
+# 5264 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                       )
+  {
+   node* seed = n;
+   do{
+    seed = seed->nextseed;
+    if(seed->con_id == con_id)
+     return seed;
+   }while (seed->nextseed != 
+# 5271 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                            ((void *)0)
+# 5271 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                );
+  }
+ }
+ return 
+# 5274 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+       ((void *)0)
+# 5274 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+           ;
+}
+
+node *tryget_node(int n)
+{
+ sys_prot_t lev;
+ if ((n <= 0) || (n > (10))) {
+  return 
+# 5281 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+        ((void *)0)
+# 5281 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+            ;
+ }
+ lev = sys_arch_protect();
+ if (node_pool[n].con_id == (-1) || node_pool[n].sockfd == (-1)) {
+  sys_arch_unprotect(lev);
+  return 
+# 5286 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+        ((void *)0)
+# 5286 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+            ;
+ }
+ sys_arch_unprotect(lev);
+ return &node_pool[n];
+}
+
+int atcmd_lwip_receive_data(node *curnode, uint8_t *buffer, uint16_t buffer_size, int *recv_size,
+ u8_t *udp_clientaddr, u16_t *udp_clientport){
+
+ struct timeval tv;
+ 
+# 5296 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+_types_fd_set 
+# 5296 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+       readfds;
+ int error_no = 0, ret = 0, size = 0;
+
+ 
+# 5299 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+(__extension__ (void)({ size_t __i; char *__tmp = (char *)
+# 5299 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+&readfds
+# 5299 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+; for (__i = 0; __i < sizeof (*(
+# 5299 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+&readfds
+# 5299 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+)); ++__i) *__tmp++ = 0; }))
+# 5299 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                 ;
+ 
+# 5300 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+((
+# 5300 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+&readfds
+# 5300 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+)->fds_bits[(
+# 5300 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+curnode->sockfd
+# 5300 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+)/(sizeof (fd_mask) * 8)] |= (1L << ((
+# 5300 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+curnode->sockfd
+# 5300 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+) % (sizeof (fd_mask) * 8))))
+# 5300 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                 ;
+ tv.tv_sec = (0);
+ tv.tv_usec = (20000);
+ ret = lwip_select(curnode->sockfd + 1,&readfds,
+# 5303 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+      ((void *)0)
+# 5303 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+      ,
+# 5303 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+      ((void *)0)
+# 5303 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+      ,&tv);
+ if(!((ret > 0)&&(
+# 5304 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+                 ((
+# 5304 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                 &readfds
+# 5304 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+                 )->fds_bits[(
+# 5304 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                 curnode->sockfd
+# 5304 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+                 )/(sizeof (fd_mask) * 8)] & (1L << ((
+# 5304 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                 curnode->sockfd
+# 5304 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3
+                 ) % (sizeof (fd_mask) * 8))))
+# 5304 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                                    )))
+ {
+
+
+  goto exit;
+ }
+
+ if(curnode->protocol == 1)
+ {
+  if(curnode->role == 0){
+
+   struct sockaddr_in client_addr;
+   u32_t addr_len = sizeof(struct sockaddr_in);
+   rtw_memset((char *) &client_addr, 0, sizeof(client_addr));
+
+   if ((size = lwip_recvfrom(curnode->sockfd,buffer,buffer_size,0,(struct sockaddr *) &client_addr,&addr_len)) > 0){
+
+
+
+   }
+   else{
+    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPR] ERROR:Failed to receive data"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                           ;
+    error_no = 4;
+   }
+# 5339 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+   ip4addr_ntoa_r((const ip4_addr_t*)&(client_addr.sin_addr.s_addr), (char *)udp_clientaddr, 16);
+   *udp_clientport = lwip_htons(client_addr.sin_port);
+
+  }
+  else{
+   struct sockaddr_in serv_addr;
+   u32_t addr_len = sizeof(struct sockaddr_in);
+   rtw_memset((char *) &serv_addr, 0, sizeof(serv_addr));
+   serv_addr.sin_family = 2;
+   serv_addr.sin_port = lwip_htons(curnode->port);
+   serv_addr.sin_addr.s_addr = lwip_htonl(curnode->addr);
+
+   if ((size = lwip_recvfrom(curnode->sockfd,buffer,buffer_size,0,(struct sockaddr *) &serv_addr,&addr_len)) > 0){
+
+
+
+   }
+   else{
+    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPR] ERROR:Failed to receive data"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                           ;
+    error_no = 5;
+   }
+  }
  }
  else{
-  uint8_t *ip = (uint8_t *)LwIP_GetIP(&xnetif[0]);
-  __wrap_printf("\n\rStart Server\r\n\t[IP]: %d.%d.%d.%d\r\n\t[PORT]:%d\n\r\n\r", ip[0], ip[1], ip[2], ip[3], local_port);
-  server_start(param);
+# 5378 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+  {
+   size = lwip_read(curnode->sockfd,buffer,buffer_size);
+  }
+  if(size == 0){
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPR] ERROR:Connection is closed!"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                        ;
+   error_no = 7;
+  }
+  else if(size < 0){
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("[ATPR] ERROR:Failed to receive data.ret=-0x%x!",-size); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                          ;
+   error_no = 8;
+  }
  }
- server_task = 
-# 3943 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-              ((void *)0)
-# 3943 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                  ;
+exit:
+ if(error_no == 0)
+  *recv_size = size;
+ else{
+# 5406 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+  {
+   lwip_close(curnode->sockfd);
+  }
+  curnode->sockfd = (-1);
+ }
+ return error_no;
+}
+
+static void atcmd_lwip_receive_task(void *param)
+{
+
+ int i;
+ int packet_size = 1500;
+
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("Enter auto receive mode"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                             ;
+
+ while(atcmd_lwip_is_autorecv_mode())
+ {
+  for (i = 0; i < (10); ++i) {
+
+   node* curnode = 
+# 5427 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                  ((void *)0)
+# 5427 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                      ;
+   int error_no = 0;
+   int recv_size = 0;
+   u8_t udp_clientaddr[16] = {0};
+   u16_t udp_clientport = 0;
+   curnode = tryget_node(i);
+
+   if(curnode == 
+# 5434 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                ((void *)0)
+# 5434 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                    )
+    continue;
+   if((curnode->protocol == 0
+
+
+
+    )
+    && curnode->role == 0){
+
+    continue;
+   }
+   error_no = atcmd_lwip_receive_data(curnode, rx_buffer, packet_size, &recv_size, udp_clientaddr, &udp_clientport);
+
+   if(atcmd_lwip_is_tt_mode()){
+    if((error_no == 0) && recv_size){
+     rx_buffer[recv_size] = '\0';
+     do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("Recv[%d]:%s", recv_size, rx_buffer); __wrap_printf("\r\n"); }while(0); } }while(0);
+     do{ uart_at_send_buf(rx_buffer, recv_size); }while(0);
+     rtw_msleep_os(20);
+    }
+    continue;
+   }
+
+   if(error_no == 0){
+    if(recv_size){
+     rx_buffer[recv_size] = '\0';
+
+     log_service_lock();
+
+     if(curnode->protocol == 1 && curnode->role == 0){
+      do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("\r\n[ATPR] OK,%d,%d,%s,%d:%s", recv_size, curnode->con_id, udp_clientaddr, udp_clientport, rx_buffer); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                                                                              ;
+      do{ snprintf(at_string, (1600), "\r\n[ATPR] OK,%d,%d,%s,%d:", recv_size, curnode->con_id, udp_clientaddr, udp_clientport); uart_at_send_string(at_string); }while(0);
+     }
+     else{
+      do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("\r\n[ATPR] OK,%d,%d:%s", recv_size, curnode->con_id, rx_buffer); __wrap_printf("\r\n"); }while(0); } }while(0)
+
+
+                                   ;
+      do{ snprintf(at_string, (1600), "\r\n[ATPR] OK,%d,%d:", recv_size, curnode->con_id); uart_at_send_string(at_string); }while(0);
+
+     }
+     do{ uart_at_send_buf(rx_buffer, recv_size); }while(0);
+     do{ snprintf(at_string, (1600), "\r\n\n# "); uart_at_send_string(at_string); }while(0);
+
+     log_service_unlock();
+
+    }
+   }
+   else{
+
+    log_service_lock();
+
+    do{ snprintf(at_string, (1600), "\r\n[ATPR] ERROR:%d,%d", error_no, curnode->con_id); uart_at_send_string(at_string); }while(0);
+    do{ snprintf(at_string, (1600), "\r\n\n# "); uart_at_send_string(at_string); }while(0);
+
+    log_service_unlock();
+
+   }
+  }
+ }
+
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("Leave auto receive mode"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                             ;
 
  vTaskDelete(
-# 3945 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+# 5499 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
             ((void *)0)
-# 3945 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+# 5499 "../../../component/common/api/at_cmd/atcmd_lwip.c"
                 );
 }
 
-
-
-void fATP1(void *arg){
- if(!arg){
-  __wrap_printf("[ATP1]Usage: ATP1=MODE\n\r");
-  goto exit;
+int atcmd_lwip_start_autorecv_task(void){
+ atcmd_lwip_set_autorecv_mode((!0));
+ if(xTaskCreate(atcmd_lwip_receive_task, ((const char*)"atcmd_lwip_receive_task"), 512, 
+# 5504 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                                                                                                   ((void *)0)
+# 5504 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                                                                                       , (( ( UBaseType_t ) 0U ) + 1), 
+# 5504 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                                                                                                                                   ((void *)0)
+# 5504 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                                                                                                                       ) != ( ( ( BaseType_t ) 1 ) ))
+ {
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("ERROR: Create receive task failed."); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                        ;
+  atcmd_lwip_set_autorecv_mode(0);
+  return -1;
  }
- mode = atoi((char*)arg);
- __wrap_printf("[ATP1]: _AT_TRANSPORT_MODE_ [%d]\n\r", mode);
-exit:
- return;
+ return 0;
 }
 
-void fATP2(void *arg){
- if(!arg){
-  __wrap_printf("[ATP2]Usage: ATP2=LOCAL_PORT\n\r");
-  goto exit;
- }
- local_port = atoi((char*)arg);
- __wrap_printf("[ATP2]: _AT_TRANSPORT_LOCAL_PORT_ [%d]\n\r", local_port);
-
-exit:
- return;
+int atcmd_lwip_is_tt_mode(void){
+ return (atcmd_lwip_tt_mode == (!0));
+}
+void atcmd_lwip_set_tt_mode(int enable){
+ atcmd_lwip_tt_mode = enable;
 }
 
-void fATP3(void *arg){
- if(!arg){
-  __wrap_printf("[ATP3]Usage: ATP3=REMOTE_IP\n\r");
-  goto exit;
- }
- strcpy((char*)remote_addr, (char*)arg);
- __wrap_printf("[ATP3]: _AT_TRANSPORT_REMOTE_IP_ [%s]\n\r", remote_addr);
-
-exit:
- return;
+int atcmd_lwip_is_autorecv_mode(void){
+ return (atcmd_lwip_auto_recv == (!0));
+}
+void atcmd_lwip_set_autorecv_mode(int enable){
+ atcmd_lwip_auto_recv = enable;
 }
 
-void fATP4(void *arg){
- if(!arg){
-  __wrap_printf("[ATP4]Usage: ATP4=REMOTE_PORT\n\r");
-  goto exit;
- }
- remote_port = atoi((char*)arg);
- __wrap_printf("[ATP4]: _AT_TRANSPORT_REMOTE_PORT_ [%d]\n\r", remote_port);
+static void _tt_wait_rx_complete(){
+ int32_t tick_current = rtw_get_current_time();
 
-exit:
- return;
+ while(rtw_systime_to_ms(tick_current -atcmd_lwip_tt_lasttickcnt) < (20) ){
+  rtw_msleep_os(5);
+  tick_current = rtw_get_current_time();
+ }
 }
 
-void fATP5(void *arg){
- int server_status = 0;
- if(!arg){
-  __wrap_printf("[ATP5]Usage: ATP5=0/1(0:server disable; 1: server enable)\n\r");
-  goto exit;
- }
- server_status = atoi((char*)arg);
- __wrap_printf("[ATP5]: _AT_TRANSPORT_START_SERVER_ [%d]\n\r", server_status);
- if(mode == 0){
-  if(server_status == 0){
-   socket_close();
-   type = 0;
+static void atcmd_lwip_tt_handler(void* param)
+{
+ struct sockaddr_in cli_addr;
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("Enter TT data mode"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                        ;
+
+ while(rtw_down_sema(&atcmd_lwip_tt_sema) == 1) {
+  _lock lock;
+  _irqL irqL;
+  int tt_size = 0;
+  _tt_wait_rx_complete();
+
+  rtw_enter_critical(&lock, &irqL);
+  if((atcmd_lwip_tt_datasize >= 4) && (rtw_memcmp(log_buf, "----", 4) == (!0))){
+   atcmd_lwip_set_tt_mode(0);
+   atcmd_lwip_tt_datasize = 0;
+   rtw_exit_critical(&lock, &irqL);
+   break;
   }
-  else if(server_status == 1){
-   if(server_task == 
-# 4011 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                    ((void *)0)
-# 4011 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                        )
-   {
-    if(xTaskCreate(server_start_task, ((const char*)"server_start_task"), 512, 
-# 4013 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                                                                                          ((void *)0)
-# 4013 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                                                                                              , (( ( UBaseType_t ) 0U ) + 1), &server_task) != ( ( ( BaseType_t ) 1 ) ))
-     __wrap_printf("\r\n[ATP5]ERROR: Create tcp server task failed.\r\n");
+  rtw_memcpy(tx_buffer, log_buf, atcmd_lwip_tt_datasize);
+  tt_size = atcmd_lwip_tt_datasize;
+  atcmd_lwip_tt_datasize = 0;
+  rtw_exit_critical(&lock, &irqL);
+  tx_buffer[tt_size] = '\0';
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("Send[%d]:%s", tt_size, tx_buffer); __wrap_printf("\r\n"); }while(0); } }while(0);
+  atcmd_lwip_send_data(mainlist->next, tx_buffer, tt_size, cli_addr);
+ }
+exit:
+ do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("Leave TT data mode"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                        ;
+ rtw_free_sema(&atcmd_lwip_tt_sema);
+ atcmd_lwip_set_autorecv_mode(0);
+ do{ snprintf(at_string, (1600), "\r\n\n# "); uart_at_send_string(at_string); }while(0);
+ vTaskDelete(
+# 5570 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+            ((void *)0)
+# 5570 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                );
+}
+
+int atcmd_lwip_start_tt_task(void){
+ int ret;
+ int enable = 1;
+ int send_timeout = 20;
+ node *n = mainlist->next;
+ ret = lwip_setsockopt(n->sockfd,6,0x01,&enable,sizeof(enable));
+ if (ret < 0) {
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("set TCP_NODELAY error! "); __wrap_printf("\r\n"); }while(0); } }while(0);
+  goto err_exit;
+ }
+
+ ret = lwip_setsockopt(n->sockfd,0xfff,0x0008,&enable,sizeof(enable));
+ if (ret < 0) {
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("set SO_KEEPALIVE error! "); __wrap_printf("\r\n"); }while(0); } }while(0);
+ }
+
+
+ ret = lwip_setsockopt(n->sockfd,0xfff,0x1005,&send_timeout,sizeof(int));
+ if (ret < 0) {
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("SO_SNDTIMEO error! "); __wrap_printf("\r\n"); }while(0); } }while(0);
+ }
+
+
+ rtw_init_sema(&atcmd_lwip_tt_sema, 0);
+ atcmd_lwip_set_tt_mode((!0));
+ if(xTaskCreate(atcmd_lwip_tt_handler, ((const char*)"tt_hdl"), 512, 
+# 5598 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                                                                                ((void *)0)
+# 5598 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                                                                    , (( ( UBaseType_t ) 0U ) + 1), &atcmd_lwip_tt_task) != ( ( ( BaseType_t ) 1 ) )){
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("ERROR: Create tt task failed."); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                   ;
+  goto err_exit;
+ }
+ rtw_msleep_os(20);
+ if(atcmd_lwip_is_autorecv_mode() != 1){
+  if(atcmd_lwip_start_autorecv_task()){
+   vTaskDelete(atcmd_lwip_tt_task);
+   goto err_exit;
+  }
+ }
+
+ return 0;
+
+err_exit:
+ atcmd_lwip_set_tt_mode(0);
+ return -1;
+}
+
+void atcmd_lwip_erase_info(void){
+ atcmd_update_partition_info(AT_PARTITION_LWIP, AT_PARTITION_ERASE, 
+# 5619 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                                                                   ((void *)0)
+# 5619 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                                                                       , 0);
+}
+
+int atcmd_lwip_write_info_to_flash(struct atcmd_lwip_conn_info *cur_conn, int enable)
+{
+ struct atcmd_lwip_conf read_data = {0};
+ int i = 0, found = 0;
+
+ atcmd_update_partition_info(AT_PARTITION_LWIP, AT_PARTITION_READ, (uint8_t *) &read_data, sizeof(struct atcmd_lwip_conf));
+
+
+ if(enable == 0){
+  atcmd_lwip_erase_info();
+  goto exit;
+ }
+
+ if(read_data.conn_num < 0 || read_data.conn_num > (1)){
+  read_data.conn_num = 0;
+  read_data.last_index = -1;
+ }
+
+ for(i = 0; i < read_data.conn_num; i++){
+  if(rtw_memcmp((uint8_t *)cur_conn, (uint8_t *)&read_data.conn[i], sizeof(struct atcmd_lwip_conn_info)) == (!0)) {
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("the same profile found in flash"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                      ;
+   found = 1;
+   break;
+  }
+ }
+
+ if(!found){
+  read_data.last_index++;
+  if(read_data.last_index >= (1))
+   read_data.last_index -= (1);
+  rtw_memcpy((uint8_t *)&read_data.conn[read_data.last_index], (uint8_t *)cur_conn, sizeof(struct atcmd_lwip_conn_info));
+  read_data.conn_num++;
+  if(read_data.conn_num > (1))
+   read_data.conn_num = (1);
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("not the same proto/addr/port, write new profile to flash"); __wrap_printf("\r\n"); }while(0); } }while(0)
+                                                              ;
+ }
+ if(!found || read_data.enable != enable){
+  read_data.enable = enable;
+  atcmd_update_partition_info(AT_PARTITION_LWIP, AT_PARTITION_WRITE, (uint8_t *) &read_data, sizeof(struct atcmd_lwip_conf));
+ }
+exit:
+ return 0;
+}
+
+int atcmd_lwip_read_info_from_flash(uint8_t *read_data, uint32_t read_len)
+{
+ atcmd_update_partition_info(AT_PARTITION_LWIP, AT_PARTITION_READ, read_data, read_len);
+ return 0;
+}
+
+int atcmd_lwip_auto_connect(void)
+{
+ struct atcmd_lwip_conf read_data = {0};
+ struct atcmd_lwip_conn_info *re_conn;
+ node* re_node = 
+# 5678 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+                ((void *)0)
+# 5678 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                    ;
+ int i, error_no = 0;
+ int last_index;
+
+ atcmd_lwip_read_info_from_flash((uint8_t *)&read_data, sizeof(struct atcmd_lwip_conf));
+ if(read_data.enable == 0){
+  error_no = 1;
+  goto exit;
+ }
+ if(read_data.conn_num > (1) || read_data.conn_num <= 0){
+  error_no = 2;
+  goto exit;
+ }
+
+ last_index = read_data.last_index;
+ for(i = 0; i < read_data.conn_num; i++){
+  error_no = 0;
+  re_conn = &read_data.conn[last_index];
+  last_index ++;
+  if(last_index >= (1))
+   last_index -= (1);
+  re_node = create_node(re_conn->protocol, re_conn->role);
+  if(re_node == 
+# 5700 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+               ((void *)0)
+# 5700 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                   ){
+   error_no = 3;
+   break;
+  }
+  re_node->addr = re_conn->remote_addr;
+  re_node->port = re_conn->remote_port;
+  re_node->local_addr = re_conn->local_addr;
+  re_node->local_port = re_conn->local_port;
+  if(re_node->role == 0){
+
+   do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("Auto connect isn't enabled for server"); __wrap_printf("\r\n"); }while(0); } }while(0);
+   error_no = 4;
+   goto exit;
+  }
+  struct in_addr addr;
+  addr.s_addr = lwip_htonl(re_node->addr);
+  do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("\r\nAuto connect to: %d,%s,%d", re_node->protocol, ip4addr_ntoa((const ip4_addr_t*)&(addr)), re_node->port); __wrap_printf("\r\n"); }while(0); } }while(0)
+
+
+                                  ;
+# 5828 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+  {
+   if(re_node->protocol == 1)
+    re_node->sockfd = lwip_socket(2,2,0);
+   else if(re_node->protocol == 0)
+    re_node->sockfd = lwip_socket(2,1,0);
+   else
+    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("Unknown connection type[%d]", re_node->protocol); __wrap_printf("\r\n"); }while(0); } }while(0);
+
+   if (re_node->sockfd == (-1)) {
+    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("Failed to create sock_fd!"); __wrap_printf("\r\n"); }while(0); } }while(0);
+    error_no = 13;
+    break;
    }
-   type = 1;
-  }
-  else
-  __wrap_printf("[ATP5]ERROR: Just support two mode : 0 or 1\n\r");
- }
- else if(mode == 1){
-  if(server_status == 0){
-   socket_close();
-   type = 0;
-  }
-  else if(server_status == 1){
-   if(server_task == 
-# 4027 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                    ((void *)0)
-# 4027 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                        )
-   {
-    if(xTaskCreate(server_start_task, ((const char*)"server_start_task"), 512, 
-# 4029 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                                                                                          ((void *)0)
-# 4029 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                                                                                              , (( ( UBaseType_t ) 0U ) + 1), &server_task) != ( ( ( BaseType_t ) 1 ) ))
-     __wrap_printf("\r\n[ATP5]ERROR: Create udp server task failed.\r\n");
+
+   if (re_node->protocol == 0){
+    struct sockaddr_in c_serv_addr;
+    rtw_memset(&c_serv_addr, 0, sizeof(c_serv_addr));
+    c_serv_addr.sin_family = 2;
+    c_serv_addr.sin_addr.s_addr = lwip_htonl(re_node->addr);
+    c_serv_addr.sin_port = lwip_htons(re_node->port);
+    if(lwip_connect(re_node->sockfd,(struct sockaddr *)&c_serv_addr,sizeof(c_serv_addr)) == 0){
+     do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("Connect to Server successful!"); __wrap_printf("\r\n"); }while(0); } }while(0);
+     if(hang_node(re_node) < 0){
+      error_no = 14;
+     }
+     break;
+    }else{
+     do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("Connect to Server failed(%d)!", errno); __wrap_printf("\r\n"); }while(0); } }while(0);
+     error_no = 15;
+     delete_node(re_node);
+     re_node = 
+# 5858 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+              ((void *)0)
+# 5858 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                  ;
+     continue;
+    }
    }
-   type = 3;
-  }
-  else
-   __wrap_printf("[ATP5]ERROR: Just support two mode : 0 or 1\n\r");
- }
- else
-  __wrap_printf("[ATP5]Error: mode(TCP/UDP) can't be empty\n\r");
+   else{
+# 5878 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+    ip_addr_t dst_addr;
+    dst_addr.addr = lwip_htonl(re_node->addr);
+    if((((&dst_addr)->addr & ((((0xf0000000UL) & 0x000000ffUL) << 24) | (((0xf0000000UL) & 0x0000ff00UL) << 8) | (((0xf0000000UL) & 0x00ff0000UL) >> 8) | (((0xf0000000UL) & 0xff000000UL) >> 24))) == ((((0xe0000000UL) & 0x000000ffUL) << 24) | (((0xe0000000UL) & 0x0000ff00UL) << 8) | (((0xe0000000UL) & 0x00ff0000UL) >> 8) | (((0xe0000000UL) & 0xff000000UL) >> 24)))){
+     struct ip_mreq imr;
+     struct in_addr intfAddr;
 
-exit:
- return;
-}
 
-void fATP6(void *arg){
- int client_status = 0;
- if(!arg){
-  __wrap_printf("[ATP6]Usage: ATP6=0/1(0:Client disable; 1: Client enable)\n\r");
-  goto exit;
- }
- client_status = atoi((char*)arg);
- __wrap_printf("[ATP6]: _AT_TRANSPORT_START_CLIENT_ [%d]\n\r", client_status);
- if(mode == 0){
-  if(client_status == 0){
-   socket_close();
-   type = 0;
-  }
-  else if(client_status == 1){
-   __wrap_printf("\r\n[ATP6]TCP Client mode will start\r\n");
-   if(client_task == 
-# 4059 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                    ((void *)0)
-# 4059 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                        )
-   {
-    if(xTaskCreate(client_start_task, ((const char*)"client_start_task"), 512, 
-# 4061 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                                                                                          ((void *)0)
-# 4061 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                                                                                              , (( ( UBaseType_t ) 0U ) + 1), &client_task) != ( ( ( BaseType_t ) 1 ) ))
-     __wrap_printf("\r\n[ATP6]ERROR: Create tcp client task failed.\r\n");
+     xnetif[0].flags |= 0x20U;
+     imr.imr_multiaddr.s_addr = lwip_htonl(re_node->addr);
+     imr.imr_interface.s_addr = lwip_htonl(((u32_t)0x00000000UL));
+     if(lwip_setsockopt(re_node->sockfd,0,3,&imr,sizeof(imr))
+                         < 0){
+      xnetif[0].flags &= ~0x20U;
+      error_no = 17;
+      delete_node(re_node);
+      re_node = 
+# 5893 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+               ((void *)0)
+# 5893 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                   ;
+      continue;
+     }
+     intfAddr.s_addr = ((u32_t)0x00000000UL);
+     if(lwip_setsockopt(re_node->sockfd,0,6,&intfAddr,sizeof(struct in_addr))
+                                         < 0){
+      xnetif[0].flags &= ~0x20U;
+      error_no = 18;
+      delete_node(re_node);
+      re_node = 
+# 5902 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+               ((void *)0)
+# 5902 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                   ;
+      continue;
+     }
+    }
+
+    if(re_node->local_port){
+     struct sockaddr_in addr;
+     rtw_memset(&addr, 0, sizeof(addr));
+     addr.sin_family=2;
+     addr.sin_port=lwip_htons(re_node->local_port);
+     addr.sin_addr.s_addr=lwip_htonl(((u32_t)0x00000000UL)) ;
+     if (lwip_bind(re_node->sockfd,(struct sockaddr *)&addr,sizeof(addr))<0) {
+      do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ERROR <= gDbgLevel)){ do{ __wrap_printf("bind sock error!"); __wrap_printf("\r\n"); }while(0); } }while(0);
+      error_no = 19;
+      delete_node(re_node);
+      re_node = 
+# 5917 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
+               ((void *)0)
+# 5917 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+                   ;
+      continue;
+     }
+    }
+    if(hang_node(re_node) < 0){
+     error_no = 20;
+    }
+    do{ if((((1<<7)) & gDbgFlag) && (AT_DBG_ALWAYS <= gDbgLevel)){ do{ __wrap_printf("UDP client starts successful!"); __wrap_printf("\r\n"); }while(0); } }while(0);
+    break;
    }
-   type = 2;
   }
-  else
-   __wrap_printf("[ATP6]ERROR: Just support two mode : 0 or 1\n\r");
  }
- else if(mode == 1){
-  if(client_status == 0){
-   socket_close();
-   type = 0;
-  }
-  else if(client_status == 1){
-   if(client_task == 
-# 4075 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                    ((void *)0)
-# 4075 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                        )
-   {
-    if(xTaskCreate(client_start_task, ((const char*)"client_start_task"), 512, 
-# 4077 "../../../component/common/api/at_cmd/atcmd_lwip.c" 3 4
-                                                                                          ((void *)0)
-# 4077 "../../../component/common/api/at_cmd/atcmd_lwip.c"
-                                                                                              , (( ( UBaseType_t ) 0U ) + 1), &client_task) != ( ( ( BaseType_t ) 1 ) ))
-     __wrap_printf("\r\n[ATP6]ERROR: Create udp client task failed.\r\n");
-   }
-   type = 4;
-  }
-  else
-   __wrap_printf("[ATP6]ERROR: Just support two mode : 0 or 1\n\r");
- }
- else
-  __wrap_printf("[ATP6]Error: mode(TCP/UDP) can't be empty\n\r");
 
 exit:
- return;
+ if(re_node && error_no)
+  delete_node(re_node);
+ return error_no;
 }
 
-void fATPZ(void *arg){
-
- ( void ) arg;
-
- uint8_t *ip;
- __wrap_printf("\n\r\nThe current Transport settings:");
- __wrap_printf("\n\r==============================");
- if(mode == 0)
-  __wrap_printf("\n\r Protocol: TCP");
- else if(mode == 1)
-  __wrap_printf("\n\r Protocol: UDP");
-
- ip = (uint8_t *)LwIP_GetIP(&xnetif[0]);
- __wrap_printf("\n\r LOCAL_IP  => %d.%d.%d.%d", ip[0], ip[1], ip[2], ip[3]);
- __wrap_printf("\n\r LOCAL_PORT => %d", local_port);
- __wrap_printf("\n\r REMOTE_IP  => %s", remote_addr);
- __wrap_printf("\n\r REMOTE_PORT => %d", remote_port);
-
- __wrap_printf("\n\r");
+int atcmd_lwip_restore_from_flash(void){
+ int ret = -1;
+ if(atcmd_lwip_auto_connect() == 0){
+  if(atcmd_lwip_start_tt_task() == 0)
+   ret = 0;
+ }
+ return ret;
 }
 
-void fATR0(void *arg){
-
- ( void ) arg;
-
- if(packet_size <= 0){
-  packet_size = (100);
-  __wrap_printf("[ATR0]Notice: Didn't set the value of packet_size, will using the MAX_BUFFER: %d\r\n", (100));
- }
- rtw_memset(rx_buffer, 0, (100));
- if(type == 1){
-  if((lwip_read(newsockfd,rx_buffer,(100))) > 0)
-   __wrap_printf("[ATR0]Receive the data:%s\r\n with packet_size: %d\r\n", rx_buffer, packet_size);
-  else
-   __wrap_printf("[ATR0]ERROR: Failed to receive data!\r\n");
-  lwip_close(newsockfd);
-  newsockfd = -1;
- }
- else{
-  if((lwip_read(sockfd,rx_buffer,(100))) > 0)
-   __wrap_printf("[ATR0]Receive the data:%s\r\n with packet_size: %d\r\n", rx_buffer, packet_size);
-  else
-   __wrap_printf("[ATR0]ERROR: Failed to receive data!\r\n");
- }
-}
-
-void fATR1(void *arg){
- int size;
- if(!arg){
-  __wrap_printf("[ATR1]Usage: ATR1=packet_size(cannot exceed %d)\n\r", (100));
-  goto exit;
- }
- size = atoi((char*)arg);
- __wrap_printf("[ATR1]: _AT_TRANSPORT_RECEIVE_PACKET_SIZE_ [%d]\n\r", size);
- if(size < 1)
-  __wrap_printf("[ATR1]Error: packet size need be larger than 0!\n\r");
- else if(size > (100))
-  __wrap_printf("[ATR1]Error: packet size exceeds the MAX_BUFFER value: %d!\n\r", (100));
- else
-  packet_size = size;
-exit:
- return;
+void atcmd_lwip_set_rx_buffer(unsigned char * buf, int bufsize) {
+ rx_buffer = buf;
+ rx_buffer_size = bufsize;
 }
 
 
-void fATRA(void *arg){
- volatile int argc;
- char *argv[12] = {0};
- if(!arg){
-  __wrap_printf("[ATRA]Usage: ATRA=[data](Data size cannot exceed the MAX_BUFFER SIZE: %d)\n\r", (100));
-  return;
- }
 
- if(packet_size <= 0){
-  packet_size = (100);
-  __wrap_printf("[ATRA]Notice: Didn't set the value of packet_size, will using the MAX_BUFFER SIZE: %d\r\n", (100));
- }
 
- if((argc = parse_param(arg, argv)) != 2){
-  __wrap_printf("[ATRA]Usage: ATRA=[data](Data size cannot exceed the MAX_BUFFER SIZE: %d)\n\r", (100));
-  goto exit;
- }
- else
-  __wrap_printf("[ATRA]: _AT_TRANSPORT_WRITE_DATA_ [%s]\n\r", argv[1]);
- rtw_memset(tx_buffer, 0, (100));
- rtw_memcpy(tx_buffer, argv[1], strlen(argv[1]));
+log_item_t at_transport_items[ ] = {
+# 5968 "../../../component/common/api/at_cmd/atcmd_lwip.c"
+ {"ATP0", fATP0,},
+ {"ATPS", fATPS,},
+ {"ATPD", fATPD,},
+ {"ATPC", fATPC,},
+ {"ATPT", fATPT,},
+ {"ATPR", fATPR,},
+ {"ATPK", fATPK,},
+ {"ATPP", fATPP,},
+ {"ATPI", fATPI,},
+ {"ATPU", fATPU,},
+ {"ATPL", fATPL,},
 
- if(type == 1){
-  if((lwip_write(newsockfd,tx_buffer,strlen((char const*)tx_buffer))) > 0)
-   __wrap_printf("[ATRA] Sending data:%s\r\n with packet_size:%d\r\n", tx_buffer, packet_size);
-  else
-   __wrap_printf("[ATRA]ERROR: Failed to send data\r\n");
-  lwip_close(newsockfd);
-  newsockfd = -1;
- }
- else if(type == 4){
-  int ret = 0;
-  ret = lwip_sendto(sockfd,tx_buffer,strlen((char const*)tx_buffer),0,(struct sockaddr *)&serv_addr,sizeof(serv_addr));
+};
 
-  __wrap_printf("\r\nThe value of ret is %d\r\n", ret);
- }
- else if(type == 3)
-  __wrap_printf("\r\nThe UDP Server mode not support Sending data service!\r\n");
- else{
-  if((lwip_write(sockfd,tx_buffer,strlen((char const*)tx_buffer))) > 0)
-   __wrap_printf("[ATRA] Sending data:%s\r\n with packet_size:%d\r\n", tx_buffer, packet_size);
-  else
-   __wrap_printf("[ATRA]ERROR: Failed to send data\r\n");
- }
-exit:
- return;
+
+void print_tcpip_at(void *arg){
+ int index;
+ int cmd_len = 0;
+
+ cmd_len = sizeof(at_transport_items)/sizeof(at_transport_items[0]);
+ for(index = 0; index < cmd_len; index++)
+  do{ snprintf(at_string, (1600), "\r\n%s", at_transport_items[index].log_cmd); uart_at_send_string(at_string); }while(0);
 }
 
-void fATRB(void *arg){
- int size;
- if(!arg){
-  __wrap_printf("[ATRB]Usage: ATRB=packet_size(cannot exceed %d)\n\r", (100));
-  goto exit;
- }
- size = atoi((char*)arg);
- __wrap_printf("[ATRB]: _AT_TRANSPORT_WRITE_PACKET_SIZE_ [%d]\n\r", size);
- if(size < 1)
-  __wrap_printf("[ATRB]Error: packet size need be larger than 0!\n\r");
- else if(size > (100))
-  __wrap_printf("[ATRB]Error: packet size exceeds the MAX_BUFFER value: %d!\n\r", (100));
- else
-  packet_size = size;
-exit:
- return;
+
+void at_transport_init(void)
+{
+
+ init_node_pool();
+ mainlist = create_node(-1,-1);
+
+ log_service_add_table(at_transport_items, sizeof(at_transport_items)/sizeof(at_transport_items[0]));
 }
+
+;

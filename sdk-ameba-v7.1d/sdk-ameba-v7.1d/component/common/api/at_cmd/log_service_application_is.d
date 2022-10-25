@@ -58,10 +58,33 @@
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/memp.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/priv/memp_std.h \
  ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/priv/memp_priv.h \
- ../inc/platform_opts_bt.h \
+ ../../../component/common/drivers/wlan/realtek/include/wifi_structures.h \
+ ../../../component/common/drivers/wlan/realtek/include/wifi_constants.h \
+ ../../../component/common/example/wlan_fast_connect/example_wlan_fast_connect.h \
+ ../../../component/common/api/at_cmd/atcmd_lwip.h \
  ../../../component/os/os_dep/include/osdep_service.h \
  ../../../component/os/freertos/freertos_service.h \
  ../../../component/os/freertos/freertos_v10.0.1/Source/include/event_groups.h \
  ../../../component/os/freertos/freertos_v10.0.1/Source/include/timers.h \
  ../../../component/os/freertos/freertos_v10.0.1/Source/include/task.h \
- ../../../component/os/freertos/freertos_v10.0.1/Source/include/timers.h
+ ../../../component/os/freertos/freertos_v10.0.1/Source/include/timers.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/sockets.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/inet.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/errno.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/api.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/netbuf.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/igmp.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcp.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip4.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/ip4.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/ip6.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/ip.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/icmp.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/icmp.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/raw.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/udp.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/prot/udp.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/tcpip.h \
+ ../../../component/common/network/lwip/lwip_v2.0.2/src/include/lwip/netdb.h \
+ ../inc/platform_opts_bt.h

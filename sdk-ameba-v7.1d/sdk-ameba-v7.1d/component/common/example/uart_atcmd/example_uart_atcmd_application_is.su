@@ -1,0 +1,12 @@
+example_uart_atcmd.c:602:5:uart_atcmd_module_init	16	static
+example_uart_atcmd.c:50:6:atcmd_update_partition_info	48	static
+example_uart_atcmd.c:126:5:read_uart_atcmd_setting_from_system_data	32	static
+example_uart_atcmd.c:180:5:write_uart_atcmd_setting_to_system_data	8	static
+example_uart_atcmd.c:227:5:reset_uart_atcmd_setting	8	static
+example_uart_atcmd.c:294:6:uart_atcmd_reinit	8	static
+example_uart_atcmd.c:310:6:uart_at_send_string	16	static
+example_uart_atcmd.c:368:6:uart_irq	56	static
+example_uart_atcmd.c:328:6:uart_at_send_buf	16	static
+example_uart_atcmd.c:519:6:uart_atcmd_main	16	static
+example_uart_atcmd.c:583:13:uart_atcmd_thread	8	static
+example_uart_atcmd.c:608:6:example_uart_atcmd	0	static
